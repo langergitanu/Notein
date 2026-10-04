@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="86.0dp" android:layout_height="wrap_content" android:layout_marginTop="15.0dp" android:layout_marginBottom="15.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/iv_privilege_icon" android:background="@drawable/bg_member_privilege" android:layout_width="38.0dp" android:layout_height="38.0dp" android:src="@drawable/ic_privilege_data_sync" android:scaleType="center" app:layout_constraintBottom_toTopOf="@id/tv_privilege_title" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:tint="@color/privilege_icon_tint_color" />
+    <TextView android:textSize="11.0sp" android:textColor="@color/item_text_value_color" android:gravity="center" android:id="@id/tv_privilege_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/iv_privilege_icon" />
+</androidx.constraintlayout.widget.ConstraintLayout>

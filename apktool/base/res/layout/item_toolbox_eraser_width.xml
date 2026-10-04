@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="wrap_content" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/pen_width" android:layout_width="20.0dp" android:layout_height="20.0dp" android:src="@drawable/toolbox_eraser_bg" android:scaleType="center" android:layout_marginStart="6.0dp" android:layout_marginEnd="6.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <View android:background="@drawable/toolbox_pen_width_un_selected_bg" android:layout_width="20.0dp" android:layout_height="20.0dp" android:layout_marginStart="6.0dp" android:layout_marginEnd="6.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <View android:id="@id/selected" android:background="@drawable/toolbox_pen_width_selected_bg" android:visibility="gone" android:layout_width="20.0dp" android:layout_height="20.0dp" android:layout_marginStart="6.0dp" android:layout_marginEnd="6.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/notein_backgrounds_grouped_secondary_elevated" android:layout_width="200.0dp" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="13.0sp" android:textColor="@color/item_text_name_color" android:id="@id/txt_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/editor_overview" android:maxLines="1" android:fontFamily="sans-serif-medium" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/cl_remaining_quota" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="48.0dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/txt_title">
+            <TextView android:textSize="13.0sp" android:textColor="@color/item_text_name_color" android:gravity="center_vertical" android:id="@id/btn_quota_usage" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/character_usage" app:drawableEndCompat="@drawable/ic_ni_arrow_drop_down_selector" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <ImageView android:id="@id/btn_property_panel_close" android:layout_width="24.0dp" android:layout_height="24.0dp" android:layout_marginTop="17.0dp" android:src="@drawable/ic_ni_close_selector" android:layout_marginEnd="12.0dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.google.android.material.tabs.TabLayout android:id="@id/tab_layout" android:background="@color/layout_secondary_bg_color" android:layout_width="match_parent" android:layout_height="wrap_content" app:tabTextAppearance="@style/NoteinTabTextAppearance" style="@style/NoteinSecondaryTabLayout">
+        <com.google.android.material.tabs.TabItem android:icon="@drawable/ic_ni_preview" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <com.google.android.material.tabs.TabItem android:icon="@drawable/ic_ni_index" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <com.google.android.material.tabs.TabItem android:icon="@drawable/ic_ni_comment" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <com.google.android.material.tabs.TabItem android:icon="@drawable/ic_ni_setting_normal" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </com.google.android.material.tabs.TabLayout>
+    <View android:background="@drawable/bg_underline" android:layout_width="match_parent" android:layout_height="0.5dp" />
+    <androidx.viewpager2.widget.ViewPager2 android:id="@id/content_pager" android:layout_width="match_parent" android:layout_height="match_parent" />
+</LinearLayout>

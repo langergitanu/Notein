@@ -1,0 +1,456 @@
+package com.aspose.slides.internal.p332p7;
+
+import OoooooO.C21421OooO0oO;
+import com.aspose.slides.Collections.Generic.List;
+import com.aspose.slides.internal.p077d8.C3059ii;
+import com.aspose.slides.internal.p314oc.C7017h4;
+import com.aspose.slides.internal.p314oc.C7019kk;
+import com.aspose.slides.internal.p332p7.AbstractC7361bz;
+import com.aspose.slides.p559ms.System.IDisposable;
+import com.aspose.slides.p559ms.System.Xml.AbstractC13912i5;
+import java.util.Iterator;
+
+/* JADX INFO: loaded from: classes4.dex */
+public class dzn extends AbstractC7361bz {
+
+    /* JADX INFO: renamed from: du */
+    private static final C7017h4 f21947du = new C7017h4("w_Uri", "w_Element", "customXmlPr", "customXml", "smartTag", "sdt", "r", "proofErr", "permStart", "permEnd", "bookmarkStart", "bookmarkEnd", "moveFromRangeStart", "moveFromRangeEnd", "moveToRangeStart", "moveToRangeEnd", "commentRangeStart", "commentRangeEnd", "customXmlInsRangeStart", "customXmlInsRangeEnd", "customXmlDelRangeStart", "customXmlDelRangeEnd", "customXmlMoveFromRangeStart", "customXmlMoveFromRangeEnd", "customXmlMoveToRangeStart", "customXmlMoveToRangeEnd", "ins", "del", "moveFrom", "moveTo", "oMathPara", "oMath", "fldSimple", "hyperlink", "subDoc");
+
+    /* JADX INFO: renamed from: k4 */
+    private String f21948k4;
+
+    /* JADX INFO: renamed from: kk */
+    private iou f21949kk;
+
+    /* JADX INFO: renamed from: to */
+    private List<C7394ca> f21950to;
+
+    /* JADX INFO: renamed from: x1 */
+    private String f21951x1;
+
+    public dzn() {
+        m30720x1();
+    }
+
+    public dzn(final AbstractC13912i5 abstractC13912i5) {
+        m30720x1();
+        AbstractC7361bz.m29289k4(abstractC13912i5, new AbstractC7361bz.k4() { // from class: com.aspose.slides.internal.p7.dzn.1
+            @Override // com.aspose.slides.internal.p332p7.AbstractC7361bz.k4
+            /* JADX INFO: renamed from: k4 */
+            public boolean mo27882k4(String str, String str2) {
+                int iM27428k4 = dzn.f21947du.m27428k4(str);
+                if (iM27428k4 == 0) {
+                    dzn.this.f21948k4 = str2;
+                    return true;
+                }
+                if (iM27428k4 != 1) {
+                    return false;
+                }
+                dzn.this.f21951x1 = str2;
+                return true;
+            }
+        });
+        AbstractC7361bz.m29290k4(abstractC13912i5, new AbstractC7361bz.kk() { // from class: com.aspose.slides.internal.p7.dzn.2
+            @Override // com.aspose.slides.internal.p332p7.AbstractC7361bz.kk
+            /* JADX INFO: renamed from: k4 */
+            public boolean mo27887k4(AbstractC13912i5 abstractC13912i52) {
+                List list;
+                C7394ca c7394ca;
+                jkl jklVar;
+                List list2;
+                String str;
+                ude udeVar;
+                List list3;
+                String str2;
+                skj skjVar;
+                List list4;
+                String str3;
+                kne kneVar;
+                List list5;
+                String str4;
+                List list6;
+                C7394ca c7394ca2;
+                switch (dzn.f21947du.m27428k4(abstractC13912i5.mo65023fa())) {
+                    case 2:
+                        dzn.this.f21949kk = new iou(abstractC13912i5);
+                        return true;
+                    case 3:
+                        dzn dznVar = new dzn(abstractC13912i5);
+                        list = dzn.this.f21950to;
+                        c7394ca = new C7394ca("customXml", dznVar);
+                        list.addItem(c7394ca);
+                        return true;
+                    case 4:
+                        zrq zrqVar = new zrq(abstractC13912i5);
+                        list = dzn.this.f21950to;
+                        c7394ca = new C7394ca("smartTag", zrqVar);
+                        list.addItem(c7394ca);
+                        return true;
+                    case 5:
+                        vfd vfdVar = new vfd(abstractC13912i5);
+                        list = dzn.this.f21950to;
+                        c7394ca = new C7394ca("sdt", vfdVar);
+                        list.addItem(c7394ca);
+                        return true;
+                    case 6:
+                        iys iysVar = new iys(abstractC13912i5);
+                        list = dzn.this.f21950to;
+                        c7394ca = new C7394ca("r", iysVar);
+                        list.addItem(c7394ca);
+                        return true;
+                    case 7:
+                        g2p g2pVar = new g2p(abstractC13912i5);
+                        list = dzn.this.f21950to;
+                        c7394ca = new C7394ca("proofErr", g2pVar);
+                        list.addItem(c7394ca);
+                        return true;
+                    case 8:
+                        rtq rtqVar = new rtq(abstractC13912i5);
+                        list = dzn.this.f21950to;
+                        c7394ca = new C7394ca("permStart", rtqVar);
+                        list.addItem(c7394ca);
+                        return true;
+                    case 9:
+                        tan tanVar = new tan(abstractC13912i5);
+                        list = dzn.this.f21950to;
+                        c7394ca = new C7394ca("permEnd", tanVar);
+                        list.addItem(c7394ca);
+                        return true;
+                    case 10:
+                        gev gevVar = new gev(abstractC13912i5);
+                        list = dzn.this.f21950to;
+                        c7394ca = new C7394ca("bookmarkStart", gevVar);
+                        list.addItem(c7394ca);
+                        return true;
+                    case 11:
+                        jklVar = new jkl(abstractC13912i5);
+                        list2 = dzn.this.f21950to;
+                        str = "bookmarkEnd";
+                        OooO0OO.OooO0OO(str, jklVar, list2);
+                        return true;
+                    case 12:
+                        g0g g0gVar = new g0g(abstractC13912i5);
+                        list = dzn.this.f21950to;
+                        c7394ca = new C7394ca("moveFromRangeStart", g0gVar);
+                        list.addItem(c7394ca);
+                        return true;
+                    case 13:
+                        jklVar = new jkl(abstractC13912i5);
+                        list2 = dzn.this.f21950to;
+                        str = "moveFromRangeEnd";
+                        OooO0OO.OooO0OO(str, jklVar, list2);
+                        return true;
+                    case 14:
+                        g0g g0gVar2 = new g0g(abstractC13912i5);
+                        list = dzn.this.f21950to;
+                        c7394ca = new C7394ca("moveToRangeStart", g0gVar2);
+                        list.addItem(c7394ca);
+                        return true;
+                    case 15:
+                        jklVar = new jkl(abstractC13912i5);
+                        list2 = dzn.this.f21950to;
+                        str = "moveToRangeEnd";
+                        OooO0OO.OooO0OO(str, jklVar, list2);
+                        return true;
+                    case 16:
+                        jklVar = new jkl(abstractC13912i5);
+                        list2 = dzn.this.f21950to;
+                        str = "commentRangeStart";
+                        OooO0OO.OooO0OO(str, jklVar, list2);
+                        return true;
+                    case 17:
+                        jklVar = new jkl(abstractC13912i5);
+                        list2 = dzn.this.f21950to;
+                        str = "commentRangeEnd";
+                        OooO0OO.OooO0OO(str, jklVar, list2);
+                        return true;
+                    case 18:
+                        udeVar = new ude(abstractC13912i5);
+                        list3 = dzn.this.f21950to;
+                        str2 = "customXmlInsRangeStart";
+                        C22237OooO0o0.OooO0O0(str2, udeVar, list3);
+                        return true;
+                    case 19:
+                        skjVar = new skj(abstractC13912i5);
+                        list4 = dzn.this.f21950to;
+                        str3 = "customXmlInsRangeEnd";
+                        C21421OooO0oO.OooO0O0(str3, skjVar, list4);
+                        return true;
+                    case 20:
+                        udeVar = new ude(abstractC13912i5);
+                        list3 = dzn.this.f21950to;
+                        str2 = "customXmlDelRangeStart";
+                        C22237OooO0o0.OooO0O0(str2, udeVar, list3);
+                        return true;
+                    case 21:
+                        skjVar = new skj(abstractC13912i5);
+                        list4 = dzn.this.f21950to;
+                        str3 = "customXmlDelRangeEnd";
+                        C21421OooO0oO.OooO0O0(str3, skjVar, list4);
+                        return true;
+                    case 22:
+                        udeVar = new ude(abstractC13912i5);
+                        list3 = dzn.this.f21950to;
+                        str2 = "customXmlMoveFromRangeStart";
+                        C22237OooO0o0.OooO0O0(str2, udeVar, list3);
+                        return true;
+                    case 23:
+                        skjVar = new skj(abstractC13912i5);
+                        list4 = dzn.this.f21950to;
+                        str3 = "customXmlMoveFromRangeEnd";
+                        C21421OooO0oO.OooO0O0(str3, skjVar, list4);
+                        return true;
+                    case 24:
+                        udeVar = new ude(abstractC13912i5);
+                        list3 = dzn.this.f21950to;
+                        str2 = "customXmlMoveToRangeStart";
+                        C22237OooO0o0.OooO0O0(str2, udeVar, list3);
+                        return true;
+                    case 25:
+                        skjVar = new skj(abstractC13912i5);
+                        list4 = dzn.this.f21950to;
+                        str3 = "customXmlMoveToRangeEnd";
+                        C21421OooO0oO.OooO0O0(str3, skjVar, list4);
+                        return true;
+                    case 26:
+                        kneVar = new kne(abstractC13912i5);
+                        list5 = dzn.this.f21950to;
+                        str4 = "ins";
+                        C22236OooO0Oo.OooO0O0(str4, kneVar, list5);
+                        return true;
+                    case 27:
+                        kneVar = new kne(abstractC13912i5);
+                        list5 = dzn.this.f21950to;
+                        str4 = "del";
+                        C22236OooO0Oo.OooO0O0(str4, kneVar, list5);
+                        return true;
+                    case 28:
+                        kneVar = new kne(abstractC13912i5);
+                        list5 = dzn.this.f21950to;
+                        str4 = "moveFrom";
+                        C22236OooO0Oo.OooO0O0(str4, kneVar, list5);
+                        return true;
+                    case 29:
+                        kneVar = new kne(abstractC13912i5);
+                        list5 = dzn.this.f21950to;
+                        str4 = "moveTo";
+                        C22236OooO0Oo.OooO0O0(str4, kneVar, list5);
+                        return true;
+                    case 30:
+                        C8992v2 c8992v2 = new C8992v2(abstractC13912i5);
+                        list6 = dzn.this.f21950to;
+                        c7394ca2 = new C7394ca("oMathPara", c8992v2);
+                        list6.addItem(c7394ca2);
+                        return true;
+                    case 31:
+                        C7211a4 c7211a4 = new C7211a4(abstractC13912i5);
+                        list6 = dzn.this.f21950to;
+                        c7394ca2 = new C7394ca("oMath", c7211a4);
+                        list6.addItem(c7394ca2);
+                        return true;
+                    case 32:
+                        swn swnVar = new swn(abstractC13912i5);
+                        list6 = dzn.this.f21950to;
+                        c7394ca2 = new C7394ca("fldSimple", swnVar);
+                        list6.addItem(c7394ca2);
+                        return true;
+                    case 33:
+                        r5v r5vVar = new r5v(abstractC13912i5);
+                        list6 = dzn.this.f21950to;
+                        c7394ca2 = new C7394ca("hyperlink", r5vVar);
+                        list6.addItem(c7394ca2);
+                        return true;
+                    case 34:
+                        hz2 hz2Var = new hz2(abstractC13912i5);
+                        list6 = dzn.this.f21950to;
+                        c7394ca2 = new C7394ca("subDoc", hz2Var);
+                        list6.addItem(c7394ca2);
+                        return true;
+                    default:
+                        return false;
+                }
+            }
+        });
+    }
+
+    /* JADX INFO: renamed from: x1 */
+    private void m30720x1() {
+        this.f21950to = new List<>();
+    }
+
+    @Override // com.aspose.slides.internal.p332p7.AbstractC7361bz
+    /* JADX INFO: renamed from: k4 */
+    public void mo6846k4(String str, C3059ii c3059ii, String str2) {
+        jkl jklVar;
+        String strM29539k4;
+        g0g g0gVar;
+        String strM29539k42;
+        ude udeVar;
+        String strM29539k43;
+        skj skjVar;
+        String strM29539k44;
+        kne kneVar;
+        String strM29539k45;
+        c3059ii.mo12953k4(str, str2, (String) null);
+        String str3 = this.f21948k4;
+        if (str3 != null) {
+            c3059ii.m12955x1("w:uri", str3);
+        }
+        c3059ii.m12955x1("w:element", this.f21951x1);
+        iou iouVar = this.f21949kk;
+        if (iouVar != null) {
+            iouVar.mo6846k4("w", c3059ii, "customXmlPr");
+        }
+        List.Enumerator<C7394ca> it = this.f21950to.iterator();
+        while (it.hasNext()) {
+            try {
+                C7394ca next = it.next();
+                switch (f21947du.m27428k4(next.m29539k4())) {
+                    case 3:
+                        ((dzn) next.m29541kk()).mo6846k4("w", c3059ii, next.m29539k4());
+                        break;
+                    case 4:
+                        ((zrq) next.m29541kk()).mo6846k4("w", c3059ii, next.m29539k4());
+                        break;
+                    case 5:
+                        ((vfd) next.m29541kk()).mo6846k4("w", c3059ii, next.m29539k4());
+                        break;
+                    case 6:
+                        ((iys) next.m29541kk()).mo6846k4("w", c3059ii, next.m29539k4());
+                        break;
+                    case 7:
+                        ((g2p) next.m29541kk()).mo6846k4("w", c3059ii, next.m29539k4());
+                        break;
+                    case 8:
+                        ((rtq) next.m29541kk()).mo6846k4("w", c3059ii, next.m29539k4());
+                        break;
+                    case 9:
+                        ((tan) next.m29541kk()).mo6846k4("w", c3059ii, next.m29539k4());
+                        break;
+                    case 10:
+                        ((gev) next.m29541kk()).mo6846k4("w", c3059ii, next.m29539k4());
+                        break;
+                    case 11:
+                        jklVar = (jkl) next.m29541kk();
+                        strM29539k4 = next.m29539k4();
+                        jklVar.mo6846k4("w", c3059ii, strM29539k4);
+                        break;
+                    case 12:
+                        g0gVar = (g0g) next.m29541kk();
+                        strM29539k42 = next.m29539k4();
+                        g0gVar.mo6846k4("w", c3059ii, strM29539k42);
+                        break;
+                    case 13:
+                        jklVar = (jkl) next.m29541kk();
+                        strM29539k4 = next.m29539k4();
+                        jklVar.mo6846k4("w", c3059ii, strM29539k4);
+                        break;
+                    case 14:
+                        g0gVar = (g0g) next.m29541kk();
+                        strM29539k42 = next.m29539k4();
+                        g0gVar.mo6846k4("w", c3059ii, strM29539k42);
+                        break;
+                    case 15:
+                        jklVar = (jkl) next.m29541kk();
+                        strM29539k4 = next.m29539k4();
+                        jklVar.mo6846k4("w", c3059ii, strM29539k4);
+                        break;
+                    case 16:
+                        jklVar = (jkl) next.m29541kk();
+                        strM29539k4 = next.m29539k4();
+                        jklVar.mo6846k4("w", c3059ii, strM29539k4);
+                        break;
+                    case 17:
+                        jklVar = (jkl) next.m29541kk();
+                        strM29539k4 = next.m29539k4();
+                        jklVar.mo6846k4("w", c3059ii, strM29539k4);
+                        break;
+                    case 18:
+                        udeVar = (ude) next.m29541kk();
+                        strM29539k43 = next.m29539k4();
+                        udeVar.mo6846k4("w", c3059ii, strM29539k43);
+                        break;
+                    case 19:
+                        skjVar = (skj) next.m29541kk();
+                        strM29539k44 = next.m29539k4();
+                        skjVar.mo6846k4("w", c3059ii, strM29539k44);
+                        break;
+                    case 20:
+                        udeVar = (ude) next.m29541kk();
+                        strM29539k43 = next.m29539k4();
+                        udeVar.mo6846k4("w", c3059ii, strM29539k43);
+                        break;
+                    case 21:
+                        skjVar = (skj) next.m29541kk();
+                        strM29539k44 = next.m29539k4();
+                        skjVar.mo6846k4("w", c3059ii, strM29539k44);
+                        break;
+                    case 22:
+                        udeVar = (ude) next.m29541kk();
+                        strM29539k43 = next.m29539k4();
+                        udeVar.mo6846k4("w", c3059ii, strM29539k43);
+                        break;
+                    case 23:
+                        skjVar = (skj) next.m29541kk();
+                        strM29539k44 = next.m29539k4();
+                        skjVar.mo6846k4("w", c3059ii, strM29539k44);
+                        break;
+                    case 24:
+                        udeVar = (ude) next.m29541kk();
+                        strM29539k43 = next.m29539k4();
+                        udeVar.mo6846k4("w", c3059ii, strM29539k43);
+                        break;
+                    case 25:
+                        skjVar = (skj) next.m29541kk();
+                        strM29539k44 = next.m29539k4();
+                        skjVar.mo6846k4("w", c3059ii, strM29539k44);
+                        break;
+                    case 26:
+                        kneVar = (kne) next.m29541kk();
+                        strM29539k45 = next.m29539k4();
+                        kneVar.mo6846k4("w", c3059ii, strM29539k45);
+                        break;
+                    case 27:
+                        kneVar = (kne) next.m29541kk();
+                        strM29539k45 = next.m29539k4();
+                        kneVar.mo6846k4("w", c3059ii, strM29539k45);
+                        break;
+                    case 28:
+                        kneVar = (kne) next.m29541kk();
+                        strM29539k45 = next.m29539k4();
+                        kneVar.mo6846k4("w", c3059ii, strM29539k45);
+                        break;
+                    case 29:
+                        kneVar = (kne) next.m29541kk();
+                        strM29539k45 = next.m29539k4();
+                        kneVar.mo6846k4("w", c3059ii, strM29539k45);
+                        break;
+                    case 30:
+                        ((C8992v2) next.m29541kk()).mo6846k4("m", c3059ii, next.m29539k4());
+                        break;
+                    case 31:
+                        ((C7211a4) next.m29541kk()).mo6846k4("m", c3059ii, next.m29539k4());
+                        break;
+                    case 32:
+                        ((swn) next.m29541kk()).mo6846k4("w", c3059ii, next.m29539k4());
+                        break;
+                    case 33:
+                        ((r5v) next.m29541kk()).mo6846k4("w", c3059ii, next.m29539k4());
+                        break;
+                    case 34:
+                        ((hz2) next.m29541kk()).mo6846k4("w", c3059ii, next.m29539k4());
+                        break;
+                }
+            } catch (Throwable th) {
+                if (C7019kk.m27456k4((Iterator) it, (Class<IDisposable>) IDisposable.class)) {
+                    it.dispose();
+                }
+                throw th;
+            }
+        }
+        if (C7019kk.m27456k4((Iterator) it, (Class<IDisposable>) IDisposable.class)) {
+            it.dispose();
+        }
+        c3059ii.mo21898jd();
+    }
+}

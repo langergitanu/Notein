@@ -1,0 +1,91 @@
+package com.aspose.words.internal;
+
+import com.microsoft.identity.common.java.eststelemetry.PublicApiId;
+
+/* JADX INFO: loaded from: classes5.dex */
+public interface zzZ9N {
+    public static final zzZDA zzWzA;
+    public static final zzZDA zzWzB;
+    public static final zzZDA zzWzC;
+    public static final zzZDA zzWzD;
+    public static final zzZDA zzWzE;
+    public static final zzZDA zzWzF;
+    public static final zzZDA zzWzG;
+    public static final zzZDA zzWzH;
+    public static final zzZDA zzWzI;
+    public static final zzZDA zzWzJ;
+    public static final zzZDA zzWzK;
+    public static final zzZDA zzWzL;
+    public static final zzZDA zzWzM;
+    public static final zzZDA zzWzN;
+    public static final zzZDA zzWzO;
+    public static final zzZDA zzWzc;
+    public static final zzZDA zzWzd;
+    public static final zzZDA zzWze;
+    public static final zzZDA zzWzf;
+    public static final zzZDA zzWzg;
+    public static final zzZDA zzWzh;
+    public static final zzZDA zzWzi;
+    public static final zzZDA zzWzj;
+    public static final zzZDA zzWzk;
+    public static final zzZDA zzWzl;
+    public static final zzZDA zzWzm;
+    public static final zzZDA zzWzn;
+    public static final zzZDA zzWzo;
+    public static final zzZDA zzWzp;
+    public static final zzZDA zzWzq;
+    public static final zzZDA zzWzr;
+    public static final zzZDA zzWzs;
+    public static final zzZDA zzWzt;
+    public static final zzZDA zzWzu;
+    public static final zzZDA zzWzv;
+    public static final zzZDA zzWzw;
+    public static final zzZDA zzWzx;
+    public static final zzZDA zzWzy;
+    public static final zzZDA zzWzz;
+
+    static {
+        zzZDA zzzda = new zzZDA("1.2.410.200046");
+        zzWzO = zzzda;
+        zzZDA zzzdaZzwP = zzzda.zzwP("1");
+        zzWzN = zzzdaZzwP;
+        zzZDA zzzdaZzwP2 = zzzdaZzwP.zzwP("1");
+        zzWzM = zzzdaZzwP2;
+        zzWzL = zzzdaZzwP.zzwP("2");
+        zzWzK = zzzdaZzwP.zzwP("0");
+        zzWzJ = zzzdaZzwP.zzwP("1");
+        zzWzI = zzzdaZzwP2.zzwP("1");
+        zzWzH = zzzdaZzwP2.zzwP("2");
+        zzWzG = zzzdaZzwP2.zzwP("3");
+        zzWzF = zzzdaZzwP2.zzwP("4");
+        zzWzE = zzzdaZzwP2.zzwP("5");
+        zzWzD = zzzdaZzwP2.zzwP("6");
+        zzWzC = zzzdaZzwP2.zzwP("7");
+        zzWzB = zzzdaZzwP2.zzwP("8");
+        zzWzA = zzzdaZzwP2.zzwP("9");
+        zzWzz = zzzdaZzwP2.zzwP("10");
+        zzWzy = zzzdaZzwP2.zzwP("11");
+        zzWzx = zzzdaZzwP2.zzwP("12");
+        zzWzw = zzzdaZzwP2.zzwP("13");
+        zzWzv = zzzdaZzwP2.zzwP("14");
+        zzWzu = zzzdaZzwP2.zzwP("15");
+        zzWzt = zzzdaZzwP2.zzwP(PublicApiId.PCA_ACQUIRE_TOKEN_SILENT_WITH_PARAMETERS);
+        zzWzs = zzzdaZzwP2.zzwP(PublicApiId.PCA_ACQUIRE_TOKEN_SILENT_ASYNC_WITH_PARAMETERS);
+        zzWzr = zzzdaZzwP2.zzwP(PublicApiId.SINGLE_ACCOUNT_PCA_ACQUIRE_TOKEN_SILENT_WITH_PARAMETERS);
+        zzWzq = zzzdaZzwP2.zzwP(PublicApiId.MULTIPLE_ACCOUNT_PCA_ACQUIRE_TOKEN_SILENT_ASYNC_WITH_PARAMETERS);
+        zzWzp = zzzdaZzwP2.zzwP("32");
+        zzWzo = zzzdaZzwP2.zzwP("33");
+        zzWzn = zzzdaZzwP2.zzwP("34");
+        zzWzm = zzzdaZzwP2.zzwP("35");
+        zzWzl = zzzdaZzwP2.zzwP("36");
+        zzWzk = zzzdaZzwP2.zzwP("37");
+        zzWzj = zzzdaZzwP2.zzwP("38");
+        zzWzi = zzzdaZzwP2.zzwP("39");
+        zzWzh = zzzdaZzwP2.zzwP("40");
+        zzWzg = zzzdaZzwP2.zzwP("41");
+        zzWzf = zzzdaZzwP2.zzwP("42");
+        zzWze = zzzdaZzwP2.zzwP("43");
+        zzWzd = zzzdaZzwP2.zzwP("44");
+        zzWzc = zzzdaZzwP2.zzwP("45");
+    }
+}

@@ -1,0 +1,21 @@
+package com.google.firebase.sessions;
+
+import java.util.UUID;
+import kotlin.Metadata;
+import kotlin.jvm.internal.OooOOO0;
+
+/* JADX INFO: loaded from: classes8.dex */
+@Metadata(m80611d1 = {"\u0000\u0012\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\b\u0003\n\u0002\u0018\u0002\n\u0000\bÀ\u0002\u0018\u00002\u00020\u0001B\t\b\u0002¢\u0006\u0004\b\u0002\u0010\u0003J\b\u0010\u0004\u001a\u00020\u0005H\u0016¨\u0006\u0006"}, m80612d2 = {"Lcom/google/firebase/sessions/UuidGeneratorImpl;", "Lcom/google/firebase/sessions/UuidGenerator;", "<init>", "()V", "next", "Ljava/util/UUID;", "com.google.firebase-firebase-sessions"}, m80613k = 1, m80614mv = {2, 0, 0}, m80616xi = 48)
+public final class UuidGeneratorImpl implements UuidGenerator {
+    public static final UuidGeneratorImpl INSTANCE = new UuidGeneratorImpl();
+
+    private UuidGeneratorImpl() {
+    }
+
+    @Override // com.google.firebase.sessions.UuidGenerator
+    public UUID next() {
+        UUID uuidRandomUUID = UUID.randomUUID();
+        OooOOO0.OooO0o(uuidRandomUUID, "randomUUID(...)");
+        return uuidRandomUUID;
+    }
+}

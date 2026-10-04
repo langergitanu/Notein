@@ -1,0 +1,24 @@
+package kotlin.jvm.internal;
+
+import oOoo0.InterfaceC34595OooO0Oo;
+import oOoo0.InterfaceC34596OooO0o;
+
+/* JADX INFO: renamed from: kotlin.jvm.internal.OooOoO0, reason: case insensitive filesystem */
+/* JADX INFO: loaded from: classes10.dex */
+public class C24028OooOoO0 extends OooOo {
+    public C24028OooOoO0(InterfaceC34596OooO0o interfaceC34596OooO0o, String str, String str2) {
+        super(AbstractC24015OooO0Oo.NO_RECEIVER, ((InterfaceC24016OooO0o0) interfaceC34596OooO0o).OooO(), str, str2, !(interfaceC34596OooO0o instanceof InterfaceC34595OooO0Oo) ? 1 : 0);
+    }
+
+    public Object get(Object obj) {
+        return getGetter().call(obj);
+    }
+
+    public C24028OooOoO0(Class cls, String str, String str2, int i) {
+        super(AbstractC24015OooO0Oo.NO_RECEIVER, cls, str, str2, i);
+    }
+
+    public C24028OooOoO0(Object obj, Class cls, String str, String str2, int i) {
+        super(obj, cls, str, str2, i);
+    }
+}

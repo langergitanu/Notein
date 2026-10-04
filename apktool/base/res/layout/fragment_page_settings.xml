@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/notein_background_secondary" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:scrollbarSize="8.0dp" android:scrollbarThumbVertical="@drawable/scrollbar_thumb_vertical" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="0.0dp" android:fillViewport="true" android:layout_weight="1.0" android:overScrollMode="never">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="16.0dp">
+            <LinearLayout android:orientation="vertical" android:background="@drawable/bg_white_rounded_20" android:layout_width="match_parent" android:layout_height="wrap_content" android:divider="@drawable/divider_settings_nav_item" android:showDividers="middle" android:clipToOutline="true">
+                <include android:id="@id/item_flip_direction" layout="@layout/view_settings_flip_direction_row" />
+                <include android:id="@id/item_flip_mode" layout="@layout/view_page_settings_nav_row" />
+                <include android:id="@id/item_add_page_mode" layout="@layout/view_page_settings_nav_row" />
+                <include android:id="@id/item_page_number_position" layout="@layout/view_page_settings_nav_row" />
+                <include android:id="@id/pdf_text_selection_container" layout="@layout/view_page_settings_nav_row" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/page_free_move_card" android:background="@drawable/bg_white_rounded_20" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dp">
+                <com.orion.niui.components.listitems.SwitchListItemView android:id="@id/toggle_list_item_page_free_move" android:layout_width="match_parent" android:layout_height="wrap_content" app:switchListItemDescription="@string/tips_enable_page_free_move" app:switchListItemTitle="@string/page_free_move" />
+                <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/page_free_move_resistance_row" android:layout_width="match_parent" android:layout_height="56.0dp" android:paddingHorizontal="16.0dp">
+                    <TextView android:textSize="14.0sp" android:textColor="@color/item_text_name_color" android:id="@id/page_free_move_resistance_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/page_sliding_resistance" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+                    <TextView android:textSize="14.0sp" android:textColor="@color/item_text_name_color" android:id="@id/page_free_move_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="40%" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+                    <SeekBar android:id="@id/page_free_move_seekbar" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_marginHorizontal="4.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/page_free_move_value" app:layout_constraintStart_toEndOf="@id/page_free_move_resistance_label" app:layout_constraintTop_toTopOf="parent" style="@style/NoteinSeekbar" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </LinearLayout>
+            <com.orion.niui.components.listitems.SwitchListItemView android:id="@id/toggle_list_item_pen_with_scale" android:background="@drawable/bg_white_rounded_20" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dp" android:layout_marginBottom="32.0dp" app:switchListItemDescription="@string/pen_with_scale_card_tip" app:switchListItemTitle="@string/pen_with_scale" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

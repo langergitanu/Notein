@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/notein_backgrounds_grouped_secondary" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:layout_width="match_parent" android:layout_height="64.0dp" app:layout_constraintTop_toTopOf="parent">
+        <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="match_parent">
+            <ImageView android:id="@id/btn_back" android:layout_width="40.0dp" android:layout_height="0.0dp" android:src="@drawable/ni_symbol_arrow_back" android:scaleType="center" android:contentDescription="@string/back" android:paddingEnd="16.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:tint="@color/notein_base_black_87" />
+            <TextView android:textSize="16.0sp" android:textColor="@color/title_bar_text_color" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/drawer_feedback" android:fontFamily="sans-serif-medium" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toEndOf="@id/btn_back" app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.appcompat.widget.Toolbar>
+    <androidx.fragment.app.FragmentContainerView android:name="com.orion.notein.ui.feedback.FeedbackFragment" android:id="@id/feedback_fragment_container" android:layout_width="match_parent" android:layout_height="match_parent" />
+</LinearLayout>

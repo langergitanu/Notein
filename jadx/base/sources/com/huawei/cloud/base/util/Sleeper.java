@@ -1,0 +1,13 @@
+package com.huawei.cloud.base.util;
+
+/* JADX INFO: loaded from: classes8.dex */
+public interface Sleeper {
+    public static final Sleeper DEFAULT = new Sleeper() { // from class: com.huawei.cloud.base.util.Sleeper.1
+        @Override // com.huawei.cloud.base.util.Sleeper
+        public void sleep(long j) throws InterruptedException {
+            Thread.sleep(j);
+        }
+    };
+
+    void sleep(long j) throws InterruptedException;
+}

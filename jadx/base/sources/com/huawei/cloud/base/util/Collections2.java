@@ -1,0 +1,13 @@
+package com.huawei.cloud.base.util;
+
+import java.util.Collection;
+
+/* JADX INFO: loaded from: classes8.dex */
+public final class Collections2 {
+    private Collections2() {
+    }
+
+    public static <T> Collection<T> cast(Iterable<T> iterable) {
+        return (Collection) iterable;
+    }
+}

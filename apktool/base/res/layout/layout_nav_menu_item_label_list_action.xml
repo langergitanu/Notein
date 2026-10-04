@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.RecyclerView android:orientation="vertical" android:id="@id/rv_label_list" android:layout_width="match_parent" android:layout_height="wrap_content" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/btn_create_label" android:layout_width="match_parent" android:layout_height="50.0dp">
+        <ImageView android:id="@id/iv_add_label" android:layout_width="24.0dp" android:layout_height="24.0dp" android:src="@drawable/icon_create_label" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:tint="@color/icon_tint_color" />
+        <TextView android:textSize="13.0sp" android:textColor="@color/nav_item_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/drawer_label_list_create" android:layout_marginStart="5.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toEndOf="@id/iv_add_label" app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

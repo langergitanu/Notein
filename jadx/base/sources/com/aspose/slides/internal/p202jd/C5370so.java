@@ -1,0 +1,50 @@
+package com.aspose.slides.internal.p202jd;
+
+import com.aspose.slides.internal.p126fa.AbstractC3908to;
+import com.aspose.slides.internal.p231kk.AbstractC5788h4;
+import com.aspose.slides.internal.p231kk.C5813x1;
+import com.aspose.slides.internal.p423to.C11068dy;
+
+/* JADX INFO: renamed from: com.aspose.slides.internal.jd.so */
+/* JADX INFO: loaded from: classes.dex */
+public class C5370so extends AbstractC3908to {
+
+    /* JADX INFO: renamed from: k4 */
+    private static final C11068dy<AbstractC5788h4> f14352k4;
+
+    static {
+        C11068dy<AbstractC5788h4> c11068dy = new C11068dy<>();
+        f14352k4 = c11068dy;
+        c11068dy.m53499k4("invert", C5813x1.k4.f16318qb);
+    }
+
+    @Override // com.aspose.slides.internal.p126fa.AbstractC3908to
+    /* JADX INFO: renamed from: h4 */
+    public C11068dy<AbstractC5788h4> mo15598h4() {
+        return f14352k4;
+    }
+
+    @Override // com.aspose.slides.internal.p126fa.AbstractC3909u4
+    /* JADX INFO: renamed from: k4 */
+    public String mo15583k4() {
+        return "outline-color";
+    }
+
+    @Override // com.aspose.slides.internal.p126fa.AbstractC3909u4
+    /* JADX INFO: renamed from: kk */
+    public boolean mo15584kk() {
+        return true;
+    }
+
+    @Override // com.aspose.slides.internal.p126fa.AbstractC3909u4
+    /* JADX INFO: renamed from: to */
+    public AbstractC5788h4 mo15585to() {
+        return C5813x1.k4.f16318qb;
+    }
+
+    @Override // com.aspose.slides.internal.p126fa.AbstractC3909u4
+    /* JADX INFO: renamed from: x1 */
+    public int mo15586x1() {
+        return 189;
+    }
+}

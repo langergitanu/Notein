@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="match_parent" android:paddingHorizontal="16.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.orion.niui.components.textinput.LabeledTextFieldView android:id="@id/verification_code_field" android:layout_width="0.0dp" android:layout_height="wrap_content" app:labeledTextFieldLabel="@string/enter_verification_code" app:labeledTextFieldMaxLength="6" app:labeledTextFieldMode="number" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <com.orion.niui.components.button.TextButtonView android:id="@id/btn_get_verification_code" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/verification_code_field" app:textButtonFontSize="@dimen/text_button_font_size" app:textButtonHeight="@dimen/text_button_height" app:textButtonText="@string/send_verification_code" />
+</androidx.constraintlayout.widget.ConstraintLayout>

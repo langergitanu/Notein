@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/notein_background_secondary" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingHorizontal="16.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:background="@drawable/bg_white_rounded_20" android:layout_width="match_parent" android:layout_height="wrap_content" android:divider="@drawable/divider_settings_nav_item" android:showDividers="middle">
+        <com.orion.niui.components.listitems.SwitchListItemView android:id="@id/toggle_list_item_quick_translate" android:layout_width="match_parent" android:layout_height="wrap_content" app:switchListItemTitle="@string/quick_translate" />
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/cl_target_language" android:layout_width="match_parent" android:layout_height="56.0dp" android:paddingHorizontal="16.0dp">
+            <TextView android:textSize="16.0sp" android:textColor="@color/item_text_name_color" android:id="@id/spinner_to_label" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="@string/target_language" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/spinner_to" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+            <Spinner android:id="@id/spinner_to" android:background="@drawable/fast_translate_spinner_bg_selector" android:layout_width="160.0dp" android:layout_height="32.0dp" android:layout_marginTop="8.0dp" android:dropDownVerticalOffset="32.0dp" android:spinnerMode="dropdown" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</FrameLayout>

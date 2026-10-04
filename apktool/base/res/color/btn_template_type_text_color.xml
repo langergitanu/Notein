@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:color="@color/creation_note_template_text_selected_color" android:state_activated="true" />
+    <item android:color="@color/creation_note_template_text_un_selected_color" />
+</selector>

@@ -1,0 +1,15 @@
+﻿using System.Windows.Controls;
+
+namespace {Namespace}
+{
+    /// <summary>
+    /// Interaction logic for {ClassName}.xaml
+    /// </summary>
+    public partial class {ClassName} : Page
+    {
+        public {ClassName}()
+        {
+            InitializeComponent();
+        }
+    }
+}

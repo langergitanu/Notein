@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="4.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/pic" android:background="@drawable/feedback_img_bg" android:layout_width="56.0dp" android:layout_height="56.0dp" android:scaleType="centerCrop" android:adjustViewBounds="true" />
+    <ImageView android:layout_gravity="end|top" android:id="@id/remove" android:background="@drawable/ic_ni_warning_delete" android:padding="0.0dp" android:layout_width="20.0dp" android:layout_height="20.0dp" android:contentDescription="@string/delete" />
+</FrameLayout>

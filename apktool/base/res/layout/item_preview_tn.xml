@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:paddingTop="10.0dp" android:layout_width="@dimen/property_panel_default_mode_width" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:fresco="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:id="@id/tn_wrapper" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5.0dp" fresco:layout_constraintBottom_toTopOf="@id/page_number" fresco:layout_constraintEnd_toEndOf="parent" fresco:layout_constraintStart_toStartOf="parent">
+        <com.facebook.drawee.view.SimpleDraweeView android:id="@id/tn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:adjustViewBounds="true" android:maxWidth="130.0dp" android:maxHeight="130.0dp" fresco:actualImageScaleType="fitCenter" />
+    </androidx.cardview.widget.CardView>
+    <ImageView android:id="@id/btn_label" android:src="@drawable/ic_add_label" fresco:layout_constraintStart_toStartOf="parent" fresco:layout_constraintTop_toTopOf="parent" style="@style/NoteinImageButton" />
+    <ImageView android:id="@id/btn_more" android:src="@drawable/ic_ni_more_selector" fresco:layout_constraintBottom_toBottomOf="parent" fresco:layout_constraintStart_toStartOf="parent" style="@style/NoteinImageButton" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/item_text_name_color" android:id="@id/page_number" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1" fresco:layout_constraintBottom_toBottomOf="parent" fresco:layout_constraintEnd_toEndOf="parent" fresco:layout_constraintStart_toStartOf="parent" />
+    <View android:background="@color/item_divider_bg_color" android:layout_width="match_parent" android:layout_height="0.5dp" fresco:layout_constraintBottom_toBottomOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

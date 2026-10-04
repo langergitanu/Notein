@@ -1,0 +1,16 @@
+package o0OOo0o;
+
+import o0OOo0Oo.InterfaceC27322Oooo0o0;
+
+/* JADX INFO: renamed from: o0OOo0o.o00o000, reason: case insensitive filesystem */
+/* JADX INFO: loaded from: classes9.dex */
+public final class C27514o00o000 {
+
+    /* JADX INFO: renamed from: OooO00o, reason: collision with root package name */
+    public final InterfaceC27322Oooo0o0 f96432OooO00o;
+
+    public C27514o00o000(InterfaceC27322Oooo0o0 remoteConfigRepo) {
+        kotlin.jvm.internal.OooOOO0.OooO0oO(remoteConfigRepo, "remoteConfigRepo");
+        this.f96432OooO00o = remoteConfigRepo;
+    }
+}

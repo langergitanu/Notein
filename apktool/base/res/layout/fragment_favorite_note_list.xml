@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:paddingLeft="32.0dp" android:paddingRight="32.0dp" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.RecyclerView android:orientation="horizontal" android:id="@id/rv_folder_color_list" android:layout_width="wrap_content" android:layout_height="50.0dp" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/empty_bg_wrapper" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="120.0dp">
+        <ImageView android:id="@id/empty_bg" android:layout_width="250.0dp" android:layout_height="200.0dp" android:src="@drawable/bg_list_empty" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="0.5" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.recyclerview.widget.RecyclerView android:orientation="vertical" android:id="@id/item_list" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="10.0dp" android:overScrollMode="never" app:layoutManager="androidx.recyclerview.widget.GridLayoutManager" app:layout_constrainedHeight="true" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/rv_folder_color_list" app:spanCount="4" />
+</androidx.constraintlayout.widget.ConstraintLayout>

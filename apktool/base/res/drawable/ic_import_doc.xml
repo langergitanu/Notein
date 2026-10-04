@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="25.0dp" android:width="24.0dp" android:viewportWidth="24.0" android:viewportHeight="25.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="#00000000" android:pathData="M8,4L15.592,4C15.864,4 16.125,4.111 16.313,4.307L18.721,6.813C18.9,6.999 19,7.248 19,7.506L19,19C19,19.552 18.552,20 18,20L8,20C7.448,20 7,19.552 7,19L7,5C7,4.448 7.448,4 8,4Z" android:strokeColor="#326dc5" android:strokeWidth="1.0" android:fillType="evenOdd" />
+    <path android:fillColor="#326dc5" android:pathData="M3.75,16.619L9.75,16.619C10.164,16.619 10.5,16.278 10.5,15.857L10.5,9.762C10.5,9.341 10.164,9 9.75,9L3.75,9C3.336,9 3,9.341 3,9.762L3,15.857C3,16.278 3.336,16.619 3.75,16.619L3.75,16.619Z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="nonZero" />
+    <path android:fillColor="#ffffff" android:pathData="M8.407,15.011l-0.757,0l-0.882,-2.76l-0.925,2.76l-0.756,0l-0.841,-3.999l0.757,0l0.588,2.8l0.882,-2.719l0.631,0l0.841,2.72l0.588,-2.8l0.714,0z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="nonZero" />
+    <path android:fillColor="#00000000" android:pathData="M15.26,4L15.26,7C15.26,7.552 15.708,8 16.26,8L18.755,8L18.755,8" android:strokeColor="#326dc5" android:strokeWidth="1.0" android:fillType="evenOdd" />
+    <path android:fillColor="#41a5ee" android:pathData="M11,10L16.5,10C16.776,10 17,10.224 17,10.5C17,10.776 16.776,11 16.5,11L11,11L11,11L11,10Z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+    <path android:fillColor="#2b7cd3" android:pathData="M11,12L16.5,12C16.776,12 17,12.224 17,12.5C17,12.776 16.776,13 16.5,13L11,13L11,13L11,12Z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+    <path android:fillColor="#185abd" android:pathData="M11,14L16.5,14C16.776,14 17,14.224 17,14.5C17,14.776 16.776,15 16.5,15L11,15L11,15L11,14Z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+</vector>

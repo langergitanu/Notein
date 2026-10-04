@@ -1,0 +1,12 @@
+package com.google.firebase.firestore.util;
+
+import com.google.firebase.firestore.util.AsyncQueue;
+import java.util.Comparator;
+
+/* JADX INFO: loaded from: classes8.dex */
+public final /* synthetic */ class OooO00o implements Comparator {
+    @Override // java.util.Comparator
+    public final int compare(Object obj, Object obj2) {
+        return AsyncQueue.lambda$runDelayedTasksUntil$5((AsyncQueue.DelayedTask) obj, (AsyncQueue.DelayedTask) obj2);
+    }
+}

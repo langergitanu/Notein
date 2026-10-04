@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@drawable/text_box_popup_window_bg" android:layout_width="220.0dp" android:layout_height="144.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/cl_title" android:layout_width="match_parent" android:layout_height="35.0dp" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <TextView android:textSize="13.0sp" android:textColor="@color/item_text_name_color" android:gravity="center_vertical" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/text_style" android:layout_marginStart="16.0dp" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <View android:id="@id/divider" android:background="@color/item_divider_bg_color" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginTop="8.0dp" app:layout_constraintBottom_toBottomOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/cl_style" android:layout_width="match_parent" android:layout_height="35.0dp" app:layout_constraintTop_toBottomOf="@id/cl_title">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_text_style" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="14.0dp" app:layoutManager="androidx.recyclerview.widget.GridLayoutManager" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:spanCount="6" />
+        <View android:background="@color/item_divider_bg_color" android:layout_width="match_parent" android:layout_height="0.5dp" app:layout_constraintBottom_toBottomOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/cl_bg_color" android:layout_width="match_parent" android:layout_height="35.0dp" app:layout_constraintTop_toBottomOf="@id/cl_style">
+        <androidx.recyclerview.widget.RecyclerView android:orientation="horizontal" android:id="@id/rv_color_style" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="14.0dp" android:layout_marginEnd="14.0dp" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <View android:background="@color/item_divider_bg_color" android:layout_width="match_parent" android:layout_height="0.5dp" app:layout_constraintBottom_toBottomOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.recyclerview.widget.RecyclerView android:orientation="horizontal" android:id="@id/rv_text_color_list" android:layout_width="match_parent" android:layout_height="50.0dp" android:layout_marginStart="10.0dp" android:layout_marginEnd="10.0dp" android:paddingVertical="13.0dp" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" app:layout_constraintTop_toBottomOf="@id/cl_bg_color" />
+</androidx.constraintlayout.widget.ConstraintLayout>

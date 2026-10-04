@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="property_panel_ai_mode_width">360.0dp</dimen>
+</resources>

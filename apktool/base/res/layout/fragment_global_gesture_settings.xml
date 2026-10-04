@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="@color/notein_background_secondary" android:paddingBottom="32.0dp" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="16.0dp">
+        <LinearLayout android:orientation="vertical" android:background="@drawable/bg_white_rounded_20" android:layout_width="match_parent" android:layout_height="wrap_content" android:divider="@drawable/divider_settings_nav_item" android:showDividers="middle" android:clipToOutline="true">
+            <com.orion.niui.components.listitems.SwitchListItemView android:id="@id/toggle_list_item_gesture_undo_redo" android:layout_width="match_parent" android:layout_height="wrap_content" app:switchListItemTitle="@string/enable_undo_redo_gesture" />
+            <com.orion.niui.components.listitems.SwitchListItemView android:id="@id/toggle_list_item_gesture_two_finger_move" android:layout_width="match_parent" android:layout_height="wrap_content" app:switchListItemTitle="@string/two_finger_move" />
+            <include android:id="@id/double_tap_zoom" layout="@layout/view_settings_nav_row" />
+        </LinearLayout>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</ScrollView>

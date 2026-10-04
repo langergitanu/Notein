@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@drawable/editor_bg_menu_item_new_selector" android:layout_width="48.0dp" android:layout_height="36.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/cl_style" android:layout_width="24.0dp" android:layout_height="24.0dp" android:layout_marginStart="6.0dp" android:layout_marginVertical="6.0dp">
+        <View android:id="@id/v_highlight_color" android:background="@drawable/editor_bg_round_rect_transparent_r2" android:layout_width="match_parent" android:layout_height="match_parent" />
+        <TextView android:textSize="13.0sp" android:textStyle="bold" android:textColor="@color/editor_text_color" android:gravity="center" android:id="@id/tv_highlight_font" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_marginTop="3.0dp" android:text="A" android:includeFontPadding="false" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <View android:id="@id/v_underline_color" android:layout_width="16.0dp" android:layout_height="3.0dp" android:layout_marginTop="-2.0dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/tv_highlight_font" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <ImageView android:id="@id/btn_show_popup" android:layout_width="18.0dp" android:layout_height="match_parent" android:src="@drawable/editor_ic_tiny_arrow_down" android:rotation="0.0" />
+</LinearLayout>

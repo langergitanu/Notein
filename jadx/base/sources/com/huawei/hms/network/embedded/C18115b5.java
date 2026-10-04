@@ -1,0 +1,91 @@
+package com.huawei.hms.network.embedded;
+
+import com.huawei.hms.framework.common.hianalytics.HianalyticsBaseData;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
+
+/* JADX INFO: renamed from: com.huawei.hms.network.embedded.b5 */
+/* JADX INFO: loaded from: classes9.dex */
+public class C18115b5 extends HianalyticsBaseData {
+    public static final String API_ID = "api_id";
+    public static final String CALL_START_NETWORK_TYPE = "call_start_network_type";
+    public static final String CONFIG_VERSION = "config_version";
+    public static final String CONNECTOR = "_";
+    public static final String CONNECT_RETRY = "connect_retry";
+    public static final String CONNECT_TIME = "connect_time";
+    public static final String CONNECT_TIMEOUT = "connect_timeout";
+    public static final String CONTROL_POLICY_TYPE = "control_policy_type";
+    public static final String CORE_CONFIGVERSION = "core_configversion";
+    public static final String CS_CQI = "cs_cqi";
+    public static final String CS_RSRP = "cs_rsrp";
+    public static final String CS_RSRQ = "cs_rsrq";
+    public static final String CS_RSSI = "cs_rssi";
+    public static final String CS_RSSNR = "cs_rssnr";
+    public static final String DEBUG_ENABLED = "debug_enabled";
+    public static final String DL_FROM = "dl_from";
+    public static final String DNS_CACHE = "dns_cache";
+    public static final String DNS_SERVER_IPS = "dns_server_ips";
+    public static final String DNS_TIME = "dns_time";
+    public static final String DNS_TYPE = "dns_type";
+    public static final String DNS_TYPE_DNKEEPER = "DNKeeper";
+    public static final String DNS_TYPE_EMERGENCY = "emergency";
+    public static final String DNS_TYPE_HTTPDNS = "HttpDns";
+    public static final String DNS_TYPE_LOCAL = "LocalDns";
+    public static final String DOMAIN = "domain";
+    public static final String ERROR_CODE = "error_code";
+    public static final String EXCEPTION_MESSAGE = "message";
+    public static final String EXCEPTION_NAME = "exception_name";
+    public static final String FAILED_INFO = "failed_info";
+    public static final String HTTP_DIAG_TEST_TIMESTAMP = "http_diag_test_timestamp";
+    public static final String HTTP_STATUS_CODE = "http_status_code";
+    public static final String HTTP_TOTAL_TIME = "http_total_time";
+    public static final String MOBILE_SIGNAL_STRENGTH = "mobile_signal_strength";
+    public static final String NETDIAG_INFO = "netdiag_info";
+    public static final String NETWORK_CHANGED = "network_changed";
+    public static final String NETWORK_IN = "network_in";
+    public static final String NETWORK_MSG_ID = "network_msg_id";
+    public static final String NETWORK_OUT = "network_out";
+    public static final String NETWORK_TYPE = "network_type";
+    public static final String NETWORK_VENDOR = "network_vendor";
+    public static final String ORIGIN_DOMAIN = "origin_domain";
+    public static final String PING_DIAG_TEST_TIMESTAMP = "ping_diag_test_timestamp";
+    public static final String PING_STATUS_CODE = "ping_status_code";
+    public static final String PING_TOTAL_TIME = "ping_total_time";
+    public static final String PROFILE_TYPE = "profile_type";
+    public static final String PROTOCOL = "protocol";
+    public static final String PROTOCOL_IMPL = "protocol_impl";
+    public static final String READ_TIMEOUT = "read_timeout";
+    public static final String REDIRECT_INFO = "redirect_info";
+    public static final String REQUEST_RETRY = "request_retry";
+    public static final String REQUEST_TYPE = "request_type";
+    public static final String REQ_SIZE = "req_size";
+    public static final String REQ_START = "rc_req_start_time";
+    public static final String REQ_START_TIME = "req_start_time";
+    public static final String REQ_START_TRANSFER = "req_start_transfer";
+    public static final String REQ_TOTAL_TIME = "req_total_time";
+    public static final String RSP_SIZE = "rsp_size";
+    public static final String SERVER_IP = "server_ip";
+    public static final String SSL_TIME = "ssl_time";
+    public static final String SYS_CONTROL_TYPE = "sys_control_type";
+    public static final String TCP_CONN_TIME = "tcpconn_time";
+    public static final String TIME = "time";
+    public static final String TIMETO_INIT = "timeto_init";
+    public static final String TLS_VERSION = "tls_version";
+    public static final String TOTAL_TIME = "total_time";
+    public static final String TRACE_ID = "trace_id";
+    public static final String TRANSACTION_ID = "transaction_id";
+    public static final String TTFB = "ttfb";
+    public static final String WAITINGTIME = "wait_time";
+    public static final String WEBSOCKET_CLIENT_PING_INTERVAL = "client_ping_interval";
+    public static final String WEBSOCKET_ID = "websocket_request";
+    public static final String WIFI_SIGNAL_STRENGTH = "wifi_signal_strength";
+    public static final String WLACID = "wlacid";
+    public static final String WRITE_TIMEMEOUT = "write_timeout";
+
+    /* JADX INFO: renamed from: a */
+    public static final String f54247a = "HianalyticsData";
+    public static final String DEVICE_ID = "device_id";
+    public static final List<String> RECORD_LIST = Collections.unmodifiableList(Arrays.asList(DEVICE_ID, "trace_id"));
+    public static final List<String> DL_WHITESPACE = Collections.unmodifiableList(Arrays.asList("hwcdn", "qcloud", "verizon", "aws", "akamai", "bdcdn", "wscdn"));
+}

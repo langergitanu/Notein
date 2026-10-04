@@ -1,0 +1,25 @@
+package com.aspose.slides.internal.p332p7;
+
+import com.aspose.slides.internal.p077d8.C3068ks;
+import com.microsoft.identity.common.java.telemetry.TelemetryEventStrings;
+
+/* JADX INFO: loaded from: classes4.dex */
+public class vn6 {
+
+    /* JADX INFO: renamed from: k4 */
+    private static final C3068ks f31944k4 = new C3068ks(1, TelemetryEventStrings.Value.TRUE, TelemetryEventStrings.Value.FALSE, "on", "off", "0", "1");
+
+    /* JADX INFO: renamed from: k4 */
+    public static int m43185k4(String str) {
+        C3068ks c3068ks = f31944k4;
+        if (c3068ks.m12965x1(str)) {
+            return c3068ks.m12963k4(str);
+        }
+        return 0;
+    }
+
+    /* JADX INFO: renamed from: k4 */
+    public static String m43186k4(int i) {
+        return f31944k4.m12964k4(i);
+    }
+}

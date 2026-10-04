@@ -1,0 +1,2 @@
+﻿case {CaseID}:
+                    return new {ClassName}().Content;

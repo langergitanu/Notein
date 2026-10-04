@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/nav_graph_user_settings" app:startDestination="@id/userSettingFragment"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:label="@string/user_settings" android:name="com.orion.notein.ui.user.settings.home.UserSettingFragment" android:id="@id/userSettingFragment">
+        <action android:id="@id/action_userSettingFragment_to_nicknameFragment" app:destination="@id/nicknameFragment" />
+        <action android:id="@id/action_userSettingFragment_to_deleteAccountAgreementFragment" app:destination="@id/deleteAccountAgreementFragment" />
+        <action android:id="@id/action_userSettingFragment_to_requestOldPhoneCodeFragment" app:destination="@id/requestOldPhoneCodeFragment" />
+        <action android:id="@id/action_userSettingFragment_toUserBindPhoneFragment" app:destination="@id/userBindPhoneFragment" />
+        <action android:id="@id/action_userSettingFragment_to_verifyCodeFragment" app:destination="@id/verifyCodeFragment" />
+        <action android:id="@id/action_userSettingFragment_to_ConfirmPasswordFragment" app:destination="@id/confirmPasswordFragment" />
+        <action android:id="@id/action_userSettingFragment_to_userAvatarModifyFragment" app:destination="@id/userAvatarModifyFragment" />
+    </fragment>
+    <fragment android:label="@string/nickname" android:name="com.orion.notein.ui.user.settings.profile.NicknameFragment" android:id="@id/nicknameFragment" />
+    <fragment android:label="DeleteAccountAgreementFragment" android:name="com.orion.notein.ui.user.settings.deleteaccount.DeleteAccountAgreementFragment" android:id="@id/deleteAccountAgreementFragment">
+        <action android:id="@id/action_deleteAccountAgreementFragment_to_verifyCodeFragment" app:destination="@id/verifyCodeFragment" />
+    </fragment>
+    <fragment android:label="VerifyCodeFragment" android:name="com.orion.notein.ui.user.settings.verifycode.VerifyCodeFragment" android:id="@id/verifyCodeFragment">
+        <action android:id="@id/action_verifyCodeFragment_to_requestNewPhoneCodeFragment" app:destination="@id/requestNewPhoneCodeFragment" />
+        <action android:id="@id/action_verifyCodeFragment_to_userSettingsFragment" app:destination="@id/userSettingFragment" app:popUpTo="@id/userSettingFragment" app:popUpToInclusive="true" />
+        <action android:id="@id/action_verifyCodeFragment_to_userSetPasswordFragment" app:destination="@id/userSetPasswordFragment" />
+        <argument android:name="fragment_type" app:argType="integer" />
+        <argument android:name="country" app:argType="string" />
+        <argument android:name="phone" app:argType="string" />
+    </fragment>
+    <fragment android:label="RequestNewPhoneCodeFragment" android:name="com.orion.notein.ui.user.settings.phone.change.RequestNewPhoneCodeFragment" android:id="@id/requestNewPhoneCodeFragment">
+        <action android:id="@id/action_requestNewPhoneCodeFragment_to_verifyCodeFragment" app:destination="@id/verifyCodeFragment" />
+        <action android:id="@id/action_requestNewPhoneCodeFragment_to_countryCodeSelectFragment" app:destination="@id/countryCodeSelectFragment" />
+    </fragment>
+    <fragment android:label="RequestOldPhoneCodeFragment" android:name="com.orion.notein.ui.user.settings.phone.change.RequestOldPhoneCodeFragment" android:id="@id/requestOldPhoneCodeFragment">
+        <action android:id="@id/action_requestOldPhoneCodeFragment_to_verifyCodeFragment" app:destination="@id/verifyCodeFragment" />
+    </fragment>
+    <fragment android:label="@string/user_avatar_change" android:name="com.orion.notein.ui.user.settings.profile.UserAvatarModifyFragment" android:id="@id/userAvatarModifyFragment">
+        <argument android:name="uri" app:argType="android.net.Uri" />
+    </fragment>
+    <fragment android:label="UserBindPhoneFragment" android:name="com.orion.notein.ui.user.settings.phone.bind.UserBindPhoneFragment" android:id="@id/userBindPhoneFragment">
+        <action android:id="@id/action_userBindPhoneFragment_to_verifyCodeFragment" app:destination="@id/verifyCodeFragment" />
+        <action android:id="@id/action_userBindPhoneFragment_to_countryCodeSelectFragment" app:destination="@id/countryCodeSelectFragment" />
+    </fragment>
+    <fragment android:name="com.orion.notein.ui.user.settings.password.ConfirmPasswordFragment" android:id="@id/confirmPasswordFragment">
+        <action android:id="@id/action_confirmPasswordFragment_to_userSetPasswordFragment" app:destination="@id/userSetPasswordFragment" />
+        <action android:id="@id/action_confirmPasswordFragment_to_verifyCodeFragment" app:destination="@id/verifyCodeFragment" />
+    </fragment>
+    <fragment android:name="com.orion.notein.ui.user.settings.password.UserSetPasswordFragment" android:id="@id/userSetPasswordFragment">
+        <argument android:name="code" android:defaultValue="" app:argType="string" />
+        <argument android:name="originalPassword" android:defaultValue="" app:argType="string" />
+    </fragment>
+    <dialog android:label="@string/select_country_or_region" android:name="com.orion.notein.ui.login.countrycode.CountryCodeSelectDialogFragment" android:id="@id/countryCodeSelectFragment" />
+</navigation>

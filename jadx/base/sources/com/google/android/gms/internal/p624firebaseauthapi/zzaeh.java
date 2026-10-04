@@ -1,0 +1,34 @@
+package com.google.android.gms.internal.p624firebaseauthapi;
+
+import com.google.android.gms.common.internal.Preconditions;
+import com.google.android.gms.tasks.TaskCompletionSource;
+import com.google.firebase.auth.ActionCodeSettings;
+
+/* JADX INFO: loaded from: classes7.dex */
+final class zzaeh extends zzaff<Void, Void> {
+    private final zzahm zzv;
+
+    public zzaeh(String str, String str2, ActionCodeSettings actionCodeSettings) {
+        super(6);
+        Preconditions.checkNotEmpty(str);
+        Preconditions.checkNotEmpty(str2);
+        Preconditions.checkNotNull(actionCodeSettings);
+        this.zzv = zzahm.zza(actionCodeSettings, str, str2);
+    }
+
+    @Override // com.google.android.gms.internal.p624firebaseauthapi.zzafq
+    public final String zza() {
+        return "verifyBeforeUpdateEmail";
+    }
+
+    @Override // com.google.android.gms.internal.p624firebaseauthapi.zzaff
+    public final void zzb() {
+        zzb(null);
+    }
+
+    @Override // com.google.android.gms.internal.p624firebaseauthapi.zzafq
+    public final void zza(TaskCompletionSource taskCompletionSource, zzaeo zzaeoVar) {
+        this.zzg = new zzafp(this, taskCompletionSource);
+        zzaeoVar.zzc(this.zzv, this.zzb);
+    }
+}

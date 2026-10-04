@@ -1,0 +1,19 @@
+package com.google.mlkit.vision.text.pipeline;
+
+import android.os.RemoteException;
+import com.google.android.gms.internal.mlkit_vision_text_bundled_common.zbki;
+
+/* JADX INFO: loaded from: classes8.dex */
+public abstract class zbo {
+    public static zbo zbc(int i, RemoteException remoteException) {
+        return new zbb(i, zbki.zbe(remoteException));
+    }
+
+    public abstract int zba();
+
+    public abstract zbki zbb();
+
+    public final boolean zbd() {
+        return !zbb().zbc();
+    }
+}

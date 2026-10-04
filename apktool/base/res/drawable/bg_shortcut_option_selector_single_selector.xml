@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <layer-list>
+            <item android:drawable="@drawable/bg_shortcut_option_selector_single_normal" />
+            <item>
+                <shape>
+                    <solid android:color="@color/list_item_bg_pressed" />
+                    <corners android:radius="28.0dp" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    <item android:state_hovered="true">
+        <layer-list>
+            <item android:drawable="@drawable/bg_shortcut_option_selector_single_normal" />
+            <item>
+                <shape>
+                    <solid android:color="@color/list_item_bg_hovered" />
+                    <corners android:radius="28.0dp" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    <item android:drawable="@drawable/bg_shortcut_option_selector_single_normal" />
+</selector>

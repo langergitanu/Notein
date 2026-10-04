@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:layout_width="match_parent" android:layout_height="64.0dp" android:paddingHorizontal="0.0dp" app:contentInsetEnd="0.0dp" app:contentInsetLeft="0.0dp" app:contentInsetRight="0.0dp" app:contentInsetStart="0.0dp" app:contentInsetStartWithNavigation="0.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/normal" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.facebook.drawee.view.SimpleDraweeView android:id="@id/iv_user_avatar_compact" android:background="@drawable/user_avatar_bg" android:layout_width="40.0dp" android:layout_height="40.0dp" android:layout_marginStart="24.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:placeholderImage="@drawable/ic_logo_png" app:roundAsCircle="true" />
+        <TextView android:textSize="22.0sp" android:textColor="@color/item_text_name_color" android:ellipsize="end" android:id="@id/tv_user_name_compact" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_marginStart="12.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toEndOf="@id/iv_user_avatar_compact" app:layout_constraintTop_toTopOf="parent" />
+        <ImageView android:id="@id/btn_close_right" android:layout_width="40.0dp" android:layout_height="40.0dp" android:src="@drawable/ic_ni_close_selector" android:contentDescription="@null" android:layout_marginEnd="34.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.appcompat.widget.Toolbar>

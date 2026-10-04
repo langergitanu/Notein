@@ -1,0 +1,12 @@
+package com.google.android.gms.internal.mlkit_vision_text_bundled_common;
+
+/* JADX INFO: loaded from: classes7.dex */
+public final class zbadw extends zbua implements zbvn {
+    private zbadw() {
+        throw null;
+    }
+
+    public /* synthetic */ zbadw(zbadn zbadnVar) {
+        super(zbadz.zbd);
+    }
+}

@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/nav_graph" app:startDestination="@id/noteListContainerFragment"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <dialog android:label="Membership Plans" android:name="com.orion.notein.ui.membership.plan.MembershipPlanBottomSheet" android:id="@id/membership_plans_bottom_sheet">
+        <argument android:name="product_code" android:defaultValue="@null" app:argType="string" app:nullable="true" />
+        <argument android:name="coupon_id" android:defaultValue="@null" app:argType="string" app:nullable="true" />
+        <action android:id="@id/action_membership_plans_to_vipFeaturesComparisonFragment" app:destination="@id/vipFeaturesComparisonFragment" />
+        <action android:id="@id/action_membership_plans_to_membership_purchase" app:destination="@id/membership_purchase_bottom_sheet" />
+    </dialog>
+    <dialog android:label="Membership Plans" android:name="com.orion.notein.ui.membership.plan.MembershipPlanDialogFragment" android:id="@id/membership_plans_dialog">
+        <argument android:name="product_code" android:defaultValue="@null" app:argType="string" app:nullable="true" />
+        <argument android:name="coupon_id" android:defaultValue="@null" app:argType="string" app:nullable="true" />
+        <action android:id="@id/action_membership_plans_to_vipFeaturesComparisonFragment" app:destination="@id/vipFeaturesComparisonFragment" />
+        <action android:id="@id/action_membership_plans_to_membership_purchase" app:destination="@id/membership_purchase_dialog" />
+    </dialog>
+    <dialog android:label="Membership Purchase" android:name="com.orion.notein.ui.membership.purchase.MembershipPurchaseBottomSheet" android:id="@id/membership_purchase_bottom_sheet">
+        <argument android:name="product_code" android:defaultValue="@null" app:argType="string" app:nullable="true" />
+        <argument android:name="coupon_id" android:defaultValue="@null" app:argType="string" app:nullable="true" />
+    </dialog>
+    <dialog android:label="Membership Purchase" android:name="com.orion.notein.ui.membership.purchase.MembershipPurchaseDialogFragment" android:id="@id/membership_purchase_dialog">
+        <argument android:name="product_code" android:defaultValue="@null" app:argType="string" app:nullable="true" />
+        <argument android:name="coupon_id" android:defaultValue="@null" app:argType="string" app:nullable="true" />
+    </dialog>
+    <include app:graph="@navigation/creative_library_nav" />
+    <fragment android:label="fragment_note_list" android:name="com.orion.notein.ui.notelist.documents.NoteListContainerFragment" android:id="@id/noteListContainerFragment">
+        <action android:id="@id/action_noteListFragment_to_noteEditorContainerFragment" app:destination="@id/noteEditorContainerFragment" />
+        <action android:id="@id/action_noteListFragment_to_renameDialogFragment" app:destination="@id/renameDialogFragment" />
+        <action android:id="@id/action_noteListFragment_to_pdfPasswordDialogFragment" app:destination="@id/pdfPasswordDialogFragment" />
+        <action android:id="@id/action_noteListFragment_to_folderCreationDialogFragment" app:destination="@id/folderCreationDialogFragment" />
+        <action android:id="@id/action_noteListFragment_to_moveToFolderBottomSheetFragment" app:destination="@id/moveToFolderBottomSheetFragment" />
+        <action android:id="@id/action_noteListFragment_to_moveToFolderDialogFragment" app:destination="@id/moveToFolderDialogFragment" />
+        <action android:id="@id/action_noteListContainerFragment_to_creativeLibraryNavGraph" app:destination="@id/creativeLibraryNavGraph" />
+        <action android:id="@id/action_noteListContainerFragment_to_welcomeFragment" app:destination="@id/welcomeFragment" />
+        <action android:id="@id/action_noteListContainerFragment_to_loginTipsDialogFragment" app:destination="@id/loginTipsDialogFragment" />
+        <action android:id="@id/action_noteListContainerFragment_to_aboutFragment" app:destination="@id/aboutFragment" />
+        <action android:id="@id/action_noteListContainerFragment_to_searchListContainerFragment" app:destination="@id/searchListFragment" />
+        <action android:id="@id/action_noteListContainerFragment_to_firstTimeUserTipsDialogFragment" app:destination="@id/firstTimeUserTipsDialogFragment" />
+        <action android:id="@id/action_noteListContainerFragment_to_importBatchPdfDialogFragment" app:destination="@id/importBatchPdfDialogFragment" />
+        <action android:id="@id/action_noteListContainerFragment_to_permissionTipsDialogFragment" app:destination="@id/permissionTipsDialogFragment" />
+        <action android:id="@id/action_noteListContainerFragment_to_globalSettingsContainerFragment" app:destination="@id/globalSettingsContainerFragment" />
+        <action android:id="@id/action_noteListContainerFragment_to_paperConfigDialogFragment" app:destination="@id/paperConfigDialogFragment" />
+        <action android:id="@id/action_noteListContainerFragment_to_vipAdvertisementDialogFragment" app:destination="@id/vipAdvertisementDialogFragment" />
+        <action android:id="@id/action_noteListContainerFragment_to_userMessageFragment" app:destination="@id/userMessageFragment" />
+        <action android:id="@id/action_noteListContainerFragment_to_vipRestrictedFeatureDialogFragment" app:destination="@id/vipRestrictedFeatureDialogFragment" />
+        <action android:id="@id/action_noteListContainerFragment_to_vipFeaturesComparisonFragment" app:destination="@id/vipFeaturesComparisonFragment" />
+        <action android:id="@id/action_noteListContainerFragment_to_recoverNoteFromCloudDialogFragment" app:destination="@id/recoverNoteFromCloudDialogFragment" />
+        <action android:id="@id/action_noteListFragment_to_cloudSyncDetailsBottomSheetFragment" app:destination="@id/cloudSyncDetailsBottomSheetFragment" />
+        <action android:id="@id/action_noteListFragment_to_cloudSyncDetailsDialogFragment" app:destination="@id/cloudSyncDetailsDialogFragment" />
+        <action android:id="@id/action_noteListFragment_to_cloudSyncContainerFragment" app:destination="@id/cloudSyncLoginContainerFragment" />
+        <action android:id="@id/action_noteListFragment_to_cloudSyncLoginDialogFragment" app:destination="@id/cloudSyncLoginDialogFragment" />
+        <action android:id="@id/action_noteListFragment_to_firebaseUserAuthFragment" app:destination="@id/firebaseUserAuthFragment" />
+        <action android:id="@id/action_noteListContainerFragment_to_wizardFragment" app:destination="@id/wizardFragment" />
+        <action android:id="@id/action_noteListContainerFragment_to_textRecognizeFragment" app:destination="@id/textRecognizeFragment" />
+        <argument android:name="create_blank_note" android:defaultValue="false" app:argType="boolean" />
+    </fragment>
+    <dialog android:label="FirstTimeUserTipsDialogFragment" android:name="com.orion.notein.ui.user.FirstTimeUserTipsDialogFragment" android:id="@id/firstTimeUserTipsDialogFragment" />
+    <dialog android:label="LoginTipsDialogFragment" android:name="com.orion.notein.ui.login.entry.LoginTipsDialogFragment" android:id="@id/loginTipsDialogFragment">
+        <action android:id="@id/action_loginTipsDialogFragment_to_firebaseUserAuthFragment" app:destination="@id/firebaseUserAuthFragment" />
+        <argument android:name="message" app:argType="string" />
+        <argument android:name="imported_uri" android:defaultValue="@null" app:argType="android.net.Uri" app:nullable="true" />
+    </dialog>
+    <fragment android:label="NoteEditorContainerFragment" android:name="com.orion.notein.ui.noteeditor.NoteEditorContainerFragment" android:id="@id/noteEditorContainerFragment">
+        <action android:id="@id/action_editor_to_home" app:destination="@id/noteListContainerFragment" app:popUpTo="@id/noteListContainerFragment" app:popUpToInclusive="true" />
+        <action android:id="@id/action_to_addToStickerCollectionDialogFragment" app:destination="@id/addToStickerCollectionDialogFragment" />
+        <action android:id="@id/action_to_stickerCollectionEditDialogFragment" app:destination="@id/stickerCollectionEditFragment" />
+        <action android:id="@id/action_to_stickerCollectionCreationDialogFragment" app:destination="@id/stickerCollectionCreationDialogFragment" />
+        <argument android:name="noteId" app:argType="string" />
+        <argument android:name="source_folder_id" android:defaultValue="@null" app:argType="string" app:nullable="true" />
+        <argument android:name="layout" android:defaultValue="@null" app:argType="com.orion.notein.ui.noteeditor.NavEditorLayoutInfo" app:nullable="true" />
+        <argument android:name="pageId" android:defaultValue="@null" app:argType="string" app:nullable="true" />
+        <argument android:name="page_id_string" android:defaultValue="@null" app:argType="string" app:nullable="true" />
+        <action android:id="@id/action_noteEditorContainerFragment_to_addPageDialogFragment" app:destination="@id/addPageDialogFragment" />
+        <action android:id="@id/action_noteEditorContainerFragment_to_addPageBottomSheetDialogFragment" app:destination="@id/addPageBottomSheetDialogFragment" />
+        <action android:id="@id/action_noteEditorContainerFragment_to_renameDialogFragment" app:destination="@id/renameDialogFragment" />
+        <action android:id="@id/action_noteEditorContainerFragment_to_newOutlineDialogFragment" app:destination="@id/newOutlineDialogFragment" />
+        <action android:id="@id/action_noteEditorContainerFragment_to_outlineDeleteAlertDialogFragment" app:destination="@id/outlineDeleteAlertDialogFragment" />
+        <action android:id="@id/action_noteEditorContainerFragment_to_outlineEditDialogFragment" app:destination="@id/outlineEditDialogFragment" />
+        <action android:id="@id/action_noteEditorContainerFragment_to_newCommentDialogFragment" app:destination="@id/newCommentDialogFragment" />
+        <action android:id="@id/action_noteEditorContainerFragment_to_commentDeleteAlertDialogFragment" app:destination="@id/commentDeleteAlertDialogFragment" />
+        <action android:id="@id/action_noteEditorContainerFragment_to_commentEditDialogFragment" app:destination="@id/commentEditDialogFragment" />
+        <action android:id="@id/action_noteEditorContainerFragment_to_clearPageAlertDialogFragment" app:destination="@id/clearPageAlertDialogFragment" />
+        <action android:id="@id/action_noteEditorContainerFragment_to_jumpToPageDialogFragment" app:destination="@id/jumpToPageDialogFragment" />
+        <action android:id="@id/action_noteEditorContainerFragment_to_setRulerAngleDialogFragment" app:destination="@id/setRulerAngleDialogFragment" />
+        <action android:id="@id/action_noteEditorContainerFragment_to_tiledPageEditorFragment" app:destination="@id/tiledPageEditorFragment" />
+        <action android:id="@id/action_noteEditorContainerFragment_to_colorSetRenameDialogFragment" app:destination="@id/colorSetRenameDialogFragment" />
+        <action android:id="@id/action_noteEditorContainerFragment_to_paperConfigDialogFragment" app:destination="@id/paperConfigDialogFragment" />
+        <action android:id="@id/action_noteEditorContainerFragment_to_translateDialogFragment" app:destination="@id/translateDialogFragment" />
+        <action android:id="@id/action_noteEditorContainerFragment_to_importFontDialogFragment" app:destination="@id/importFontDialogFragment" />
+        <action android:id="@id/action_noteEditorContainerFragment_to_vipRestrictedFeatureDialogFragment" app:destination="@id/vipRestrictedFeatureDialogFragment" />
+        <action android:id="@id/action_noteEditorContainerFragment_to_vipFeaturesComparisonFragment" app:destination="@id/vipFeaturesComparisonFragment" />
+        <action android:id="@id/action_noteEditorContainerFragment_to_permissionTipsDialogFragment" app:destination="@id/permissionTipsDialogFragment" />
+        <action android:id="@id/action_noteEditorContainerFragment_to_loginTipsDialogFragment" app:destination="@id/loginTipsDialogFragment" />
+        <action android:id="@id/action_noteEditorContainerFragment_to_globalSettingsContainerFragment" app:destination="@id/globalSettingsContainerFragment" />
+        <action android:id="@id/action_noteEditorContainerFragment_to_textRecognizeDialogFragment" app:destination="@id/textRecognizeDialogFragment" />
+        <action android:id="@id/action_noteEditorContainerFragment_to_pagePaddingDialogFragment" app:destination="@id/pagePaddingDialogFragment" />
+        <action android:id="@id/action_noteEditorContainerFragment_to_textRecognizeFragment" app:destination="@id/textRecognizeFragment" />
+        <action android:id="@id/action_noteEditorContainerFragment_to_firebaseUserAuthFragment" app:destination="@id/firebaseUserAuthFragment" />
+        <action android:id="@id/action_to_noteLockedDialogFragment" app:destination="@id/noteLockedDialogFragment" app:popUpTo="@id/noteListContainerFragment" app:popUpToInclusive="false" />
+        <action android:id="@id/action_noteEditorContainerFragment_to_hyperlinkTiledPagesFragment" app:destination="@id/hyperlinkTiledPagesFragment" />
+        <action android:id="@id/action_noteEditorContainerFragment_to_noteTreeSelectionFragment" app:destination="@id/noteTreeSelectionFragment" />
+        <action android:id="@id/action_noteEditorContainerFragment_to_cloudSyncLoginContainerFragment" app:destination="@id/cloudSyncLoginContainerFragment" />
+        <action android:id="@id/action_noteEditorContainerFragment_to_cloudSyncLoginDialogFragment" app:destination="@id/cloudSyncLoginDialogFragment" />
+        <action android:id="@id/action_noteEditorContainerFragment_to_aiQuotaPayDialogFragment" app:destination="@id/aiQuotaPayDialogFragment" />
+    </fragment>
+    <dialog android:label="HyperlinkTiledPagesFragment" android:name="com.orion.notein.ui.noteeditor.hyperlinkeditor.dialog.HyperlinkTiledPagesFragment" android:id="@id/hyperlinkTiledPagesFragment">
+        <argument android:name="note_id" app:argType="string" />
+        <argument android:name="source_note_id" app:argType="string" />
+    </dialog>
+    <dialog android:label="NoteTreeSelectionFragment" android:name="com.orion.notein.ui.noteeditor.hyperlinkeditor.dialog.NoteTreeSelectionFragment" android:id="@id/noteTreeSelectionFragment">
+        <action android:id="@id/action_noteTreeSelectionFragment_to_hyperlinkTiledPagesFragment" app:destination="@id/hyperlinkTiledPagesFragment" />
+        <argument android:name="source_note_id" app:argType="string" />
+    </dialog>
+    <dialog android:label="RenameDialogFragment" android:name="com.orion.notein.ui.notelist.RenameDialogFragment" android:id="@id/renameDialogFragment">
+        <argument android:name="noteId" app:argType="string" />
+        <argument android:name="title" app:argType="string" />
+        <argument android:name="type" app:argType="integer" />
+    </dialog>
+    <dialog android:label="FolderCreationDialogFragment" android:name="com.orion.notein.ui.notelist.folder.FolderCreationDialogFragment" android:id="@id/folderCreationDialogFragment">
+        <argument android:name="folderId" app:argType="string" app:nullable="true" />
+        <action android:id="@id/action_folderCreationDialogFragment_to_loginTipsDialogFragment" app:destination="@id/loginTipsDialogFragment" />
+        <action android:id="@id/action_folderCreationDialogFragment_to_vipFeaturesComparisonFragment" app:destination="@id/vipFeaturesComparisonFragment" />
+    </dialog>
+    <dialog android:label="MoveToFolderDialog" android:name="com.orion.notein.ui.notelist.folder.MoveToFolderBottomSheetFragment" android:id="@id/moveToFolderBottomSheetFragment">
+        <argument android:name="itemDataList" app:argType="com.orion.notein.ui.notelist.folder.ItemDataOfMovingToFolder[]" />
+    </dialog>
+    <dialog android:label="MoveToFolderDialogFragment" android:name="com.orion.notein.ui.notelist.folder.MoveToFolderDialogFragment" android:id="@id/moveToFolderDialogFragment">
+        <argument android:name="itemDataList" app:argType="com.orion.notein.ui.notelist.folder.ItemDataOfMovingToFolder[]" />
+    </dialog>
+    <fragment android:label="LabelContainerFragment" android:name="com.orion.notein.ui.notelist.label.LabelContainerFragment" android:id="@id/labelContainerFragment">
+        <argument android:name="labelId" app:argType="long" />
+    </fragment>
+    <fragment android:label="FavoriteListFragment" android:name="com.orion.notein.ui.notelist.favorite.FavoriteContainerFragment" android:id="@id/favoriteListFragment">
+        <action android:id="@id/action_favoriteListFragment_to_noteEditorContainerFragment" app:destination="@id/noteEditorContainerFragment" />
+        <action android:id="@id/action_favoriteListFragment_to_pdfPasswordDialogFragment" app:destination="@id/pdfPasswordDialogFragment" />
+        <action android:id="@id/action_favoriteListFragment_to_renameDialogFragment" app:destination="@id/renameDialogFragment" />
+        <action android:id="@id/action_favoriteListFragment_to_folderCreationDialogFragment" app:destination="@id/folderCreationDialogFragment" />
+        <action android:id="@id/action_favoriteListFragment_to_moveToFolderBottomSheetFragment" app:destination="@id/moveToFolderBottomSheetFragment" />
+        <action android:id="@id/action_favoriteListFragment_to_importBatchPdfDialogFragment" app:destination="@id/importBatchPdfDialogFragment" />
+        <action android:id="@id/action_favoriteListContainerFragment_to_searchListContainerFragment" app:destination="@id/searchListFragment" />
+        <action android:id="@id/action_favoriteListFragment_to_loginTipsDialogFragment" app:destination="@id/loginTipsDialogFragment" />
+        <action android:id="@id/action_favoriteListFragment_to_permissionTipsDialogFragment" app:destination="@id/permissionTipsDialogFragment" />
+        <action android:id="@id/action_favoriteListContainerFragment_to_vipFeaturesComparisonFragment" app:destination="@id/vipFeaturesComparisonFragment" />
+        <action android:id="@id/action_favoriteListContainerFragment_to_vipRestrictedFeatureDialogFragment" app:destination="@id/vipRestrictedFeatureDialogFragment" />
+    </fragment>
+    <fragment android:label="RecentListFragment" android:name="com.orion.notein.ui.notelist.recent.RecentFragment" android:id="@id/recentListFragment">
+        <action android:id="@id/action_recentListFragment_to_noteEditorContainerFragment" app:destination="@id/noteEditorContainerFragment" />
+        <action android:id="@id/action_recentListFragment_to_renameDialogFragment" app:destination="@id/renameDialogFragment" />
+        <action android:id="@id/action_recentListFragment_to_moveToFolderBottomSheetFragment" app:destination="@id/moveToFolderBottomSheetFragment" />
+        <action android:id="@id/action_recentListFragment_to_searchListContainerFragment" app:destination="@id/searchListFragment" />
+        <action android:id="@id/action_recentListFragment_to_loginTipsDialogFragment" app:destination="@id/loginTipsDialogFragment" />
+        <action android:id="@id/action_recentListFragment_to_vipFeaturesComparisonFragment" app:destination="@id/vipFeaturesComparisonFragment" />
+        <action android:id="@id/action_to_featureRestrictedDialogFragment" app:destination="@id/vipRestrictedFeatureDialogFragment" />
+        <action android:id="@id/action_recentListFragment_to_recoverNoteFromCloudDialogFragment" app:destination="@id/recoverNoteFromCloudDialogFragment" />
+    </fragment>
+    <fragment android:label="trashBinContainerFragment" android:name="com.orion.notein.ui.notelist.trashbin.TrashBinContainerFragment" android:id="@id/trashBinContainerFragment">
+        <action android:id="@id/action_trashBinContainerFragment_to_clearTrashBinDialogFragment" app:destination="@id/clearTrashBinDialogFragment" />
+        <action android:id="@id/action_trashBinContainerFragment_to_trashBinDeleteAlertDialogFragment" app:destination="@id/trashBinDeleteAlertDialogFragment" />
+    </fragment>
+    <dialog android:label="ClearTrashBinDialogFragment" android:name="com.orion.notein.ui.notelist.trashbin.TrashBinClearAlertDialogFragment" android:id="@id/clearTrashBinDialogFragment" />
+    <dialog android:label="TrashBinDeleteAlertDialogFragment" android:name="com.orion.notein.ui.notelist.trashbin.TrashBinDeleteAlertDialogFragment" android:id="@id/trashBinDeleteAlertDialogFragment">
+        <argument android:name="noteVO" app:argType="com.orion.notein.ui.vo.NoteVO" app:nullable="true" />
+    </dialog>
+    <fragment android:label="SearchListFragment" android:name="com.orion.notein.ui.notelist.search.SearchListContainerFragment" android:id="@id/searchListFragment">
+        <action android:id="@id/action_searchListFragment_to_recoverNoteFromCloudDialogFragment" app:destination="@id/recoverNoteFromCloudDialogFragment" />
+        <action android:id="@id/action_searchListFragment_to_noteEditorContainerFragment" app:destination="@id/noteEditorContainerFragment" />
+        <action android:id="@id/action_searchListFragment_to_renameDialogFragment" app:destination="@id/renameDialogFragment" />
+        <action android:id="@id/action_searchListFragment_to_folderCreationDialogFragment" app:destination="@id/folderCreationDialogFragment" />
+        <action android:id="@id/action_searchListFragment_to_moveToFolderBottomSheetFragment" app:destination="@id/moveToFolderBottomSheetFragment" />
+        <action android:id="@id/action_searchListFragment_to_noteListContainerFragment" app:destination="@id/noteListContainerFragment" app:enterAnim="@anim/fragment_fade_in_accelerate" app:popUpTo="@id/noteListContainerFragment" app:popUpToInclusive="true" />
+        <action android:id="@id/action_searchListFragment_to_favoriteListFragment" app:destination="@id/favoriteListFragment" app:enterAnim="@anim/fragment_fade_in_accelerate" app:popUpTo="@id/favoriteListFragment" app:popUpToInclusive="true" />
+        <action android:id="@id/action_searchListFragment_to_loginTipsDialogFragment" app:destination="@id/loginTipsDialogFragment" />
+        <argument android:name="topFolder" app:argType="string" />
+        <argument android:name="currFolder" android:defaultValue="@null" app:argType="com.orion.notein.ui.vo.NoteVO" app:nullable="true" />
+    </fragment>
+    <dialog android:label="AddPageDialogFragment" android:name="com.orion.notein.ui.noteeditor.addpage.AddPageDialogFragment" android:id="@id/addPageDialogFragment">
+        <argument android:name="noteId" app:argType="string" />
+        <argument android:name="pageId" app:argType="string" />
+        <action android:id="@id/action_addPageDialogFragment_to_paperConfigDialogFragment" app:destination="@id/paperConfigDialogFragment" app:popUpTo="@id/addPageDialogFragment" app:popUpToInclusive="true" />
+        <action android:id="@id/action_addPageDialogFragment_to_importBatchPdfDialogFragment" app:destination="@id/importBatchPdfDialogFragment" />
+        <action android:id="@id/action_addPageDialogFragment_to_PDFPageSelectorDialogFragment" app:destination="@id/PDFPageSelectorDialogFragment" />
+        <action android:id="@id/action_addPageDialogFragment_to_permissionTipsDialogFragment" app:destination="@id/permissionTipsDialogFragment" />
+        <action android:id="@id/action_to_pdfPasswordDialogFragment" app:destination="@id/pdfPasswordDialogFragment" />
+    </dialog>
+    <dialog android:label="AddPageBottomSheetDialogFragment" android:name="com.orion.notein.ui.noteeditor.addpage.AddPageBottomSheetDialogFragment" android:id="@id/addPageBottomSheetDialogFragment">
+        <argument android:name="noteId" app:argType="string" />
+        <argument android:name="pageId" app:argType="string" />
+        <action android:id="@id/action_addPageBottomSheetDialogFragment_to_paperConfigDialogFragment" app:destination="@id/paperConfigDialogFragment" app:popUpTo="@id/addPageBottomSheetDialogFragment" app:popUpToInclusive="true" />
+        <action android:id="@id/action_addPageBottomSheetDialogFragment_to_importBatchPdfDialogFragment" app:destination="@id/importBatchPdfDialogFragment" />
+        <action android:id="@id/action_addPageBottomSheetDialogFragment_to_PDFPageSelectorDialogFragment" app:destination="@id/PDFPageSelectorDialogFragment" />
+        <action android:id="@id/action_addPageBottomSheetDialogFragment_to_permissionTipsDialogFragment" app:destination="@id/permissionTipsDialogFragment" />
+        <action android:id="@id/action_addPageBottomSheetDialogFragment_to_pdfPasswordDialogFragment" app:destination="@id/pdfPasswordDialogFragment" />
+    </dialog>
+    <dialog android:label="NewOutlineDialogFragment" android:name="com.orion.notein.ui.noteeditor.propertypanel.outline.NewOutlineDialogFragment" android:id="@id/newOutlineDialogFragment">
+        <argument android:name="pageIndex" app:argType="integer" />
+        <argument android:name="pageId" app:argType="string" />
+    </dialog>
+    <dialog android:label="OutlineDeleteAlertDialogFragment" android:name="com.orion.notein.ui.noteeditor.propertypanel.outline.OutlineDeleteAlertDialogFragment" android:id="@id/outlineDeleteAlertDialogFragment">
+        <argument android:name="outlineId" app:argType="string" />
+        <argument android:name="has_children" android:defaultValue="false" app:argType="boolean" />
+    </dialog>
+    <dialog android:label="OutlineEditDialogFragment" android:name="com.orion.notein.ui.noteeditor.propertypanel.outline.OutlineEditDialogFragment" android:id="@id/outlineEditDialogFragment">
+        <argument android:name="outlineVO" app:argType="com.orion.notein.ui.noteeditor.propertypanel.outline.OutlineVO" />
+    </dialog>
+    <dialog android:label="NewCommentDialogFragment" android:name="com.orion.notein.ui.noteeditor.propertypanel.comment.NewCommentDialogFragment" android:id="@id/newCommentDialogFragment">
+        <argument android:name="pageIndex" app:argType="integer" />
+        <argument android:name="pageId" app:argType="string" />
+    </dialog>
+    <dialog android:label="CommentDeleteAlertDialogFragment" android:name="com.orion.notein.ui.noteeditor.propertypanel.comment.CommentDeleteAlertDialogFragment" android:id="@id/commentDeleteAlertDialogFragment">
+        <argument android:name="commentId" app:argType="string" />
+    </dialog>
+    <dialog android:label="CommentEditDialogFragment" android:name="com.orion.notein.ui.noteeditor.propertypanel.comment.CommentEditDialogFragment" android:id="@id/commentEditDialogFragment">
+        <argument android:name="commentVO" app:argType="com.orion.notein.ui.noteeditor.propertypanel.comment.CommentVO" />
+    </dialog>
+    <fragment android:label="WelcomeFragment" android:name="com.orion.notein.ui.login.entry.WelcomeFragment" android:id="@id/welcomeFragment">
+        <action android:id="@id/action_welcomeFragment_to_loginFragment" app:destination="@id/firebaseUserAuthFragment" />
+    </fragment>
+    <fragment android:label="AboutFragment" android:name="com.orion.notein.ui.notelist.about.AboutFragment" android:id="@id/aboutFragment" />
+    <fragment android:label="BackupFragment" android:name="com.orion.notein.ui.backup.BackupFragment" android:id="@id/backupFragment">
+        <action android:id="@id/action_backupFragment_to_loginTipsDialogFragment" app:destination="@id/loginTipsDialogFragment" />
+        <action android:id="@id/action_backupFragment_to_importLocalDataDialogFragment" app:destination="@id/importLocalDataDialogFragment" />
+        <action android:id="@id/action_backupFragment_to_permissionTipsDialogFragment" app:destination="@id/permissionTipsDialogFragment" />
+    </fragment>
+    <dialog android:label="ImportLocalDataDialogFragment" android:name="com.orion.notein.ui.backup.ImportLocalDataDialogFragment" android:id="@id/importLocalDataDialogFragment" />
+    <fragment android:label="CloudBackupFragment" android:name="com.orion.notein.ui.backup.CloudBackupFragment" android:id="@id/cloudBackupFragment">
+        <action android:id="@id/action_cloudBackupFragment_to_importCloudDataDialogFragment" app:destination="@id/importCloudDataDialogFragment" />
+        <action android:id="@id/action_cloudBackupFragment_to_loginTipsDialogFragment" app:destination="@id/loginTipsDialogFragment" />
+        <action android:id="@id/action_cloudBackupFragment_to_vipFeaturesComparisonFragment" app:destination="@id/vipFeaturesComparisonFragment" />
+    </fragment>
+    <fragment android:label="CloudSyncFragment" android:name="com.orion.notein.ui.datasync.CloudSyncFragment" android:id="@id/cloudSyncFragment" />
+    <dialog android:label="CloudSyncDialogFragment" android:name="com.orion.notein.ui.datasync.CloudSyncLoginDialogFragment" android:id="@id/cloudSyncLoginDialogFragment" />
+    <fragment android:label="CloudSyncContainerFragment" android:name="com.orion.notein.ui.datasync.CloudSyncLoginContainerFragment" android:id="@id/cloudSyncLoginContainerFragment" />
+    <fragment android:label="ImportCloudDataDialogFragment" android:name="com.orion.notein.ui.backup.ImportCloudDataDialogFragment" android:id="@id/importCloudDataDialogFragment">
+        <action android:id="@id/action_cloudBackupFragment_to_loginTipsDialogFragment" app:destination="@id/loginTipsDialogFragment" />
+    </fragment>
+    <fragment android:label="FeedbackContainerFragment" android:name="com.orion.notein.ui.feedback.FeedbackContainerFragment" android:id="@id/feedback" />
+    <dialog android:label="ImportBatchPdfDialogFragment" android:name="com.orion.notein.ui.notelist.pdf.ImportBatchPdfDialogFragment" android:id="@id/importBatchPdfDialogFragment">
+        <action android:id="@id/action_importBatchPdfDialogFragment_to_loginTipsDialogFragment" app:destination="@id/loginTipsDialogFragment" />
+        <argument android:name="key" app:argType="string" app:nullable="false" />
+        <argument android:name="folderId" app:argType="string" app:nullable="true" />
+        <argument android:name="multi_select" app:argType="integer" app:nullable="false" />
+        <argument android:name="extensions" app:argType="integer" app:nullable="false" />
+    </dialog>
+    <fragment android:label="@string/user_settings" android:name="com.orion.notein.ui.user.settings.entry.UserSettingsContainerFragment" android:id="@id/userSettingContainerFragment" />
+    <fragment android:label="TiledPageEditorFragment" android:name="com.orion.notein.ui.pageeditor.TiledPageListContainerFragment" android:id="@id/tiledPageEditorFragment">
+        <action android:id="@id/action_tiledPageEditorFragment_to_chooseNoteDialogFragment" app:destination="@id/chooseNoteDialogFragment" />
+        <action android:id="@id/action_tiledPageEditorFragment_to_pageOperationTipsDialogFragment" app:destination="@id/pageOperationTipsDialogFragment" />
+        <action android:id="@id/action_tiledPageEditorFragment_to_noteEditorContainerFragment" app:destination="@id/noteEditorContainerFragment" />
+        <action android:id="@id/action_tiledPageEditorFragment_to_pageSaveAsDialogFragment" app:destination="@id/pageSaveAsDialogFragment" />
+        <action android:id="@id/action_tiledPageEditorFragment_to_pageOperationProgressDialogFragment" app:destination="@id/pageOperationProgressDialogFragment" />
+        <action android:id="@id/action_tiledPageEditorFragment_to_vipRestrictedFeatureDialogFragment" app:destination="@id/vipRestrictedFeatureDialogFragment" />
+        <action android:id="@id/action_tiledPageEditorFragment_to_vipFeaturesComparisonFragment" app:destination="@id/vipFeaturesComparisonFragment" />
+        <argument android:name="noteId" app:argType="string" />
+        <argument android:name="pageIndex" app:argType="integer" />
+        <argument android:name="editor_layout" android:defaultValue="@null" app:argType="com.orion.notein.ui.noteeditor.NavEditorLayoutInfo" app:nullable="true" />
+        <argument android:name="pending_action" android:defaultValue="-1" app:argType="integer" />
+    </fragment>
+    <fragment android:label="UserInfoFragment" android:name="com.orion.notein.ui.user.UserInfoFragment" android:id="@id/userInfoFragment">
+        <action android:id="@id/action_userInfoFragment_to_userCouponDialogFragment" app:destination="@id/user_coupons_dialog" />
+        <action android:id="@id/action_to_userSettingsContainerFragment" app:destination="@id/userSettingContainerFragment" />
+        <action android:id="@id/action_to_feedbackContainerFragment" app:destination="@id/feedback" />
+        <action android:id="@id/action_userInfoFragment_to_vipRestrictedFeatureDialogFragment" app:destination="@id/vipRestrictedFeatureDialogFragment" />
+        <action android:id="@id/action_userInfoFragment_to_vipAdvertisementDialogFragment" app:destination="@id/vipAdvertisementDialogFragment" />
+        <action android:id="@id/action_userInfoFragment_to_userMessageFragment" app:destination="@id/userMessageFragment" />
+        <action android:id="@id/action_userInfoFragment_to_vipFeaturesComparisonFragment" app:destination="@id/vipFeaturesComparisonFragment" />
+        <action android:id="@id/action_userInfoFragment_to_cloudSyncLoginContainerFragment" app:destination="@id/cloudSyncLoginContainerFragment" />
+        <action android:id="@id/action_userInfoFragment_to_cloudSyncLoginDialogFragment" app:destination="@id/cloudSyncLoginDialogFragment" />
+    </fragment>
+    <fragment android:label="UserAvatarModifyFragment" android:name="com.orion.notein.ui.user.settings.profile.UserAvatarModifyFragment" android:id="@id/userAvatarModifyFragment">
+        <argument android:name="uri" app:argType="android.net.Uri" />
+    </fragment>
+    <fragment android:label="UserMessageFragment" android:name="com.orion.notein.ui.user.message.UserMessageFragment" android:id="@id/userMessageFragment" />
+    <fragment android:label="VipFeaturesComparisonFragment" android:name="com.orion.notein.ui.vip.VipFeaturesComparisonFragment" android:id="@id/vipFeaturesComparisonFragment" />
+    <fragment android:label="FirebaseUserInfoFragment" android:name="com.orion.notein.ui.user.firebase.FirebaseUserInfoFragment" android:id="@id/firebaseUserInfoFragment">
+        <action android:id="@id/action_firebaseUserInfoFragment_to_firebaseUserSettingsFragment" app:destination="@id/firebaseUserSettingsFragment" />
+        <action android:id="@id/action_firebaseUserInfoFragment_to_vipFeaturesComparisonFragment" app:destination="@id/vipFeaturesComparisonFragment" />
+        <action android:id="@id/action_firebaseUserInfoFragment_to_aiQuotaPayDialogFragment" app:destination="@id/aiQuotaPayDialogFragment" />
+    </fragment>
+    <fragment android:label="FirebaseUserSettingsFragment" android:name="com.orion.notein.ui.user.firebase.FirebaseUserSettingsFragment" android:id="@id/firebaseUserSettingsFragment">
+        <action android:id="@id/action_firebaseUserSettingsFragment_to_deleteAccountAgreementFragment" app:destination="@id/deleteAccountAgreementFragment" />
+        <action android:id="@id/action_firebaseUserSettingsFragment_to_firebaseUserModifyPasswordFragment" app:destination="@id/firebaseUserModifyPasswordFragment" />
+    </fragment>
+    <dialog android:name="com.orion.notein.ui.notelist.recover.RecoverNoteFromCloudDialogFragment" android:id="@id/recoverNoteFromCloudDialogFragment">
+        <argument android:name="note_id" app:argType="string" app:nullable="false" />
+        <action android:id="@id/action_recoverNoteFromCloudDialogFragment_to_recoverProgressDialogFragment" app:destination="@id/recoverProgressDialogFragment" />
+    </dialog>
+    <dialog android:name="com.orion.notein.ui.notelist.recover.RecoverProgressDialogFragment" android:id="@id/recoverProgressDialogFragment" />
+    <dialog android:label="ChooseNoteDialogFragment" android:name="com.orion.notein.ui.pageeditor.ChooseNoteDialogFragment" android:id="@id/chooseNoteDialogFragment">
+        <action android:id="@id/action_chooseNoteDialogFragment_to_tiledPageEditorFragment" app:destination="@id/tiledPageEditorFragment" />
+        <argument android:name="action" app:argType="integer" />
+        <argument android:name="exclude_note" app:argType="string" app:nullable="true" />
+    </dialog>
+    <dialog android:label="PageOperationTipsDialogFragment" android:name="com.orion.notein.ui.pageeditor.PageOperationTipsDialogFragment" android:id="@id/pageOperationTipsDialogFragment">
+        <action android:id="@id/action_pageOperationTipsDialogFragment_to_tiledPageEditorFragment" app:destination="@id/tiledPageEditorFragment" />
+        <action android:id="@id/action_pageOperationTipsDialogFragment_to_noteEditorContainerFragment" app:destination="@id/noteEditorContainerFragment" />
+        <action android:id="@id/action_pageOperationTipsDialogFragment_to_chooseNoteDialogFragment" app:destination="@id/chooseNoteDialogFragment" />
+        <argument android:name="action" app:argType="integer" />
+        <argument android:name="success" app:argType="boolean" />
+        <argument android:name="num_pages" android:defaultValue="0" app:argType="integer" />
+        <argument android:name="target_note_id" app:argType="string" />
+    </dialog>
+    <dialog android:label="PageSaveAsDialogFragment" android:name="com.orion.notein.ui.pageeditor.PageSaveAsDialogFragment" android:id="@id/pageSaveAsDialogFragment">
+        <argument android:name="default_note_title" app:argType="string" />
+    </dialog>
+    <dialog android:label="AddToStickerCollectionDialogFragment" android:name="com.orion.notein.ui.stickers.AddToStickerCollectionDialogFragment" android:id="@id/addToStickerCollectionDialogFragment">
+        <argument android:name="to_added_uris" app:argType="android.net.Uri[]" />
+        <action android:id="@id/action_to_stickerCollectionCreationDialogFragment" app:destination="@id/stickerCollectionCreationDialogFragment" />
+    </dialog>
+    <dialog android:label="stickerCollectionEditFragment" android:name="com.orion.notein.ui.stickers.edit.StickerCollectionEditFragment" android:id="@id/stickerCollectionEditFragment">
+        <argument android:name="sticker_collection_id" app:argType="string" />
+        <action android:id="@id/action_to_exportStickerCollectionDialogFragment" app:destination="@id/exportStickerCollectionDialogFragment" />
+    </dialog>
+    <dialog android:label="exportStickerCollectionDialogFragment" android:name="com.orion.notein.ui.stickers.edit.ExportStickerCollectionDialogFragment" android:id="@id/exportStickerCollectionDialogFragment" />
+    <dialog android:label="StickerCollectionCreationFragment" android:name="com.orion.notein.ui.stickers.creation.StickerCollectionCreationFragment" android:id="@id/stickerCollectionCreationDialogFragment">
+        <argument android:name="to_added_uris" app:argType="android.net.Uri[]" />
+    </dialog>
+    <dialog android:name="com.orion.notein.ui.export.AddWaterMarkFragment" android:id="@id/addWaterMarkFragment">
+        <action android:id="@id/action_addWaterMarkFragment_to_editWaterMarkDialog" app:destination="@id/editWaterMarkDialog" />
+    </dialog>
+    <dialog android:name="com.orion.notein.ui.notelist.SimpleEditTextDialogFragment" android:id="@id/editWaterMarkDialog">
+        <argument android:name="dialog_title" app:argType="string" />
+        <argument android:name="dialog_hint" android:defaultValue="" app:argType="string" app:nullable="true" />
+        <argument android:name="dialog_text" android:defaultValue="" app:argType="string" app:nullable="true" />
+    </dialog>
+    <dialog android:label="Export Options" android:name="com.orion.notein.ui.export.ExportDialogFragment" android:id="@id/export_options_dialog">
+        <action android:id="@id/action_exportDialogFragment_to_exportProgressDialogFragment" app:destination="@id/exportProgressDialogFragment" />
+        <action android:id="@id/action_exportDialogFragment_to_permissionTipsDialogFragment" app:destination="@id/permissionTipsDialogFragment" />
+        <action android:id="@id/action_exportDialogFragment_to_add_water_mark_fragment" app:destination="@id/addWaterMarkFragment" />
+        <argument android:name="export_request" app:argType="com.orion.notein.ui.export.ExportRequest" />
+    </dialog>
+    <dialog android:label="Export Options" android:name="com.orion.notein.ui.export.ExportBottomSheetFragment" android:id="@id/export_options_bottom_sheet">
+        <action android:id="@id/action_exportDialogFragment_to_exportProgressDialogFragment" app:destination="@id/exportProgressDialogFragment" />
+        <action android:id="@id/action_exportDialogFragment_to_permissionTipsDialogFragment" app:destination="@id/permissionTipsDialogFragment" />
+        <action android:id="@id/action_exportDialogFragment_to_add_water_mark_fragment" app:destination="@id/addWaterMarkFragment" />
+        <argument android:name="export_request" app:argType="com.orion.notein.ui.export.ExportRequest" />
+    </dialog>
+    <dialog android:label="ExportProgressDialogFragment" android:name="com.orion.notein.ui.export.ExportProgressDialogFragment" android:id="@id/exportProgressDialogFragment">
+        <argument android:name="no_progress" app:argType="boolean" />
+        <argument android:name="export_source" app:argType="integer" />
+    </dialog>
+    <dialog android:label="ClearPageAlertDialogFragment" android:name="com.orion.notein.ui.noteeditor.ClearPageAlertDialogFragment" android:id="@id/clearPageAlertDialogFragment">
+        <argument android:name="pageId" app:argType="string" />
+    </dialog>
+    <dialog android:label="JumpToPageDialogFragment" android:name="com.orion.notein.ui.noteeditor.JumpToPageDialogFragment" android:id="@id/jumpToPageDialogFragment">
+        <argument android:name="pageNum" app:argType="integer" />
+    </dialog>
+    <dialog android:label="SetRulerAngleDialogFragment" android:name="com.orion.notein.ui.noteeditor.ruler.SetRulerAngleDialogFragment" android:id="@id/setRulerAngleDialogFragment">
+        <argument android:name="currentAngle" app:argType="integer" />
+        <argument android:name="minAngle" app:argType="integer" />
+        <argument android:name="maxAngle" app:argType="integer" />
+    </dialog>
+    <dialog android:label="PageOperationProgressDialogFragment" android:name="com.orion.notein.ui.pageeditor.PageOperationProgressDialogFragment" android:id="@id/pageOperationProgressDialogFragment">
+        <argument android:name="action" app:argType="integer" />
+    </dialog>
+    <dialog android:label="PDFPageSelectorDialogFragment" android:name="com.orion.notein.ui.noteeditor.addpage.PDFPageSelectorDialogFragment" android:id="@id/PDFPageSelectorDialogFragment">
+        <action android:id="@id/action_pDFPageSelectorDialogFragment_to_pdfPasswordDialogFragment" app:destination="@id/pdfPasswordDialogFragment" />
+        <argument android:name="key" app:argType="string" app:nullable="false" />
+        <argument android:name="noteId" app:argType="string" />
+        <argument android:name="pageId" app:argType="string" />
+        <argument android:name="pdfUri" app:argType="android.net.Uri" />
+    </dialog>
+    <dialog android:label="noteLockedDialogFragment" android:name="com.orion.notein.ui.noteeditor.NoteLockedDialogFragment" android:id="@id/noteLockedDialogFragment">
+        <argument android:name="noteId" app:argType="string" />
+        <action android:id="@id/action_to_noteEditorContainerFragment" app:destination="@id/noteEditorContainerFragment" app:popUpTo="@id/noteListContainerFragment" app:popUpToInclusive="false" />
+    </dialog>
+    <dialog android:label="PermissionTipsDialogFragment" android:name="com.orion.notein.ui.permission.PermissionTipsDialogFragment" android:id="@id/permissionTipsDialogFragment">
+        <argument android:name="title" app:argType="string" />
+        <argument android:name="content" app:argType="string" />
+    </dialog>
+    <dialog android:label="ColorSetRenameDialogFragment" android:name="com.orion.notein.ui.noteeditor.toolbox.colorpicker.ColorSetRenameDialogFragment" android:id="@id/colorSetRenameDialogFragment">
+        <argument android:name="name" app:argType="string" />
+        <argument android:name="id" app:argType="string" />
+    </dialog>
+    <dialog android:label="TemplateRenameDialogFragment" android:name="com.orion.notein.ui.noteeditor.addpage.dialog.TemplateRenameDialogFragment" android:id="@id/templateRenameDialogFragment">
+        <argument android:name="id" app:argType="string" />
+        <argument android:name="title" app:argType="string" />
+    </dialog>
+    <fragment android:label="GlobalSettingsContainerFragment" android:name="com.orion.notein.ui.settings.GlobalSettingsContainerFragment" android:id="@id/globalSettingsContainerFragment" />
+    <dialog android:label="TranslateDialogFragment" android:name="com.orion.notein.ui.noteeditor.translate.TranslateDialogFragment" android:id="@id/translateDialogFragment">
+        <argument android:name="text" app:argType="string" />
+    </dialog>
+    <dialog android:label="Label Management" android:name="com.orion.notein.ui.label.LabelManagementBottomSheet" android:id="@id/label_management_bottom_sheet">
+        <argument android:name="creationFlag" android:defaultValue="false" app:argType="boolean" app:nullable="false" />
+    </dialog>
+    <dialog android:label="Label Management" android:name="com.orion.notein.ui.label.LabelManagementDialogFragment" android:id="@id/label_management_dialog">
+        <argument android:name="creationFlag" android:defaultValue="false" app:argType="boolean" app:nullable="false" />
+    </dialog>
+    <dialog android:label="FirebaseUserAuthFragment" android:name="com.orion.notein.ui.login.firebase.FirebaseUserAuthFragment" android:id="@id/firebaseUserAuthFragment">
+        <action android:id="@id/action_firebaseUserAuthFragment_to_firebaseLoginConfirmFragment" app:destination="@id/firebaseLoginConfirmFragment" />
+        <action android:id="@id/action_firebaseUserAuthFragment_to_firebaseCreateUserPasswordFragment" app:destination="@id/firebaseCreateUserPasswordFragment" />
+        <action android:id="@id/action_firebaseUserAuthFragment_to_firebaseUserLoginFragment" app:destination="@id/firebaseUserLoginFragment" />
+    </dialog>
+    <dialog android:label="FirebaseCreateUserPasswordFragment" android:name="com.orion.notein.ui.login.firebase.FirebaseCreateUserPasswordFragment" android:id="@id/firebaseCreateUserPasswordFragment">
+        <action android:id="@id/action_firebaseCreateUserPasswordFragment_to_firebaseCreateUserVerificationFragment" app:destination="@id/firebaseCreateUserVerificationFragment" />
+        <argument android:name="email" app:argType="string" />
+    </dialog>
+    <dialog android:label="FirebaseCreateUserVerificationFragment" android:name="com.orion.notein.ui.login.firebase.FirebaseCreateUserVerificationFragment" android:id="@id/firebaseCreateUserVerificationFragment">
+        <action android:id="@id/action_firebaseCreateUserVerificationFragment_to_firebaseCreateUserSetNameFragment" app:destination="@id/firebaseCreateUserSetNameFragment" />
+    </dialog>
+    <dialog android:label="FirebaseCreateUserSetNameFragment" android:name="com.orion.notein.ui.login.firebase.FirebaseCreateUserSetNameFragment" android:id="@id/firebaseCreateUserSetNameFragment" />
+    <dialog android:label="FirebaseUserReAuthPasswordFragment" android:name="com.orion.notein.ui.login.firebase.FirebaseUserReAuthPasswordFragment" android:id="@id/firebaseUserReAuthPasswordFragment" />
+    <dialog android:label="FirebaseUserLoginFragment" android:name="com.orion.notein.ui.login.firebase.FirebaseUserLoginFragment" android:id="@id/firebaseUserLoginFragment">
+        <action android:id="@id/action_firebaseUserLoginFragment_to_firebaseLoginConfirmFragment" app:destination="@id/firebaseLoginConfirmFragment" />
+        <action android:id="@id/action_firebaseUserLoginFragment_to_firebaseCreateUserVerificationFragment" app:destination="@id/firebaseCreateUserVerificationFragment" />
+        <action android:id="@id/action_firebaseUserLoginFragment_to_firebaseCreateUserSetNameFragment" app:destination="@id/firebaseCreateUserSetNameFragment" />
+        <action android:id="@id/action_firebaseUserLoginFragment_to_firebaseUserResetPasswordFragment" app:destination="@id/firebaseUserResetPasswordFragment" />
+    </dialog>
+    <dialog android:label="FirebaseUserResetPasswordFragment" android:name="com.orion.notein.ui.login.firebase.FirebaseUserResetPasswordFragment" android:id="@id/firebaseUserResetPasswordFragment" />
+    <dialog android:label="FirebaseUserModifyPasswordFragment" android:name="com.orion.notein.ui.login.firebase.FirebaseUserModifyPasswordFragment" android:id="@id/firebaseUserModifyPasswordFragment" />
+    <dialog android:label="FirebaseLoginConfirmFragment" android:name="com.orion.notein.ui.login.firebase.FirebaseLoginConfirmFragment" android:id="@id/firebaseLoginConfirmFragment">
+        <argument android:name="provider" app:argType="string" />
+        <argument android:name="display_name" app:argType="string" />
+        <argument android:name="email" app:argType="string" />
+        <argument android:name="photo_uri" app:argType="android.net.Uri" />
+        <argument android:name="extras" app:argType="android.os.Bundle" />
+    </dialog>
+    <dialog android:label="Label Picker" android:name="com.orion.notein.ui.label.LabelPickerBottomSheetFragment" android:id="@id/label_picker_bottom_sheet">
+        <argument android:name="items" app:argType="com.orion.notein.ui.label.ItemData[]" app:nullable="false" />
+    </dialog>
+    <dialog android:label="Label Picker" android:name="com.orion.notein.ui.label.LabelPickerDialogFragment" android:id="@id/label_picker_dialog">
+        <argument android:name="items" app:argType="com.orion.notein.ui.label.ItemData[]" app:nullable="false" />
+    </dialog>
+    <dialog android:label="@string/select_country_or_region" android:name="com.orion.notein.ui.login.countrycode.CountryCodeSelectDialogFragment" android:id="@id/countryCodeSelectFragment" />
+    <dialog android:label="ImportFontDialogFragment" android:name="com.orion.notein.ui.noteeditor.addtext.ImportFontDialogFragment" android:id="@id/importFontDialogFragment">
+        <action android:id="@id/action_importFontDialogFragment_to_vipRestrictedFeatureDialogFragment" app:destination="@id/vipRestrictedFeatureDialogFragment" />
+        <action android:id="@id/action_importFontDialogFragment_to_permissionTipsDialogFragment" app:destination="@id/permissionTipsDialogFragment" />
+        <action android:id="@id/action_importFontDialogFragment_to_vipFeaturesComparisonFragment" app:destination="@id/vipFeaturesComparisonFragment" />
+    </dialog>
+    <dialog android:label="User Coupons" android:name="com.orion.notein.ui.user.coupon.UserCouponsDialogFragment" android:id="@id/user_coupons_dialog" />
+    <dialog android:label="VipRestrictedFeatureDialogFragment" android:name="com.orion.notein.ui.user.VipRestrictedFeatureDialogFragment" android:id="@id/vipRestrictedFeatureDialogFragment">
+        <action android:id="@id/action_vipRestrictedFeatureDialogFragment_to_vipFeaturesComparisonFragment" app:destination="@id/vipFeaturesComparisonFragment" />
+        <argument android:name="feature" app:argType="integer" />
+        <argument android:name="guide_mode" android:defaultValue="false" app:argType="boolean" />
+    </dialog>
+    <dialog android:label="VipAdvertisementDialogFragment" android:name="com.orion.notein.ui.vip.VipAdvertisementDialogFragment" android:id="@id/vipAdvertisementDialogFragment">
+        <action android:id="@id/action_vipAdvertisementDialogFragment_to_vipFeaturesComparisonFragment" app:destination="@id/vipFeaturesComparisonFragment" />
+    </dialog>
+    <action android:id="@id/action_global_googlePayDialogFragment" app:destination="@id/googlePayDialogFragment" />
+    <dialog android:label="storageOptimizationDialogFragment" android:name="com.orion.notein.ui.storage.StorageOptimizationDialogFragment" android:id="@id/storageOptimizationDialogFragment" />
+    <action android:id="@id/action_global_storageOptimizationDialogFragment" app:destination="@id/storageOptimizationDialogFragment" />
+    <action android:id="@id/action_global_to_loginTipsDialog" app:destination="@id/loginTipsDialogFragment" />
+    <action android:id="@id/action_global_to_firebaseUserAuthFragment" app:destination="@id/firebaseUserAuthFragment" />
+    <action android:id="@id/action_global_to_permissionTipsDialog" app:destination="@id/permissionTipsDialogFragment" />
+    <dialog android:label="PopupAdFragment" android:name="com.orion.notein.PopupAdFragment" android:id="@id/popupAdFragment" />
+    <dialog android:label="TextRecognizeDialogFragment" android:name="com.orion.notein.ui.noteeditor.recognize.TextRecognizeDialogFragment" android:id="@id/textRecognizeDialogFragment" />
+    <dialog android:label="PdfPasswordDialogFragment" android:name="com.orion.notein.ui.notelist.PdfPasswordDialogFragment" android:id="@id/pdfPasswordDialogFragment">
+        <argument android:name="id" android:defaultValue="@null" app:argType="string" app:nullable="true" />
+    </dialog>
+    <dialog android:label="CancelSubscriptionAlertDialog" android:name="com.orion.notein.ui.pay.google.CancelSubscriptionAlertDialog" android:id="@id/cancelSubscriptionAlertDialog">
+        <argument android:name="product_id" app:argType="string" app:nullable="true" />
+    </dialog>
+    <dialog android:label="GooglePayDialogFragment" android:name="com.orion.notein.ui.pay.google.GooglePayDialogFragment" android:id="@id/googlePayDialogFragment">
+        <action android:id="@id/action_googlePayFragment_to_vipFeaturesComparisonFragment" app:destination="@id/vipFeaturesComparisonFragment" />
+        <action android:id="@id/action_googlePayFragment_to_cancelSubscriptionAlertDialog" app:destination="@id/cancelSubscriptionAlertDialog" />
+        <action android:id="@id/action_payFragment_to_firebaseUserAuthFragment" app:destination="@id/firebaseUserAuthFragment" />
+        <argument android:name="old_sub_purchase" android:defaultValue="@null" app:argType="com.orion.notein.domain.models.transactions.google.NoteinGoogleSubscriptionPurchase" app:nullable="true" />
+    </dialog>
+    <dialog android:label="AiQuotaPayDialogFragment" android:name="com.orion.notein.ui.pay.aiquota.AiQuotaPayDialogFragment" android:id="@id/aiQuotaPayDialogFragment">
+        <action android:id="@id/action_aiQuotaPayDialogFragment_to_firebaseUserAuthFragment" app:destination="@id/firebaseUserAuthFragment" />
+    </dialog>
+    <fragment android:label="WizardFragment" android:name="com.orion.notein.ui.wizard.WizardFragment" android:id="@id/wizardFragment">
+        <action android:id="@id/action_wizardFragment_to_firebaseUserAuthFragment" app:destination="@id/firebaseUserAuthFragment" />
+    </fragment>
+    <fragment android:label="TextRecognizeFragment" android:name="com.orion.notein.ui.ocr.TextRecognizeFragment" android:id="@id/textRecognizeFragment">
+        <action android:id="@id/action_textRecognizeFragment_to_pdfPageSelectorDialogFragment" app:destination="@id/scannedPageSelectDialogFragment" />
+        <action android:id="@id/action_textRecognizeFragment_to_replacePageSelectorDialogFragment" app:destination="@id/replacePageSelectorDialogFragment" />
+        <action android:id="@id/action_textRecognizeFragment_to_sessionRenameDialogFragment" app:destination="@id/sessionRenameDialogFragment" />
+        <action android:id="@id/action_textRecognizeFragment_to_aiQuotaPayDialogFragment" app:destination="@id/aiQuotaPayDialogFragment" />
+        <action android:id="@id/action_textRecognizeFragment_to_selectNoteDialogFragment" app:destination="@id/selectNoteDialogFragment" />
+        <action android:id="@id/action_textRecognizeFragment_to_pdfPasswordDialogFragment" app:destination="@id/pdfPasswordDialogFragment" />
+        <argument android:name="note_id" android:defaultValue="@null" app:argType="string" app:nullable="true" />
+        <argument android:name="page_index" android:defaultValue="0" app:argType="integer" />
+    </fragment>
+    <dialog android:label="SessionRenameDialogFragment" android:name="com.orion.notein.ui.ocr.dialog.SessionRenameDialogFragment" android:id="@id/sessionRenameDialogFragment">
+        <argument android:name="session_id" app:argType="string" />
+        <argument android:name="suggested_name" app:argType="string" />
+    </dialog>
+    <dialog android:label="ReplacePageSelectorDialogFragment" android:name="com.orion.notein.ui.ocr.dialog.ReplacePageSelectorDialogFragment" android:id="@id/replacePageSelectorDialogFragment">
+        <action android:id="@id/action_replacePageSelectorDialogFragment_to_pdfPageSelectorDialogFragment" app:destination="@id/scannedPageSelectDialogFragment" />
+        <action android:id="@id/action_replacePageSelectorDialogFragment_to_pdfPasswordDialogFragment" app:destination="@id/pdfPasswordDialogFragment" />
+        <argument android:name="input" app:argType="com.orion.notein.domain.models.ocr.AiOcrSessionInputSource" />
+        <argument android:name="default_page_index" android:defaultValue="0" app:argType="integer" />
+        <argument android:name="dst_text_page_index" android:defaultValue="-1" app:argType="integer" />
+        <argument android:name="dst_text_page_count" android:defaultValue="1" app:argType="integer" />
+    </dialog>
+    <dialog android:label="ScannedPageSelectDialogFragment" android:name="com.orion.notein.ui.ocr.dialog.ScannedPageSelectDialogFragment" android:id="@id/scannedPageSelectDialogFragment">
+        <action android:id="@id/action_pdfPageSelectorDialogFragment_to_pdfPasswordDialogFragment" app:destination="@id/pdfPasswordDialogFragment" />
+        <argument android:name="input" app:argType="com.orion.notein.domain.models.ocr.AiOcrSessionInputSource" />
+        <argument android:name="default_page_index" android:defaultValue="0" app:argType="integer" />
+    </dialog>
+    <dialog android:label="SelectNoteDialogFragment" android:name="com.orion.notein.ui.ocr.dialog.SelectNoteDialogFragment" android:id="@id/selectNoteDialogFragment">
+        <argument android:name="used_to_create_session" app:argType="boolean" />
+    </dialog>
+    <dialog android:label="PagePaddingDialogFragment" android:name="com.orion.notein.ui.noteeditor.pagepadding.PagePaddingDialogFragment" android:id="@id/pagePaddingDialogFragment">
+        <argument android:name="note_id" app:argType="string" />
+        <argument android:name="page_id" app:argType="string" />
+    </dialog>
+    <dialog android:label="PagePaddingBottomSheetDialogFragment" android:name="com.orion.notein.ui.noteeditor.pagepadding.PagePaddingBottomSheetDialogFragment" android:id="@id/pagePaddingBottomSheetDialogFragment">
+        <argument android:name="note_id" app:argType="string" />
+        <argument android:name="page_id" app:argType="string" />
+    </dialog>
+    <dialog android:label="DeleteLabelDialogFragment" android:name="com.orion.notein.ui.label.DeleteLabelDialogFragment" android:id="@id/deleteLabelDialogFragment">
+        <argument android:name="labelId" app:argType="long" />
+    </dialog>
+    <dialog android:label="paperConfigDialogFragment" android:name="com.orion.notein.ui.paperconfig.PaperConfigDialogFragment" android:id="@id/paperConfigDialogFragment">
+        <argument android:name="strategyType" app:argType="string" />
+        <argument android:name="folderId" app:argType="string" app:nullable="true" />
+        <argument android:name="noteId" android:defaultValue="@null" app:argType="string" app:nullable="true" />
+        <argument android:name="pageId" android:defaultValue="@null" app:argType="string" app:nullable="true" />
+        <argument android:name="unbounded" android:defaultValue="false" app:argType="boolean" />
+        <argument android:name="targetMaterialId" android:defaultValue="@null" app:argType="string" app:nullable="true" />
+        <action android:id="@id/action_paperConfigDialogFragment_to_templateRenameDialogFragment" app:destination="@id/templateRenameDialogFragment" />
+        <action android:id="@id/action_paperConfigDialogFragment_to_importBatchPdfDialogFragment" app:destination="@id/importBatchPdfDialogFragment" />
+        <action android:id="@id/action_paperConfigDialogFragment_to_PDFPageSelectorDialogFragment" app:destination="@id/PDFPageSelectorDialogFragment" />
+        <action android:id="@id/action_paperConfigDialogFragment_to_noteEditorContainerFragment" app:destination="@id/noteEditorContainerFragment" app:popUpTo="@id/noteListContainerFragment" app:popUpToInclusive="false" />
+    </dialog>
+    <dialog android:label="aboutUs" android:name="com.orion.notein.ui.notelist.about.UserAboutDialogFragment" android:id="@id/aboutUsDialogFragment" />
+    <fragment android:label="DeleteAccountAgreementFragment" android:name="com.orion.notein.ui.user.DeleteAccountAgreementFragment" android:id="@id/deleteAccountAgreementFragment">
+        <action android:id="@id/action_deleteAccountAgreementFragment_to_verifyCodeFragment" app:destination="@id/verifyCodeFragment" />
+        <action android:id="@id/action_deleteAccountAgreementFragment_to_firebaseUserReAuthPasswordFragment" app:destination="@id/firebaseUserReAuthPasswordFragment" />
+    </fragment>
+    <dialog android:label="CloudSyncDetailsDialogFragment" android:name="com.orion.notein.ui.datasync.CloudSyncDetailsDialogFragment" android:id="@id/cloudSyncDetailsDialogFragment">
+        <action android:id="@id/action_cloudSyncDetailsDialogFragment_to_cloudSyncLoginDialogFragment" app:destination="@id/cloudSyncLoginDialogFragment" />
+    </dialog>
+    <dialog android:label="CloudSyncDetailsBottomSheetFragment" android:name="com.orion.notein.ui.datasync.CloudSyncDetailsBottomSheetFragment" android:id="@id/cloudSyncDetailsBottomSheetFragment">
+        <action android:id="@id/action_cloudSyncDetailsBottomSheetFragment_to_cloudSyncLoginContainerFragment" app:destination="@id/cloudSyncLoginContainerFragment" />
+    </dialog>
+</navigation>

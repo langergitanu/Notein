@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@drawable/list_item_bg_selector" android:layout_width="match_parent" android:layout_height="45.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="13.0sp" android:textColor="@color/notein_base_black_87" android:id="@id/tv_filter" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="30.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <ImageView android:id="@id/iv_selected" android:layout_width="24.0dp" android:layout_height="24.0dp" android:src="@drawable/ic_ni_choose" android:contentDescription="@null" android:layout_marginEnd="22.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <View android:background="@color/divider_bg_color" android:layout_width="match_parent" android:layout_height="0.5dp" app:layout_constraintBottom_toBottomOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

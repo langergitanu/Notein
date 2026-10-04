@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="50.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/vendor_icon" android:padding="4.0dp" android:layout_width="32.0dp" android:layout_height="32.0dp" android:scaleType="fitCenter" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="13.0sp" android:textStyle="bold" android:textColor="@color/black" android:gravity="start|center" android:id="@id/vendor_name" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginStart="13.0dp" app:layout_constraintStart_toEndOf="@id/vendor_icon" />
+    <TextView android:textSize="11.0sp" android:textColor="@color/text_gray" android:gravity="start|center" android:id="@id/vendor_name_description" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/netdisk_baidu_description" android:layout_marginStart="6.0dp" app:layout_constraintStart_toEndOf="@id/vendor_name" />
+    <ImageView android:id="@id/iv_vip_tag" android:layout_width="40.0dp" android:layout_height="12.0dp" android:src="@mipmap/ic_vip_tag" android:layout_marginStart="12.0dp" app:layout_constraintBottom_toBottomOf="@id/vendor_name" app:layout_constraintStart_toEndOf="@id/vendor_name" app:layout_constraintTop_toTopOf="@id/vendor_name" />
+    <ImageView android:id="@id/in_use" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@drawable/ic_selected" android:scaleType="fitCenter" android:layout_marginEnd="32.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <View android:background="@color/color_quinary_gray" android:layout_width="match_parent" android:layout_height="1.0dp" app:layout_constraintBottom_toBottomOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,58 @@
+package o0oo0OO0;
+
+/* JADX WARN: Failed to restore enum class, 'enum' modifier and super class removed */
+/* JADX INFO: renamed from: o0oo0OO0.OooO, reason: case insensitive filesystem */
+/* JADX INFO: loaded from: classes10.dex */
+public final class EnumC31226OooO {
+
+    /* JADX INFO: renamed from: OooOo0o, reason: collision with root package name */
+    public static final /* synthetic */ EnumC31226OooO[] f111350OooOo0o;
+
+    /*  JADX ERROR: IllegalArgumentException in pass: ConstructorVisitor
+        java.lang.IllegalArgumentException: Illegal Capacity: -1
+        	at java.base/java.util.ArrayList.<init>(ArrayList.java:160)
+        	at jadx.core.dex.nodes.InsnNode.<init>(InsnNode.java:36)
+        	at jadx.core.dex.instructions.BaseInvokeNode.<init>(BaseInvokeNode.java:11)
+        	at jadx.core.dex.instructions.mods.ConstructorInsn.<init>(ConstructorInsn.java:32)
+        	at jadx.core.dex.visitors.ConstructorVisitor.processInvoke(ConstructorVisitor.java:76)
+        	at jadx.core.dex.visitors.ConstructorVisitor.replaceInvoke(ConstructorVisitor.java:56)
+        	at jadx.core.dex.visitors.ConstructorVisitor.visit(ConstructorVisitor.java:42)
+        */
+    static {
+        /*
+            o0oo0OO0.OooO r0 = new o0oo0OO0.OooO
+            java.lang.String r1 = "STYLUS"
+            r2 = 0
+            r0.<init>(r1, r2)
+            o0oo0OO0.OooO r1 = new o0oo0OO0.OooO
+            java.lang.String r2 = "TOUCH"
+            r3 = 1
+            r1.<init>(r2, r3)
+            o0oo0OO0.OooO r2 = new o0oo0OO0.OooO
+            java.lang.String r3 = "MOUSE"
+            r4 = 2
+            r2.<init>(r3, r4)
+            o0oo0OO0.OooO r3 = new o0oo0OO0.OooO
+            java.lang.String r4 = "UNKNOWN"
+            r5 = 3
+            r3.<init>(r4, r5)
+            o0oo0OO0.OooO[] r0 = new o0oo0OO0.EnumC31226OooO[]{r0, r1, r2, r3}
+            o0oo0OO0.EnumC31226OooO.f111350OooOo0o = r0
+            java.lang.Object.<init>()
+            return
+        */
+        throw new UnsupportedOperationException("Method not decompiled: o0oo0OO0.EnumC31226OooO.<clinit>():void");
+    }
+
+    public EnumC31226OooO() {
+        throw null;
+    }
+
+    public static EnumC31226OooO valueOf(String str) {
+        return (EnumC31226OooO) Enum.valueOf(EnumC31226OooO.class, str);
+    }
+
+    public static EnumC31226OooO[] values() {
+        return (EnumC31226OooO[]) f111350OooOo0o.clone();
+    }
+}

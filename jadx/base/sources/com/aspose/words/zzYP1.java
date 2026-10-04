@@ -1,0 +1,54 @@
+package com.aspose.words;
+
+/* JADX INFO: loaded from: classes6.dex */
+final class zzYP1 {
+    String zzXKM;
+    String zzXKN;
+    String zzXKO;
+    String zzXKP;
+    String zzXKQ;
+    String zzXKR;
+    String zzXKS;
+    String zzXKT;
+    String zzXKU;
+    String zzXKV;
+    String zzXKW;
+    String zzXKX;
+    String zzXKY;
+    String zzXKZ;
+    String zzXL0;
+    String zzXL1;
+    String zzXL2;
+    String zzXL3;
+    String zzXL4;
+    String zzXL5;
+    String zzXL6;
+    String zzXL7;
+    String zzXL8;
+    String zzXL9;
+    String zzXLa;
+    String zzXLb;
+    String zzXLc;
+    String zzXLd;
+    String zzXLe;
+    String zzXLf;
+    String zzXLg;
+    String zzXLh;
+    String zzXLi;
+    String zzXLj;
+    String zzXLk;
+    String zzXLl;
+    String zzXLm;
+    String zzXLn;
+    String zzXLo;
+    String zzXLp;
+    boolean zzXLq;
+    String zzXLr;
+    String zzXLs;
+    String zzXLt;
+    String zzXLu;
+    String zzXLv;
+    String zzXLw;
+    zzZMK zzXMl;
+    int zzZfa;
+}

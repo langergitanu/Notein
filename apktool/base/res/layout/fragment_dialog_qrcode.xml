@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@android:color/transparent" android:paddingBottom="10.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/cl_qr_code" android:layout_width="320.0dp" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <ImageView android:id="@id/iv_qrcode" android:layout_width="109.0dp" android:layout_height="109.0dp" android:layout_marginTop="43.0dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <TextView android:textSize="13.0sp" android:textColor="@color/notein_base_black_87" android:id="@id/tv_tip" android:paddingBottom="29.0dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginTop="16.0dp" android:text="@string/please_use_mobile_wechat_scan_qrcode" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/iv_qrcode" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <ImageView android:id="@id/iv_close" android:paddingTop="10.0dp" android:layout_width="34.0dp" android:layout_height="34.0dp" android:src="@drawable/ic_wx_qrcode_close" android:paddingStart="0.0dp" android:paddingEnd="10.0dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/cl_qr_code" />
+</androidx.constraintlayout.widget.ConstraintLayout>

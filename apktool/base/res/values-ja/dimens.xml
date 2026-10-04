@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="ai_feature_public_testing_dialog_button_width">160.0dp</dimen>
+    <dimen name="ocr_page_preview_long_side_size">640.0dp</dimen>
+    <dimen name="ocr_small_page_preview_size">150.0dp</dimen>
+</resources>

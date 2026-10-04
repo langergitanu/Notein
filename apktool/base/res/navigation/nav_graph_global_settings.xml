@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/nav_graph_global_settings" app:startDestination="@id/globalSettingsFragment"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:label="@string/settings" android:name="com.orion.notein.ui.settings.GlobalSettingsFragment" android:id="@id/globalSettingsFragment">
+        <action android:id="@id/action_globalSettingsFragment_to_globalStylusShortcutFragment" app:destination="@id/globalStylusShortcutFragment" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/slide_out_left" app:popEnterAnim="@anim/slide_in_left" app:popExitAnim="@anim/slide_out_right" />
+        <action android:id="@id/action_globalSettingsFragment_to_pageSettingsFragment" app:destination="@id/pageSettingsFragment" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/slide_out_left" app:popEnterAnim="@anim/slide_in_left" app:popExitAnim="@anim/slide_out_right" />
+        <action android:id="@id/action_globalSettingsFragment_to_toolSettingsFragment" app:destination="@id/toolSettingsFragment" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/slide_out_left" app:popEnterAnim="@anim/slide_in_left" app:popExitAnim="@anim/slide_out_right" />
+        <action android:id="@id/action_globalSettingsFragment_to_globalGestureSettingsFragment" app:destination="@id/globalGestureSettingsFragment" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/slide_out_left" app:popEnterAnim="@anim/slide_in_left" app:popExitAnim="@anim/slide_out_right" />
+        <action android:id="@id/action_globalSettingsFragment_to_appearanceSettingsFragment" app:destination="@id/appearanceSettingsFragment" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/slide_out_left" app:popEnterAnim="@anim/slide_in_left" app:popExitAnim="@anim/slide_out_right" />
+        <action android:id="@id/action_globalSettingsFragment_to_globalSettingsLanguageFragment" app:destination="@id/globalSettingsLanguageFragment" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/slide_out_left" app:popEnterAnim="@anim/slide_in_left" app:popExitAnim="@anim/slide_out_right" />
+        <action android:id="@id/action_globalSettingsFragment_to_cloudSyncFragment" app:destination="@id/cloudSyncFragment" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/slide_out_left" app:popEnterAnim="@anim/slide_in_left" app:popExitAnim="@anim/slide_out_right" />
+        <action android:id="@id/action_globalSettingsFragment_to_cloudBackupFragment" app:destination="@id/cloudBackupFragment" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/slide_out_left" app:popEnterAnim="@anim/slide_in_left" app:popExitAnim="@anim/slide_out_right" />
+        <action android:id="@id/action_globalSettingsFragment_to_backupFragment" app:destination="@id/backupFragment" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/slide_out_left" app:popEnterAnim="@anim/slide_in_left" app:popExitAnim="@anim/slide_out_right" />
+        <action android:id="@id/action_globalSettingsFragment_to_toolAssistLineAndShapesFragment" app:destination="@id/toolAssistLineAndShapesFragment" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/slide_out_left" app:popEnterAnim="@anim/slide_in_left" app:popExitAnim="@anim/slide_out_right" />
+        <action android:id="@id/action_globalSettingFragment_to_debugFragment" app:destination="@id/debugFragment" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/slide_out_left" app:popEnterAnim="@anim/slide_in_left" app:popExitAnim="@anim/slide_out_right" />
+        <action android:id="@id/action_to_globalSettingDateFormatFragment" app:destination="@id/globalSettingsDateFormatFragment" />
+    </fragment>
+    <fragment android:label="@string/page_settings" android:name="com.orion.notein.ui.settings.page.PageSettingsFragment" android:id="@id/pageSettingsFragment">
+        <action android:id="@id/action_pageSettingsFragment_to_pageFlipModeFragment" app:destination="@id/pageFlipModeFragment" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/slide_out_left" app:popEnterAnim="@anim/slide_in_left" app:popExitAnim="@anim/slide_out_right" />
+        <action android:id="@id/action_pageSettingsFragment_to_pageAddPageModeFragment" app:destination="@id/pageAddPageModeFragment" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/slide_out_left" app:popEnterAnim="@anim/slide_in_left" app:popExitAnim="@anim/slide_out_right" />
+        <action android:id="@id/action_pageSettingsFragment_to_pageNumberPositionFragment" app:destination="@id/pageNumberPositionFragment" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/slide_out_left" app:popEnterAnim="@anim/slide_in_left" app:popExitAnim="@anim/slide_out_right" />
+        <action android:id="@id/action_pageSettingsFragment_to_globalPdfQuoteSettingFragment" app:destination="@id/pdfQuoteSettingFragment" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/slide_out_left" app:popEnterAnim="@anim/slide_in_left" app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+    <fragment android:label="@string/page_flip_mode" android:name="com.orion.notein.ui.settings.page.PageFlipModeFragment" android:id="@id/pageFlipModeFragment" />
+    <fragment android:label="@string/tool_settings" android:name="com.orion.notein.ui.settings.tool.ToolSettingsFragment" android:id="@id/toolSettingsFragment">
+        <action android:id="@id/action_toolSettingsFragment_to_toolBarStyleFragment" app:destination="@id/toolBarStyleFragment" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/slide_out_left" app:popEnterAnim="@anim/slide_in_left" app:popExitAnim="@anim/slide_out_right" />
+        <action android:id="@id/action_toolSettingsFragment_to_fastTranslationSettingFragment" app:destination="@id/globalFastTranslationSettingFragment2" />
+    </fragment>
+    <fragment android:label="@string/page_add_mode" android:name="com.orion.notein.ui.settings.page.PageAddPageModeFragment" android:id="@id/pageAddPageModeFragment" />
+    <fragment android:label="@string/tool_bar_style" android:name="com.orion.notein.ui.settings.tool.ToolBarStyleFragment" android:id="@id/toolBarStyleFragment" />
+    <fragment android:label="@string/page_number_position" android:name="com.orion.notein.ui.settings.page.PageNumberPositionFragment" android:id="@id/pageNumberPositionFragment" />
+    <fragment android:label="@string/gesture_settings" android:name="com.orion.notein.ui.settings.gesture.GlobalGestureSettingsFragment" android:id="@id/globalGestureSettingsFragment">
+        <action android:id="@id/action_globalGestureSettingsFragment_to_globalDoubleTapModeFragment" app:destination="@id/globalDoubleTapModeFragment" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/slide_out_left" app:popEnterAnim="@anim/slide_in_left" app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+    <fragment android:label="@string/gesture_double_tap_zoom" android:name="com.orion.notein.ui.settings.gesture.GlobalDoubleTapModeFragment" android:id="@id/globalDoubleTapModeFragment" />
+    <fragment android:label="@string/stylus_quick_action_title" android:name="com.orion.notein.ui.settings.stylus.GlobalStylusShortcutFragment" android:id="@id/globalStylusShortcutFragment" />
+    <fragment android:label="@string/language_settings_label" android:name="com.orion.notein.ui.settings.language.GlobalSettingsLanguageFragment" android:id="@id/globalSettingsLanguageFragment" />
+    <fragment android:label="@string/global_date_format" android:name="com.orion.notein.ui.settings.appearance.GlobalSettingDataFormatFragment" android:id="@id/globalSettingsDateFormatFragment" />
+    <fragment android:label="@string/cloud_sync_title" android:name="com.orion.notein.ui.datasync.CloudSyncFragment" android:id="@id/cloudSyncFragment">
+        <argument android:name="sync_flavor" android:defaultValue="0" app:argType="integer" />
+    </fragment>
+    <fragment android:label="@string/cloud_backup" android:name="com.orion.notein.ui.backup.CloudBackupFragment" android:id="@id/cloudBackupFragment" />
+    <fragment android:label="@string/backup" android:name="com.orion.notein.ui.backup.BackupFragment" android:id="@id/backupFragment" />
+    <fragment android:label="LocalMigrationAmendFragment" android:name="com.orion.notein.ui.settings.debug.DebugFragment" android:id="@id/debugFragment">
+        <action android:id="@id/action_debug_fragment_to_permissionTipsDialogFragment" app:destination="@id/permissionTipsDialogFragment" />
+        <action android:id="@id/action_debug_fragment_to_debugImportedPdfListFragment" app:destination="@id/debugImportedPdfListFragment" />
+        <action android:id="@id/action_to_debugImportedImageListFragment" app:destination="@id/debugImportedImageListFragment" />
+        <action android:id="@id/action_to_storageOptimizationDialogFragment" app:destination="@id/storageOptimizationDialogFragment" />
+        <action android:id="@id/action_to_selectNoteDialogFragment" app:destination="@id/selectNoteDialogFragment" />
+    </fragment>
+    <fragment android:label="debugImportedPdfListFragment" android:name="com.orion.notein.ui.settings.debug.DebugImportedPdfListFragment" android:id="@id/debugImportedPdfListFragment" />
+    <fragment android:label="debugImportedImageListFragment" android:name="com.orion.notein.ui.settings.debug.DebugImportedImageListFragment" android:id="@id/debugImportedImageListFragment" />
+    <dialog android:label="ImportBatchPdfDialogFragment" android:name="com.orion.notein.ui.notelist.pdf.ImportBatchPdfDialogFragment" android:id="@id/importBatchPdfDialogFragment">
+        <argument android:name="key" app:argType="string" app:nullable="false" />
+        <argument android:name="folderId" app:argType="string" app:nullable="true" />
+        <argument android:name="multi_select" app:argType="integer" app:nullable="false" />
+        <argument android:name="extensions" app:argType="integer" app:nullable="false" />
+    </dialog>
+    <dialog android:label="PermissionTipsDialogFragment" android:name="com.orion.notein.ui.permission.PermissionTipsDialogFragment" android:id="@id/permissionTipsDialogFragment">
+        <argument android:name="title" app:argType="string" />
+        <argument android:name="content" app:argType="string" />
+    </dialog>
+    <dialog android:label="StorageOptimizationDialogFragment" android:name="com.orion.notein.ui.storage.StorageOptimizationDialogFragment" android:id="@id/storageOptimizationDialogFragment" />
+    <fragment android:label="@string/pdf_text_selection" android:name="com.orion.notein.ui.settings.page.GlobalPdfQuoteSettingFragment" android:id="@id/pdfQuoteSettingFragment" />
+    <fragment android:label="@string/assist_line_and_shapes" android:name="com.orion.notein.ui.settings.assistlineandshapes.ToolAssistLineAndShapesFragment" android:id="@id/toolAssistLineAndShapesFragment" />
+    <fragment android:label="@string/appearance_settings" android:name="com.orion.notein.ui.settings.appearance.AppearanceSettingsFragment" android:id="@id/appearanceSettingsFragment">
+        <action android:id="@id/action_appearanceSettingsFragment_to_globalSettingsDateFormatFragment" app:destination="@id/globalSettingsDateFormatFragment" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/slide_out_left" app:popEnterAnim="@anim/slide_in_left" app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+    <fragment android:label="@string/translation" android:name="com.orion.notein.ui.settings.GlobalFastTranslationSettingFragment" android:id="@id/globalFastTranslationSettingFragment2" />
+    <dialog android:label="@string/select_target_note" android:name="com.orion.notein.ui.settings.debug.SelectNoteDialogFragment" android:id="@id/selectNoteDialogFragment">
+        <argument android:name="key" app:argType="string" />
+    </dialog>
+</navigation>

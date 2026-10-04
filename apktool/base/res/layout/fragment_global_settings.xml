@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:scrollbarSize="8.0dp" android:scrollbarThumbVertical="@drawable/scrollbar_thumb_vertical" android:id="@id/ns_flag_for_scroll_state" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingHorizontal="16.0dp">
+            <TextView android:textSize="16.0sp" android:textColor="@color/notein_label_secondary" android:gravity="center_vertical" android:id="@id/cl_document_setting" android:layout_width="wrap_content" android:layout_height="42.0dp" android:text="@string/document_settings" android:fontFamily="sans-serif-medium" android:paddingStart="16.0dp" />
+            <LinearLayout android:orientation="vertical" android:background="@drawable/bg_white_rounded_20" android:layout_width="match_parent" android:layout_height="wrap_content" android:divider="@drawable/divider_settings_nav_item" android:showDividers="middle" android:clipToOutline="true">
+                <include android:id="@id/card_item_page_settings" layout="@layout/view_settings_nav_row" />
+                <include android:id="@id/card_item_tool_settings" layout="@layout/view_settings_nav_row" />
+                <include android:id="@id/card_item_assist_line_and_shapes" layout="@layout/view_settings_nav_row" />
+            </LinearLayout>
+            <TextView android:textSize="16.0sp" android:textColor="@color/notein_label_secondary" android:gravity="center_vertical" android:id="@id/tv_sync_backup_section" android:layout_width="wrap_content" android:layout_height="42.0dp" android:layout_marginTop="10.0dp" android:text="@string/settings_section_sync_backup" android:fontFamily="sans-serif-medium" android:paddingStart="16.0dp" />
+            <LinearLayout android:orientation="vertical" android:background="@drawable/bg_white_rounded_20" android:layout_width="match_parent" android:layout_height="wrap_content" android:divider="@drawable/divider_settings_nav_item" android:showDividers="middle" android:clipToOutline="true">
+                <include android:id="@id/card_item_cloud_sync" layout="@layout/view_settings_nav_row" />
+                <include android:id="@id/card_item_cloud_backup" layout="@layout/view_settings_nav_row" />
+                <include android:id="@id/card_item_local_backup" layout="@layout/view_settings_nav_row" />
+            </LinearLayout>
+            <TextView android:textSize="16.0sp" android:textColor="@color/notein_label_secondary" android:gravity="center_vertical" android:id="@id/tv_other_section" android:layout_width="wrap_content" android:layout_height="42.0dp" android:layout_marginTop="10.0dp" android:text="@string/settings_section_other" android:fontFamily="sans-serif-medium" android:paddingStart="16.0dp" />
+            <LinearLayout android:orientation="vertical" android:background="@drawable/bg_white_rounded_20" android:layout_width="match_parent" android:layout_height="wrap_content" android:divider="@drawable/divider_settings_nav_item" android:showDividers="middle" android:clipToOutline="true">
+                <include android:id="@id/card_item_appearance_settings" layout="@layout/view_settings_nav_row" />
+                <include android:id="@id/card_item_language_settings" layout="@layout/view_settings_nav_row" />
+                <include android:id="@id/card_item_gesture_settings" layout="@layout/view_settings_nav_row" />
+                <include android:id="@id/card_item_pen_shortcut" layout="@layout/view_settings_nav_row" />
+                <com.orion.niui.components.listitems.SwitchListItemView android:id="@id/toggle_list_item_auto_update" android:layout_width="match_parent" android:layout_height="wrap_content" app:switchListItemIcon="@drawable/ic_ni_import_normal_new" app:switchListItemTitle="@string/auto_update" />
+            </LinearLayout>
+            <TextView android:textSize="16.0sp" android:textColor="@color/notein_accent_pink" android:gravity="center" android:id="@id/tv_reset_to_defaults" android:background="@drawable/bg_white_rounded_28" android:layout_width="match_parent" android:layout_height="56.0dp" android:layout_marginTop="16.0dp" android:layout_marginBottom="32.0dp" android:foreground="@drawable/list_item_bg_selector" android:text="@string/reset_to_default_settings" android:clipToOutline="true" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </ScrollView>
+</FrameLayout>

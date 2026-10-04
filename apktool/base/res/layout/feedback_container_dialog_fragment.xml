@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.orion.notein.ui.component.ShadowLayout android:layout_width="wrap_content" android:layout_height="wrap_content" app:sl_cornerRadius="20.0dp" style="@style/ShadowLayoutElevation1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/container" android:background="@color/notein_backgrounds_grouped_secondary" android:layout_width="@dimen/dialog_container_fixed_width" android:layout_height="@dimen/dialog_container_fixed_height">
+        <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="64.0dp" android:layout_marginTop="8.0dp" android:paddingHorizontal="16.0dp">
+            <TextView android:textSize="22.0sp" android:textColor="@color/notein_base_black_87" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/drawer_feedback" android:fontFamily="sans-serif-medium" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+            <com.orion.niui.components.button.SymbolButtonView android:id="@id/btn_close" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/close" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" app:symbolContentDescription="@string/close" app:symbolIcon="@drawable/ni_symbol_cross" app:symbolVariant="outlined" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.fragment.app.FragmentContainerView android:name="com.orion.notein.ui.feedback.FeedbackFragment" android:id="@id/feedback_fragment_container" android:layout_width="match_parent" android:layout_height="match_parent" />
+    </LinearLayout>
+</com.orion.notein.ui.component.ShadowLayout>

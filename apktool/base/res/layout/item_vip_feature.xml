@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:background="@drawable/vip_feature_item_bg" android:layout_width="134.0dp" android:layout_height="120.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/vip_feature_icon" android:layout_width="38.0dp" android:layout_height="38.0dp" android:layout_marginTop="14.0dp" />
+    <TextView android:textSize="13.0sp" android:textStyle="bold" android:textColor="@color/item_text_name_color" android:gravity="center|top" android:layout_gravity="center_horizontal" android:id="@id/vip_feature_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dp" />
+    <TextView android:textSize="11.0sp" android:textColor="@color/item_text_description_color" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/vip_feature_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dp" />
+</androidx.appcompat.widget.LinearLayoutCompat>

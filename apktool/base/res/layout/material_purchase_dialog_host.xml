@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.orion.notein.ui.component.ShadowLayout android:layout_width="wrap_content" android:layout_height="wrap_content" app:sl_cornerRadius="20.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/dialog_card" android:background="@drawable/bg_bottom_sheet_container_24" android:layout_width="420.0dp" android:layout_height="wrap_content" android:animateLayoutChanges="true">
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/header_container" android:layout_width="match_parent" android:layout_height="64.0dp" android:layout_marginTop="8.0dp" android:paddingHorizontal="16.0dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+            <com.orion.niui.components.button.SymbolButtonView android:id="@id/btn_back" android:layout_width="40.0dp" android:layout_height="40.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:symbolIcon="@drawable/ni_symbol_arrow_back" app:symbolVariant="outlined" />
+            <com.orion.niui.components.button.SymbolButtonView android:id="@id/btn_close" android:layout_width="40.0dp" android:layout_height="40.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" app:symbolIcon="@drawable/ni_symbol_cross" app:symbolVariant="outlined" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.core.widget.NestedScrollView android:scrollbarThumbVertical="@drawable/scrollbar_thumb_vertical" android:id="@id/pay_content_scroll" android:scrollbars="vertical" android:clipToPadding="false" android:layout_width="0.0dp" android:layout_height="wrap_content" android:fillViewport="true" android:fadeScrollbars="true" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/header_container">
+            <include layout="@layout/purchase_content" />
+        </androidx.core.widget.NestedScrollView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.orion.notein.ui.component.ShadowLayout>

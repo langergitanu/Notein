@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="conflict_more_notes">
+        <item quantity="one">và %d hơn thế nữa</item>
+        <item quantity="other">và %d hơn thế nữa</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d thông báo mới</item>
+        <item quantity="other">%d thông báo mới</item>
+    </plurals>
+</resources>

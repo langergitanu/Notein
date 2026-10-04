@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <external-path name="beta_external_path" path="Download/" />
+    <external-path name="beta_external_path_documents" path="Documents/" />
+    <external-path name="beta_external_files_path" path="Android/data/" />
+    <external-files-path name="export_files" path="." />
+    <cache-path name="cache_file" path="." />
+    <files-path name="internal_file" path="." />
+</paths>

@@ -1,0 +1,273 @@
+package com.aspose.slides.internal.p332p7;
+
+import com.aspose.slides.Collections.Generic.List;
+import com.aspose.slides.exceptions.Exception;
+import com.aspose.slides.internal.p077d8.C3059ii;
+import com.aspose.slides.internal.p314oc.C7017h4;
+import com.aspose.slides.internal.p314oc.C7019kk;
+import com.aspose.slides.internal.p332p7.AbstractC7361bz;
+import com.aspose.slides.p559ms.System.IDisposable;
+import com.aspose.slides.p559ms.System.Xml.AbstractC13912i5;
+import java.util.Iterator;
+
+/* JADX INFO: renamed from: com.aspose.slides.internal.p7.xs */
+/* JADX INFO: loaded from: classes4.dex */
+public class C9230xs extends AbstractC8986uz implements InterfaceC7973j2, InterfaceC8118kp, InterfaceC8745s7, InterfaceC8800ss, InterfaceC9128wp {
+
+    /* JADX INFO: renamed from: c5 */
+    private static final C7017h4 f33043c5 = new C7017h4("grouping", "varyColors", "ser", "dLbls", "dropLines", "gapDepth", "axId", "extLst");
+
+    /* JADX INFO: renamed from: du */
+    private C7571eh f33044du;
+
+    /* JADX INFO: renamed from: dy */
+    private C7683fo f33045dy;
+
+    /* JADX INFO: renamed from: h4 */
+    private C8274mm f33046h4;
+
+    /* JADX INFO: renamed from: k4 */
+    private C9126wo f33047k4;
+
+    /* JADX INFO: renamed from: kk */
+    private List<C8010jj> f33048kk;
+
+    /* JADX INFO: renamed from: m9 */
+    private List<C8827t0> f33049m9;
+
+    /* JADX INFO: renamed from: to */
+    private C9115wi f33050to;
+
+    /* JADX INFO: renamed from: x1 */
+    private C8828t1 f33051x1;
+
+    public C9230xs() {
+        m44622wp();
+    }
+
+    /* JADX INFO: renamed from: wp */
+    private void m44622wp() {
+        this.f33048kk = new List<>();
+        this.f33049m9 = new List<>();
+    }
+
+    @Override // com.aspose.slides.internal.p332p7.AbstractC8986uz
+    public C8827t0[] aE_() {
+        return this.f33049m9.toArray(new C8827t0[0]);
+    }
+
+    @Override // com.aspose.slides.internal.p332p7.AbstractC8986uz
+    /* JADX INFO: renamed from: c5 */
+    public C9115wi mo28508c5() {
+        return this.f33050to;
+    }
+
+    @Override // com.aspose.slides.internal.p332p7.InterfaceC9128wp
+    /* JADX INFO: renamed from: du */
+    public final C8827t0 mo31606du() {
+        C8827t0 c8827t0 = new C8827t0();
+        this.f33049m9.addItem(c8827t0);
+        return c8827t0;
+    }
+
+    @Override // com.aspose.slides.internal.p332p7.AbstractC8986uz
+    /* JADX INFO: renamed from: dy */
+    public AbstractC7414ck mo28510dy() {
+        return this.f33045dy;
+    }
+
+    /* JADX INFO: renamed from: g8 */
+    public final C9126wo m44624g8() {
+        return this.f33047k4;
+    }
+
+    @Override // com.aspose.slides.internal.p332p7.InterfaceC8745s7
+    /* JADX INFO: renamed from: jd */
+    public final C8274mm mo31608jd() {
+        if (this.f33046h4 != null) {
+            throw new Exception("Only one <gapDepth> element can be added.");
+        }
+        C8274mm c8274mm = new C8274mm();
+        this.f33046h4 = c8274mm;
+        return c8274mm;
+    }
+
+    @Override // com.aspose.slides.internal.p332p7.AbstractC8986uz
+    /* JADX INFO: renamed from: kk */
+    public AbstractC9120wl mo28513kk() {
+        C8010jj c8010jj = new C8010jj();
+        this.f33048kk.addItem(c8010jj);
+        return c8010jj;
+    }
+
+    @Override // com.aspose.slides.internal.p332p7.InterfaceC7973j2
+    /* JADX INFO: renamed from: lr */
+    public final C8828t1 mo28515lr() {
+        if (this.f33051x1 != null) {
+            throw new Exception("Only one <varyColors> element can be added.");
+        }
+        C8828t1 c8828t1 = new C8828t1();
+        this.f33051x1 = c8828t1;
+        return c8828t1;
+    }
+
+    /* JADX INFO: renamed from: qm */
+    public final C9126wo m44625qm() {
+        if (this.f33047k4 != null) {
+            throw new Exception("Only one <grouping> element can be added.");
+        }
+        C9126wo c9126wo = new C9126wo();
+        this.f33047k4 = c9126wo;
+        return c9126wo;
+    }
+
+    @Override // com.aspose.slides.internal.p332p7.AbstractC8986uz
+    /* JADX INFO: renamed from: up */
+    public C8828t1 mo28521up() {
+        return this.f33051x1;
+    }
+
+    @Override // com.aspose.slides.internal.p332p7.InterfaceC8800ss
+    /* JADX INFO: renamed from: v4 */
+    public final C9115wi mo28523v4() {
+        if (this.f33050to != null) {
+            throw new Exception("Only one <dLbls> element can be added.");
+        }
+        C9115wi c9115wi = new C9115wi();
+        this.f33050to = c9115wi;
+        return c9115wi;
+    }
+
+    @Override // com.aspose.slides.internal.p332p7.AbstractC8986uz
+    /* JADX INFO: renamed from: x6 */
+    public C7571eh mo34548x6() {
+        return this.f33044du;
+    }
+
+    @Override // com.aspose.slides.internal.p332p7.AbstractC8986uz
+    /* JADX INFO: renamed from: yj */
+    public C8274mm mo31611yj() {
+        return this.f33046h4;
+    }
+
+    public C9230xs(final AbstractC13912i5 abstractC13912i5) {
+        m44622wp();
+        AbstractC7361bz.m29290k4(abstractC13912i5, new AbstractC7361bz.kk() { // from class: com.aspose.slides.internal.p7.xs.1
+            @Override // com.aspose.slides.internal.p332p7.AbstractC7361bz.kk
+            /* JADX INFO: renamed from: k4 */
+            public boolean mo27887k4(AbstractC13912i5 abstractC13912i52) {
+                AbstractC7361bz c8010jj;
+                List list;
+                switch (C9230xs.f33043c5.m27428k4(abstractC13912i5.mo65023fa())) {
+                    case 0:
+                        C9230xs.this.f33047k4 = new C9126wo(abstractC13912i5);
+                        return true;
+                    case 1:
+                        C9230xs.this.f33051x1 = new C8828t1(abstractC13912i5);
+                        return true;
+                    case 2:
+                        c8010jj = new C8010jj(abstractC13912i5);
+                        list = C9230xs.this.f33048kk;
+                        break;
+                    case 3:
+                        C9230xs.this.f33050to = new C9115wi(abstractC13912i5);
+                        return true;
+                    case 4:
+                        C9230xs.this.f33044du = new C7571eh(abstractC13912i5);
+                        return true;
+                    case 5:
+                        C9230xs.this.f33046h4 = new C8274mm(abstractC13912i5);
+                        return true;
+                    case 6:
+                        c8010jj = new C8827t0(abstractC13912i5);
+                        list = C9230xs.this.f33049m9;
+                        break;
+                    case 7:
+                        C9230xs.this.f33045dy = new C7683fo(abstractC13912i5);
+                        return true;
+                    default:
+                        return false;
+                }
+                list.addItem(c8010jj);
+                return true;
+            }
+        });
+    }
+
+    @Override // com.aspose.slides.internal.p332p7.InterfaceC8118kp
+    /* JADX INFO: renamed from: k4 */
+    public final C7571eh mo34546k4() {
+        if (this.f33044du != null) {
+            throw new Exception("Only one <dropLines> element can be added.");
+        }
+        C7571eh c7571eh = new C7571eh();
+        this.f33044du = c7571eh;
+        return c7571eh;
+    }
+
+    @Override // com.aspose.slides.internal.p332p7.AbstractC8986uz
+    /* JADX INFO: renamed from: x1 */
+    public AbstractC9120wl[] mo28526x1() {
+        return this.f33048kk.toArray(new C8010jj[0]);
+    }
+
+    @Override // com.aspose.slides.internal.p332p7.AbstractC8986uz
+    /* JADX INFO: renamed from: k4 */
+    public void mo28512k4(AbstractC7414ck abstractC7414ck) {
+        this.f33045dy = (C7683fo) abstractC7414ck;
+    }
+
+    @Override // com.aspose.slides.internal.p332p7.AbstractC7361bz
+    /* JADX INFO: renamed from: k4 */
+    public void mo6846k4(String str, C3059ii c3059ii, String str2) throws Throwable {
+        c3059ii.mo12953k4(str, str2, (String) null);
+        C9126wo c9126wo = this.f33047k4;
+        if (c9126wo != null) {
+            c9126wo.mo6846k4("c", c3059ii, "grouping");
+        }
+        C8828t1 c8828t1 = this.f33051x1;
+        if (c8828t1 != null) {
+            c8828t1.mo6846k4("c", c3059ii, "varyColors");
+        }
+        List.Enumerator<C8827t0> it = this.f33048kk.iterator();
+        while (it.hasNext()) {
+            try {
+                it.next().mo6846k4("c", c3059ii, "ser");
+            } finally {
+                if (C7019kk.m27456k4((Iterator) it, (Class<IDisposable>) IDisposable.class)) {
+                    it.dispose();
+                }
+            }
+        }
+        if (C7019kk.m27456k4((Iterator) it, (Class<IDisposable>) IDisposable.class)) {
+            it.dispose();
+        }
+        C9115wi c9115wi = this.f33050to;
+        if (c9115wi != null) {
+            c9115wi.mo6846k4("c", c3059ii, "dLbls");
+        }
+        C7571eh c7571eh = this.f33044du;
+        if (c7571eh != null) {
+            c7571eh.mo6846k4("c", c3059ii, "dropLines");
+        }
+        C8274mm c8274mm = this.f33046h4;
+        if (c8274mm != null) {
+            c8274mm.mo6846k4("c", c3059ii, "gapDepth");
+        }
+        it = this.f33049m9.iterator();
+        while (it.hasNext()) {
+            try {
+                it.next().mo6846k4("c", c3059ii, "axId");
+            } finally {
+                if (C7019kk.m27456k4((Iterator) it, (Class<IDisposable>) IDisposable.class)) {
+                    it.dispose();
+                }
+            }
+        }
+        C7683fo c7683fo = this.f33045dy;
+        if (c7683fo != null) {
+            c7683fo.mo6846k4("c", c3059ii, "extLst");
+        }
+        c3059ii.mo21898jd();
+    }
+}

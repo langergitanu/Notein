@@ -1,0 +1,62 @@
+package o0oO0O00;
+
+/* JADX WARN: Failed to restore enum class, 'enum' modifier and super class removed */
+/* JADX INFO: renamed from: o0oO0O00.OooO0o, reason: case insensitive filesystem */
+/* JADX INFO: loaded from: classes10.dex */
+public final class EnumC30775OooO0o {
+
+    /* JADX INFO: renamed from: OooOo, reason: collision with root package name */
+    public static final EnumC30775OooO0o f110044OooOo;
+
+    /* JADX INFO: renamed from: OooOo0o, reason: collision with root package name */
+    public static final EnumC30775OooO0o f110045OooOo0o;
+
+    /* JADX INFO: renamed from: OooOoO0, reason: collision with root package name */
+    public static final /* synthetic */ EnumC30775OooO0o[] f110046OooOoO0;
+
+    /*  JADX ERROR: IllegalArgumentException in pass: ConstructorVisitor
+        java.lang.IllegalArgumentException: Illegal Capacity: -1
+        	at java.base/java.util.ArrayList.<init>(ArrayList.java:160)
+        	at jadx.core.dex.nodes.InsnNode.<init>(InsnNode.java:36)
+        	at jadx.core.dex.instructions.BaseInvokeNode.<init>(BaseInvokeNode.java:11)
+        	at jadx.core.dex.instructions.mods.ConstructorInsn.<init>(ConstructorInsn.java:32)
+        	at jadx.core.dex.visitors.ConstructorVisitor.processInvoke(ConstructorVisitor.java:76)
+        	at jadx.core.dex.visitors.ConstructorVisitor.replaceInvoke(ConstructorVisitor.java:56)
+        	at jadx.core.dex.visitors.ConstructorVisitor.visit(ConstructorVisitor.java:42)
+        */
+    static {
+        /*
+            o0oO0O00.OooO0o r0 = new o0oO0O00.OooO0o
+            java.lang.String r1 = "PRE_LOGIN_SET"
+            r2 = 0
+            r0.<init>(r1, r2)
+            o0oO0O00.EnumC30775OooO0o.f110045OooOo0o = r0
+            o0oO0O00.OooO0o r1 = new o0oO0O00.OooO0o
+            java.lang.String r2 = "CONFIRM_ORIGINAL"
+            r3 = 1
+            r1.<init>(r2, r3)
+            o0oO0O00.OooO0o r2 = new o0oO0O00.OooO0o
+            java.lang.String r3 = "POST_LOGIN_SET"
+            r4 = 2
+            r2.<init>(r3, r4)
+            o0oO0O00.EnumC30775OooO0o.f110044OooOo = r2
+            o0oO0O00.OooO0o[] r0 = new o0oO0O00.EnumC30775OooO0o[]{r0, r1, r2}
+            o0oO0O00.EnumC30775OooO0o.f110046OooOoO0 = r0
+            java.lang.Object.<init>()
+            return
+        */
+        throw new UnsupportedOperationException("Method not decompiled: o0oO0O00.EnumC30775OooO0o.<clinit>():void");
+    }
+
+    public EnumC30775OooO0o() {
+        throw null;
+    }
+
+    public static EnumC30775OooO0o valueOf(String str) {
+        return (EnumC30775OooO0o) Enum.valueOf(EnumC30775OooO0o.class, str);
+    }
+
+    public static EnumC30775OooO0o[] values() {
+        return (EnumC30775OooO0o[]) f110046OooOoO0.clone();
+    }
+}

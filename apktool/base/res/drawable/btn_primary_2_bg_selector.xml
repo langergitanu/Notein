@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/btn_primary_2_bg_hovered" android:state_hovered="true" />
+    <item android:state_pressed="true" android:drawable="@drawable/btn_primary_2_bg_pressed" />
+    <item android:state_enabled="false" android:drawable="@drawable/btn_outline_bg_disable" />
+    <item android:drawable="@drawable/btn_primary_2_bg_normal" />
+</selector>

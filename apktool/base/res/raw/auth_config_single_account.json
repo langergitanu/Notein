@@ -1,0 +1,21 @@
+{
+  "client_id" : "5e36261f-20c4-46e3-a346-052aa8d0f433",
+  "authorization_user_agent" : "DEFAULT",
+  "redirect_uri" : "msauth://com.orion.notein.global/Er%2FXhK1iSZZWya9RDAsGT6nOSwM%3D",
+  "account_mode" : "SINGLE",
+  "broker_redirect_uri_registered": false,
+  "authorities" : [
+    {
+      "type": "AAD",
+      "audience": {
+        "type": "AzureADandPersonalMicrosoftAccount",
+        "tenant_id": "common"
+      }
+    }
+  ],
+  "logging": {
+    "pii_enabled": true,
+    "log_level": "WARNING",
+    "logcat_enabled": true
+  }
+}

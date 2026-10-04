@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="@color/layout_bg_color" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:padding="16.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.SwitchCompat android:textSize="13.0sp" android:textColor="@color/item_text_name_color" android:id="@id/switch_force_legacy_pens" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/debug_force_legacy_pens" />
+        <TextView android:textSize="13.0sp" android:textColor="@color/item_text_name_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dp" android:text="@string/debug_stroke_parallelism_level" />
+        <androidx.appcompat.widget.LinearLayoutCompat android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dp">
+            <TextView android:textSize="13.0sp" android:textColor="@color/item_text_name_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/debug_current_value" />
+            <TextView android:textSize="13.0sp" android:textColor="@color/item_text_name_color" android:id="@id/tv_parallelism_value" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <SeekBar android:id="@id/seek_parallelism" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <TextView android:textSize="13.0sp" android:textColor="@color/item_text_name_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dp" android:text="@string/debug_simplify_kfactor" />
+        <androidx.appcompat.widget.LinearLayoutCompat android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dp">
+            <TextView android:textSize="13.0sp" android:textColor="@color/item_text_name_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/debug_current_value" />
+            <TextView android:textSize="13.0sp" android:textColor="@color/item_text_name_color" android:id="@id/tv_k_factor_value" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <SeekBar android:id="@id/seek_k_factor" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <TextView android:textSize="13.0sp" android:textColor="@color/item_text_name_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dp" android:text="@string/debug_sampling_rate_override" />
+        <androidx.appcompat.widget.LinearLayoutCompat android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dp">
+            <TextView android:textSize="13.0sp" android:textColor="@color/item_text_name_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/debug_current_value" />
+            <TextView android:textSize="13.0sp" android:textColor="@color/item_text_name_color" android:id="@id/tv_sampling_rate_value" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <SeekBar android:id="@id/seek_sampling_rate" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <androidx.appcompat.widget.SwitchCompat android:textSize="13.0sp" android:textColor="@color/item_text_name_color" android:id="@id/switch_debug_simplify_effect" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dp" android:text="@string/debug_show_simplify_effect" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</ScrollView>

@@ -1,0 +1,24 @@
+package androidx.core.util;
+
+import com.orion.notein.domain.models.cloudsync.CloudMetaExtra;
+
+/* JADX INFO: loaded from: classes.dex */
+public class DebugUtils {
+    private DebugUtils() {
+    }
+
+    public static void buildShortClassTag(Object obj, StringBuilder sb) {
+        int iLastIndexOf;
+        if (obj == null) {
+            sb.append(CloudMetaExtra.DEFINE_NON_PARENT_ID);
+            return;
+        }
+        String simpleName = obj.getClass().getSimpleName();
+        if (simpleName.length() <= 0 && (iLastIndexOf = (simpleName = obj.getClass().getName()).lastIndexOf(46)) > 0) {
+            simpleName = simpleName.substring(iLastIndexOf + 1);
+        }
+        sb.append(simpleName);
+        sb.append('{');
+        sb.append(Integer.toHexString(System.identityHashCode(obj)));
+    }
+}

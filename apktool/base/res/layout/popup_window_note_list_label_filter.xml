@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:background="@drawable/popup_window_bg" android:layout_width="132.0dp" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="11.0sp" android:textColor="@color/title_bar_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/popup_window_label_filter" android:layout_marginStart="16.0dp" />
+    <androidx.recyclerview.widget.RecyclerView android:orientation="vertical" android:id="@id/label_color_list" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dp" android:layout_marginBottom="9.0dp" android:layout_marginStart="10.0dp" android:layout_marginEnd="10.0dp" app:layoutManager="androidx.recyclerview.widget.GridLayoutManager" app:spanCount="4" />
+</androidx.appcompat.widget.LinearLayoutCompat>

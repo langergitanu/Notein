@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/popup_window_bg" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/header_popup_window" android:layout_width="match_parent" android:layout_height="50.0dp" layout="@layout/item_textstyle_text_font_import" />
+    <androidx.recyclerview.widget.RecyclerView android:orientation="vertical" android:id="@id/rv_font_list" android:layout_width="match_parent" android:layout_height="wrap_content" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" app:layout_constraintBottom_toBottomOf="parent" />
+</LinearLayout>

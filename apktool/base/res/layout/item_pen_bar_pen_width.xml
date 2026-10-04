@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginHorizontal="6.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/pen_width" android:background="@drawable/toolbox_pen_width_un_selected_bg" android:layout_width="20.0dp" android:layout_height="20.0dp" android:src="@drawable/ink_pen_size_selected_tint" android:scaleType="center" android:contentDescription="@null" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="9.0sp" android:textColor="@color/item_text_name_color" android:gravity="center" android:id="@id/pen_width_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/pen_width" />
+    <View android:id="@id/selected" android:background="@drawable/toolbox_pen_width_bg_selector" android:duplicateParentState="true" android:layout_width="20.0dp" android:layout_height="20.0dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

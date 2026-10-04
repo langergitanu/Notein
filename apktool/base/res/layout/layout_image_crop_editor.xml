@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/color_black_40" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/img_content" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <com.orion.notein.ui.noteeditor.addimage.ImageRectCropView android:id="@id/img_rect_cropper" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitXY" />
+        <com.orion.notein.ui.noteeditor.addimage.ImageCustomCropView android:id="@id/img_custom_cropper" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitXY" />
+    </FrameLayout>
+    <ImageView android:id="@id/btn_cancel" android:background="@drawable/ic_image_crop_editor_cancel" android:layout_marginTop="16.0dp" app:layout_constraintEnd_toStartOf="@id/btn_done" app:layout_constraintHorizontal_chainStyle="packed" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/img_content" style="@style/NoteinImageButton" />
+    <ImageView android:id="@id/btn_done" android:background="@drawable/ic_image_crop_editor_done" android:layout_marginTop="16.0dp" android:layout_marginStart="12.0dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/btn_cancel" app:layout_constraintTop_toBottomOf="@id/img_content" style="@style/NoteinImageButton" />
+</androidx.constraintlayout.widget.ConstraintLayout>

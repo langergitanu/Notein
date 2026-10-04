@@ -1,0 +1,128 @@
+package com.aspose.slides.internal.p332p7;
+
+import com.aspose.slides.internal.p077d8.C3059ii;
+import com.aspose.slides.internal.p314oc.C7017h4;
+import com.aspose.slides.internal.p332p7.AbstractC7361bz;
+import com.aspose.slides.p559ms.System.C14113y2;
+import com.aspose.slides.p559ms.System.Xml.AbstractC13912i5;
+import com.aspose.slides.p559ms.System.Xml.C13850af;
+
+/* JADX INFO: renamed from: com.aspose.slides.internal.p7.a0 */
+/* JADX INFO: loaded from: classes4.dex */
+public class C7204a0 extends AbstractC7361bz {
+
+    /* JADX INFO: renamed from: kk */
+    private static final C7017h4 f19784kk = new C7017h4("d", "sp");
+
+    /* JADX INFO: renamed from: k4 */
+    private float f19785k4;
+
+    /* JADX INFO: renamed from: x1 */
+    private float f19786x1;
+
+    public C7204a0() {
+        m27876to();
+    }
+
+    /* JADX INFO: renamed from: kk */
+    public static /* synthetic */ C7017h4 m27875kk() {
+        return f19784kk;
+    }
+
+    /* JADX INFO: renamed from: to */
+    private void m27876to() {
+        this.f19785k4 = Float.NaN;
+        this.f19786x1 = Float.NaN;
+    }
+
+    /* JADX INFO: renamed from: k4 */
+    public final float m27878k4() {
+        return this.f19785k4;
+    }
+
+    /* JADX INFO: renamed from: x1 */
+    public final float m27880x1() {
+        return this.f19786x1;
+    }
+
+    public C7204a0(AbstractC13912i5 abstractC13912i5) {
+        m27876to();
+        AbstractC7361bz.m29289k4(abstractC13912i5, new AbstractC7361bz.k4() { // from class: com.aspose.slides.internal.p7.a0.1
+            /*  JADX ERROR: IllegalArgumentException in pass: ConstructorVisitor
+                java.lang.IllegalArgumentException: Illegal Capacity: -1
+                	at java.base/java.util.ArrayList.<init>(ArrayList.java:160)
+                	at jadx.core.dex.nodes.InsnNode.<init>(InsnNode.java:36)
+                	at jadx.core.dex.instructions.BaseInvokeNode.<init>(BaseInvokeNode.java:11)
+                	at jadx.core.dex.instructions.mods.ConstructorInsn.<init>(ConstructorInsn.java:32)
+                	at jadx.core.dex.visitors.ConstructorVisitor.processInvoke(ConstructorVisitor.java:76)
+                	at jadx.core.dex.visitors.ConstructorVisitor.replaceInvoke(ConstructorVisitor.java:56)
+                	at jadx.core.dex.visitors.ConstructorVisitor.visit(ConstructorVisitor.java:42)
+                */
+            @Override // com.aspose.slides.internal.p332p7.AbstractC7361bz.k4
+            /* JADX INFO: renamed from: k4 */
+            public boolean mo27882k4(
+            /*  JADX ERROR: IllegalArgumentException in pass: ConstructorVisitor
+                java.lang.IllegalArgumentException: Illegal Capacity: -1
+                	at java.base/java.util.ArrayList.<init>(ArrayList.java:160)
+                	at jadx.core.dex.nodes.InsnNode.<init>(InsnNode.java:36)
+                	at jadx.core.dex.instructions.BaseInvokeNode.<init>(BaseInvokeNode.java:11)
+                	at jadx.core.dex.instructions.mods.ConstructorInsn.<init>(ConstructorInsn.java:32)
+                	at jadx.core.dex.visitors.ConstructorVisitor.processInvoke(ConstructorVisitor.java:76)
+                	at jadx.core.dex.visitors.ConstructorVisitor.replaceInvoke(ConstructorVisitor.java:56)
+                */
+            /*  JADX ERROR: Method generation error
+                jadx.core.utils.exceptions.JadxRuntimeException: Code variable not set in r6v0 ??
+                	at jadx.core.dex.instructions.args.SSAVar.getCodeVar(SSAVar.java:236)
+                	at jadx.core.codegen.MethodGen.addMethodArguments(MethodGen.java:224)
+                	at jadx.core.codegen.MethodGen.addDefinition(MethodGen.java:169)
+                	at jadx.core.codegen.ClassGen.addMethodCode(ClassGen.java:407)
+                	at jadx.core.codegen.ClassGen.addMethod(ClassGen.java:337)
+                	at jadx.core.codegen.ClassGen.lambda$addInnerClsAndMethods$3(ClassGen.java:303)
+                	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+                	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+                	at java.base/java.util.stream.SortedOps$RefSortingSink.end(SortedOps.java:395)
+                	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:261)
+                */
+        });
+        AbstractC7361bz.m29298x1(abstractC13912i5);
+    }
+
+    /* JADX INFO: renamed from: k4 */
+    public static /* synthetic */ float m27874k4(C7204a0 c7204a0, float f) {
+        c7204a0.f19785k4 = f;
+        return f;
+    }
+
+    /* JADX INFO: renamed from: x1 */
+    public static /* synthetic */ float m27877x1(C7204a0 c7204a0, float f) {
+        c7204a0.f19786x1 = f;
+        return f;
+    }
+
+    /* JADX INFO: renamed from: k4 */
+    public final void m27879k4(float f) {
+        this.f19785k4 = f;
+    }
+
+    /* JADX INFO: renamed from: x1 */
+    public final void m27881x1(float f) {
+        this.f19786x1 = f;
+    }
+
+    @Override // com.aspose.slides.internal.p332p7.AbstractC7361bz
+    /* JADX INFO: renamed from: k4 */
+    public void mo6846k4(String str, C3059ii c3059ii, String str2) {
+        c3059ii.mo12953k4(str, str2, (String) null);
+        if (c3059ii.f9089k4) {
+            c3059ii.m12955x1("d", C14113y2.m67408k4(C13850af.m65102k4(this.f19785k4), "%"));
+        } else {
+            OooO00o.OooO00o(this.f19785k4 * 1000.0f, 14, c3059ii, "d");
+        }
+        if (c3059ii.f9089k4) {
+            c3059ii.m12955x1("sp", C14113y2.m67408k4(C13850af.m65102k4(this.f19786x1), "%"));
+        } else {
+            OooO00o.OooO00o(this.f19786x1 * 1000.0f, 14, c3059ii, "sp");
+        }
+        c3059ii.mo21898jd();
+    }
+}

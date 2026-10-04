@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/creativeLibraryNavGraph" app:startDestination="@id/creativeLibraryListFragment"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:label="@string/creative_library_title" android:name="com.orion.notein.ui.creative_library.CreativeLibraryListFragment" android:id="@id/creativeLibraryListFragment">
+        <argument android:name="mode" android:defaultValue="DEFAULT" app:argType="string" />
+        <action android:id="@id/action_creativeLibraryListFragment_to_creativeLibraryDetailFragment" app:destination="@id/creativeLibraryDetailFragment" />
+        <action android:id="@id/action_creativeLibraryListFragment_to_downloadedMaterialListFragment" app:destination="@id/downloadedMaterialListFragment" />
+        <action android:id="@id/action_creativeLibraryListFragment_to_creativeLibrarySearchFragment" app:destination="@id/creativeLibrarySearchFragment" />
+        <action android:id="@id/action_creativeLibraryListFragment_to_paperConfigDialogFragment" app:destination="@id/paperConfigDialogFragment" />
+    </fragment>
+    <fragment android:label="@string/creative_library_downloaded_title" android:name="com.orion.notein.ui.creative_library.DownloadedMaterialListFragment" android:id="@id/downloadedMaterialListFragment">
+        <action android:id="@id/action_downloadedMaterialListFragment_to_creativeLibraryDetailFragment" app:destination="@id/creativeLibraryDetailFragment" />
+        <action android:id="@id/action_downloadedMaterialListFragment_to_creativeLibrarySearchFragment" app:destination="@id/creativeLibrarySearchFragment" />
+        <action android:id="@id/action_downloadedMaterialListFragment_to_paperConfigDialogFragment" app:destination="@id/paperConfigDialogFragment" />
+    </fragment>
+    <fragment android:label="@string/creative_library_title" android:name="com.orion.notein.ui.creative_library.CreativeLibraryDetailFragment" android:id="@id/creativeLibraryDetailFragment">
+        <argument android:name="materialId" app:argType="string" />
+        <argument android:name="source" android:defaultValue="@null" app:argType="string" app:nullable="true" />
+        <action android:id="@id/action_creativeLibraryDetailFragment_to_creatorProfileFragment" app:destination="@id/creatorProfileFragment" />
+        <action android:id="@id/action_creativeLibraryDetailFragment_self" app:destination="@id/creativeLibraryDetailFragment" />
+    </fragment>
+    <fragment android:label="@string/creative_library_creator_profile_title" android:name="com.orion.notein.ui.creative_library.CreatorProfileFragment" android:id="@id/creatorProfileFragment">
+        <argument android:name="creatorId" app:argType="string" />
+        <action android:id="@id/action_creatorProfileFragment_to_creativeLibraryDetailFragment" app:destination="@id/creativeLibraryDetailFragment" />
+    </fragment>
+    <fragment android:label="@string/creative_library_action_search" android:name="com.orion.notein.ui.creative_library.CreativeLibrarySearchFragment" android:id="@id/creativeLibrarySearchFragment">
+        <argument android:name="searchMode" app:argType="string" />
+        <action android:id="@id/action_creativeLibrarySearchFragment_to_creativeLibraryDetailFragment" app:destination="@id/creativeLibraryDetailFragment" />
+        <action android:id="@id/action_creativeLibrarySearchFragment_to_paperConfigDialogFragment" app:destination="@id/paperConfigDialogFragment" />
+    </fragment>
+    <dialog android:label="MaterialPurchaseBottomSheet" android:name="com.orion.notein.ui.creative_library.purchase.MaterialPurchaseBottomSheet" android:id="@id/materialPurchaseBottomSheet">
+        <argument android:name="materialId" app:argType="string" />
+        <argument android:name="materialTitle" app:argType="string" />
+        <argument android:name="priceCents" app:argType="integer" />
+    </dialog>
+    <dialog android:label="MaterialPurchaseDialog" android:name="com.orion.notein.ui.creative_library.purchase.MaterialPurchaseDialogFragment" android:id="@id/materialPurchaseDialog">
+        <argument android:name="materialId" app:argType="string" />
+        <argument android:name="materialTitle" app:argType="string" />
+        <argument android:name="priceCents" app:argType="integer" />
+    </dialog>
+</navigation>

@@ -1,0 +1,6 @@
+package com.aspose.words.internal;
+
+/* JADX INFO: loaded from: classes5.dex */
+abstract class zzUV {
+    public abstract void zzZ(int i, zzDB zzdb);
+}

@@ -1,0 +1,24 @@
+﻿using System.ComponentModel;
+
+using Xamarin.Forms;
+
+namespace {Namespace}
+{
+    // Learn more about making custom code visible in the Xamarin.Forms previewer
+    // by visiting https://aka.ms/xamarinforms-previewer
+    [DesignTimeVisible(false)]
+    public partial class {ClassName} : ContentPage
+    {
+        public {ClassName}()
+        {
+            InitializeComponent();
+            
+            NavigationPage.SetHasNavigationBar(this, false);
+        }
+        
+        protected override bool OnBackButtonPressed()
+        {
+            return false;
+        }
+    }
+}

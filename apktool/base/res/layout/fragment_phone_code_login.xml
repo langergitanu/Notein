@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:scrollbarThumbVertical="@drawable/scrollbar_thumb_vertical" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/ll_phone_login" android:paddingBottom="32.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="16.0dp">
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/cl_header" android:layout_width="0.0dp" android:layout_height="68.0dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+            <ImageView android:id="@id/logo" android:layout_width="52.0dp" android:layout_height="52.0dp" android:src="@drawable/ic_logo_new" android:contentDescription="@null" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+            <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:id="@id/ll_switch_mode" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="@id/logo" app:layout_constraintEnd_toEndOf="parent">
+                <TextView android:textSize="14.0sp" android:textColor="@color/notein_accent_blue" android:id="@id/tv_by_code" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/login_by_verify_code" android:fontFamily="sans-serif-medium" />
+                <View android:background="@color/notein_base_black_87" android:layout_width="1.0dp" android:layout_height="18.0dp" android:layout_marginHorizontal="8.0dp" />
+                <TextView android:textSize="14.0sp" android:textColor="@color/notein_base_black_87" android:id="@id/tv_password_login" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/login_by_password" android:fontFamily="sans-serif-medium" />
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <com.orion.niui.components.textinput.LabeledTextFieldView android:id="@id/verification_code_field" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dp" app:labeledTextFieldCountryCode="+86" app:labeledTextFieldLabel="@string/enter_verification_code" app:labeledTextFieldMaxLength="6" app:labeledTextFieldMode="number" app:labeledTextFieldSupportingText="@string/verification_code_sent" app:layout_constraintTop_toBottomOf="@id/cl_header" />
+        <com.orion.niui.components.button.TextButtonView android:id="@id/btn_login" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_marginTop="16.0dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/verification_code_field" app:textButtonFontSize="@dimen/text_button_font_size" app:textButtonHeight="@dimen/text_button_height" app:textButtonText="@string/login" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

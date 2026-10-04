@@ -1,0 +1,72 @@
+[
+  {
+    "family": "Caveat",
+    "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/caveat/Caveat%5Bwght%5D.ttf",
+    "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/caveat/OFL.txt",
+    "sha256": "0bdb6b660482d31531b3945849fba5916b3ef8695da7024a9e6b9ee3c4157988",
+    "size": 403648
+  },
+  {
+    "family": "Caveat Brush",
+    "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/caveatbrush/CaveatBrush-Regular.ttf",
+    "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/caveatbrush/OFL.txt",
+    "sha256": "e565bd7bffd895ca64f8d1cb77c816b9b38d9c010246386a07c9648592f6f282",
+    "size": 295568
+  },
+  {
+    "family": "Dancing Script",
+    "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/dancingscript/DancingScript%5Bwght%5D.ttf",
+    "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/dancingscript/OFL.txt",
+    "sha256": "21808625578fe8d8cd10cb684be546dca077b27cd03a53a2f1ec11dc743c924c",
+    "size": 133636
+  },
+  {
+    "family": "Edu AU VIC WA NT Hand",
+    "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/eduauvicwanthand/EduAUVICWANTHand%5Bwght%5D.ttf",
+    "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/eduauvicwanthand/OFL.txt",
+    "sha256": "973361e9e538dda39584b3c259e50b1d511a7a9f2ebe46c85b40066126ee6ebc",
+    "size": 1286308
+  },
+  {
+    "family": "Great Vibes",
+    "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/greatvibes/GreatVibes-Regular.ttf",
+    "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/greatvibes/OFL.txt",
+    "sha256": "8d509802186f1b51572531ecf313e8098f9a5bfdfaca93f0c9b34467f9982d15",
+    "size": 457588
+  },
+  {
+    "family": "Kalam",
+    "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/kalam/Kalam-Regular.ttf",
+    "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/kalam/OFL.txt",
+    "sha256": "57cecb63d4608019371954274ae1d8c397764debd5b19d4a33c1efa4dc923c0b",
+    "size": 427360
+  },
+  {
+    "family": "Pacifico",
+    "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/pacifico/Pacifico-Regular.ttf",
+    "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/pacifico/OFL.txt",
+    "sha256": "5b6c0d5334a7bf77dea52b975c5a0c408878c0f7115ed5b6fb151f634b7bf701",
+    "size": 329380
+  },
+  {
+    "family": "Patrick Hand",
+    "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/patrickhand/PatrickHand-Regular.ttf",
+    "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/patrickhand/OFL.txt",
+    "sha256": "0f173b3e6cb6d1af25babf7f0057c5ac4ee11f9992b0469bb817e967ef4ad0fc",
+    "size": 214772
+  },
+  {
+    "family": "Playwrite US Modern",
+    "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/playwriteusmodern/PlaywriteUSModern%5Bwght%5D.ttf",
+    "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/playwriteusmodern/OFL.txt",
+    "sha256": "1352219a8867e04e25727ec63d35621d704b627a7eb5bf27d7d6f7974e1d3b2d",
+    "size": 340744
+  },
+  {
+    "family": "Playwrite US Trad",
+    "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/playwriteustrad/PlaywriteUSTrad%5Bwght%5D.ttf",
+    "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/playwriteustrad/OFL.txt",
+    "sha256": "6f2b0ba3c262a4d23bc06ea78ff5eccd45ebf324635d81bac25165eb2a2f1960",
+    "size": 343296
+  }
+]

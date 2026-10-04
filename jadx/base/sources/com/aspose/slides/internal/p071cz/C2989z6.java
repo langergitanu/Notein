@@ -1,0 +1,26 @@
+package com.aspose.slides.internal.p071cz;
+
+import com.aspose.slides.internal.p071cz.AbstractC2770ix;
+
+/* JADX INFO: renamed from: com.aspose.slides.internal.cz.z6 */
+/* JADX INFO: loaded from: classes3.dex */
+public class C2989z6 extends AbstractC2665b2 {
+    public C2989z6(C2891s1 c2891s1) {
+        super(c2891s1);
+    }
+
+    @Override // com.aspose.slides.internal.p071cz.AbstractC2665b2
+    /* JADX INFO: renamed from: k4 */
+    public C2695dc mo12112k4() {
+        C2695dc c2695dc = new C2695dc(m12213h4());
+        c2695dc.m12194k4(m12213h4().m12521x1().m12482k4(), m12213h4().m12521x1().m12484x1(), 5, false, true);
+        c2695dc.m12190du(0.0d, m12213h4().m12521x1().m12484x1());
+        c2695dc.m12191h4(m12213h4().m12521x1().m12482k4(), 0.0d);
+        return c2695dc;
+    }
+
+    @Override // com.aspose.slides.internal.p071cz.AbstractC2770ix
+    /* JADX INFO: renamed from: k4 */
+    public void mo12113k4(AbstractC2770ix.x1 x1Var) {
+    }
+}

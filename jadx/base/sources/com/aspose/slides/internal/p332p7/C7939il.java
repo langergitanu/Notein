@@ -1,0 +1,529 @@
+package com.aspose.slides.internal.p332p7;
+
+import androidx.core.text.util.LocalePreferences;
+import com.aspose.slides.Collections.Generic.List;
+import com.aspose.slides.exceptions.Exception;
+import com.aspose.slides.internal.p077d8.C3059ii;
+import com.aspose.slides.internal.p314oc.C7017h4;
+import com.aspose.slides.internal.p314oc.C7019kk;
+import com.aspose.slides.internal.p332p7.AbstractC7361bz;
+import com.aspose.slides.p559ms.System.C14113y2;
+import com.aspose.slides.p559ms.System.C14114y9;
+import com.aspose.slides.p559ms.System.IDisposable;
+import com.aspose.slides.p559ms.System.Xml.AbstractC13912i5;
+import java.util.Iterator;
+
+/* JADX INFO: renamed from: com.aspose.slides.internal.p7.il */
+/* JADX INFO: loaded from: classes4.dex */
+public class C7939il extends AbstractC7361bz {
+
+    /* JADX INFO: renamed from: to */
+    private static final C7017h4 f24739to = new C7017h4("val", "lastClr", "tint", "shade", "comp", "inv", "gray", "alpha", "alphaOff", "alphaMod", "hue", "hueOff", "hueMod", LocalePreferences.FirstDayOfWeek.SATURDAY, "satOff", "satMod", "lum", "lumOff", "lumMod", "red", "redOff", "redMod", "green", "greenOff", "greenMod", "blue", "blueOff", "blueMod", "gamma", "invGamma");
+
+    /* JADX INFO: renamed from: k4 */
+    private int f24740k4;
+
+    /* JADX INFO: renamed from: kk */
+    private List<C7394ca> f24741kk;
+
+    /* JADX INFO: renamed from: x1 */
+    private long f24742x1;
+
+    public C7939il() {
+        m34196du();
+    }
+
+    /* JADX INFO: renamed from: du */
+    private void m34196du() {
+        this.f24740k4 = 0;
+        this.f24742x1 = 4294967295L;
+        this.f24741kk = new List<>();
+    }
+
+    /* JADX INFO: renamed from: k4 */
+    public final int m34201k4() {
+        return this.f24740k4;
+    }
+
+    /* JADX INFO: renamed from: kk */
+    public final List<C7394ca> m34205kk() {
+        return this.f24741kk;
+    }
+
+    /* JADX INFO: renamed from: x1 */
+    public final long m34206x1() {
+        return this.f24742x1;
+    }
+
+    public C7939il(final AbstractC13912i5 abstractC13912i5) {
+        m34196du();
+        AbstractC7361bz.m29289k4(abstractC13912i5, new AbstractC7361bz.k4() { // from class: com.aspose.slides.internal.p7.il.1
+            @Override // com.aspose.slides.internal.p332p7.AbstractC7361bz.k4
+            /* JADX INFO: renamed from: k4 */
+            public boolean mo27882k4(String str, String str2) {
+                int iM27428k4 = C7939il.f24739to.m27428k4(str);
+                if (iM27428k4 == 0) {
+                    C7939il.this.f24740k4 = C8349nk.m37586k4(str2);
+                    return true;
+                }
+                if (iM27428k4 != 1) {
+                    return false;
+                }
+                C7939il.this.f24742x1 = AbstractC7361bz.m29299x6(str2);
+                return true;
+            }
+        });
+        AbstractC7361bz.m29290k4(abstractC13912i5, new AbstractC7361bz.kk() { // from class: com.aspose.slides.internal.p7.il.2
+            @Override // com.aspose.slides.internal.p332p7.AbstractC7361bz.kk
+            /* JADX INFO: renamed from: k4 */
+            public boolean mo27887k4(AbstractC13912i5 abstractC13912i52) {
+                C8082kf c8082kf;
+                List list;
+                String str;
+                List list2;
+                C7394ca c7394ca;
+                List list3;
+                C7394ca c7394ca2;
+                switch (C7939il.f24739to.m27428k4(abstractC13912i5.mo65023fa())) {
+                    case 2:
+                        c8082kf = new C8082kf(abstractC13912i5);
+                        list = C7939il.this.f24741kk;
+                        str = "tint";
+                        OooOOO0.OooO00o(str, c8082kf, list);
+                        return true;
+                    case 3:
+                        c8082kf = new C8082kf(abstractC13912i5);
+                        list = C7939il.this.f24741kk;
+                        str = "shade";
+                        OooOOO0.OooO00o(str, c8082kf, list);
+                        return true;
+                    case 4:
+                        C7882hu c7882hu = new C7882hu(abstractC13912i5);
+                        list2 = C7939il.this.f24741kk;
+                        c7394ca = new C7394ca("comp", c7882hu);
+                        list2.addItem(c7394ca);
+                        return true;
+                    case 5:
+                        C7916i9 c7916i9 = new C7916i9(abstractC13912i5);
+                        list2 = C7939il.this.f24741kk;
+                        c7394ca = new C7394ca("inv", c7916i9);
+                        list2.addItem(c7394ca);
+                        return true;
+                    case 6:
+                        C8162l6 c8162l6 = new C8162l6(abstractC13912i5);
+                        list2 = C7939il.this.f24741kk;
+                        c7394ca = new C7394ca("gray", c8162l6);
+                        list2.addItem(c7394ca);
+                        return true;
+                    case 7:
+                        c8082kf = new C8082kf(abstractC13912i5);
+                        list = C7939il.this.f24741kk;
+                        str = "alpha";
+                        OooOOO0.OooO00o(str, c8082kf, list);
+                        return true;
+                    case 8:
+                        c8082kf = new C8082kf(abstractC13912i5);
+                        list = C7939il.this.f24741kk;
+                        str = "alphaOff";
+                        OooOOO0.OooO00o(str, c8082kf, list);
+                        return true;
+                    case 9:
+                        c8082kf = new C8082kf(abstractC13912i5);
+                        list = C7939il.this.f24741kk;
+                        str = "alphaMod";
+                        OooOOO0.OooO00o(str, c8082kf, list);
+                        return true;
+                    case 10:
+                        C7608ev c7608ev = new C7608ev(abstractC13912i5);
+                        list2 = C7939il.this.f24741kk;
+                        c7394ca = new C7394ca("hue", c7608ev);
+                        list2.addItem(c7394ca);
+                        return true;
+                    case 11:
+                        C7608ev c7608ev2 = new C7608ev(abstractC13912i5);
+                        list2 = C7939il.this.f24741kk;
+                        c7394ca = new C7394ca("hueOff", c7608ev2);
+                        list2.addItem(c7394ca);
+                        return true;
+                    case 12:
+                        c8082kf = new C8082kf(abstractC13912i5);
+                        list = C7939il.this.f24741kk;
+                        str = "hueMod";
+                        OooOOO0.OooO00o(str, c8082kf, list);
+                        return true;
+                    case 13:
+                        c8082kf = new C8082kf(abstractC13912i5);
+                        list = C7939il.this.f24741kk;
+                        str = LocalePreferences.FirstDayOfWeek.SATURDAY;
+                        OooOOO0.OooO00o(str, c8082kf, list);
+                        return true;
+                    case 14:
+                        c8082kf = new C8082kf(abstractC13912i5);
+                        list = C7939il.this.f24741kk;
+                        str = "satOff";
+                        OooOOO0.OooO00o(str, c8082kf, list);
+                        return true;
+                    case 15:
+                        c8082kf = new C8082kf(abstractC13912i5);
+                        list = C7939il.this.f24741kk;
+                        str = "satMod";
+                        OooOOO0.OooO00o(str, c8082kf, list);
+                        return true;
+                    case 16:
+                        c8082kf = new C8082kf(abstractC13912i5);
+                        list = C7939il.this.f24741kk;
+                        str = "lum";
+                        OooOOO0.OooO00o(str, c8082kf, list);
+                        return true;
+                    case 17:
+                        c8082kf = new C8082kf(abstractC13912i5);
+                        list = C7939il.this.f24741kk;
+                        str = "lumOff";
+                        OooOOO0.OooO00o(str, c8082kf, list);
+                        return true;
+                    case 18:
+                        c8082kf = new C8082kf(abstractC13912i5);
+                        list = C7939il.this.f24741kk;
+                        str = "lumMod";
+                        OooOOO0.OooO00o(str, c8082kf, list);
+                        return true;
+                    case 19:
+                        c8082kf = new C8082kf(abstractC13912i5);
+                        list = C7939il.this.f24741kk;
+                        str = "red";
+                        OooOOO0.OooO00o(str, c8082kf, list);
+                        return true;
+                    case 20:
+                        c8082kf = new C8082kf(abstractC13912i5);
+                        list = C7939il.this.f24741kk;
+                        str = "redOff";
+                        OooOOO0.OooO00o(str, c8082kf, list);
+                        return true;
+                    case 21:
+                        c8082kf = new C8082kf(abstractC13912i5);
+                        list = C7939il.this.f24741kk;
+                        str = "redMod";
+                        OooOOO0.OooO00o(str, c8082kf, list);
+                        return true;
+                    case 22:
+                        c8082kf = new C8082kf(abstractC13912i5);
+                        list = C7939il.this.f24741kk;
+                        str = "green";
+                        OooOOO0.OooO00o(str, c8082kf, list);
+                        return true;
+                    case 23:
+                        c8082kf = new C8082kf(abstractC13912i5);
+                        list = C7939il.this.f24741kk;
+                        str = "greenOff";
+                        OooOOO0.OooO00o(str, c8082kf, list);
+                        return true;
+                    case 24:
+                        c8082kf = new C8082kf(abstractC13912i5);
+                        list = C7939il.this.f24741kk;
+                        str = "greenMod";
+                        OooOOO0.OooO00o(str, c8082kf, list);
+                        return true;
+                    case 25:
+                        c8082kf = new C8082kf(abstractC13912i5);
+                        list = C7939il.this.f24741kk;
+                        str = "blue";
+                        OooOOO0.OooO00o(str, c8082kf, list);
+                        return true;
+                    case 26:
+                        c8082kf = new C8082kf(abstractC13912i5);
+                        list = C7939il.this.f24741kk;
+                        str = "blueOff";
+                        OooOOO0.OooO00o(str, c8082kf, list);
+                        return true;
+                    case 27:
+                        c8082kf = new C8082kf(abstractC13912i5);
+                        list = C7939il.this.f24741kk;
+                        str = "blueMod";
+                        OooOOO0.OooO00o(str, c8082kf, list);
+                        return true;
+                    case 28:
+                        C8595qc c8595qc = new C8595qc(abstractC13912i5);
+                        list3 = C7939il.this.f24741kk;
+                        c7394ca2 = new C7394ca("gamma", c8595qc);
+                        list3.addItem(c7394ca2);
+                        return true;
+                    case 29:
+                        C7544eb c7544eb = new C7544eb(abstractC13912i5);
+                        list3 = C7939il.this.f24741kk;
+                        c7394ca2 = new C7394ca("invGamma", c7544eb);
+                        list3.addItem(c7394ca2);
+                        return true;
+                    default:
+                        return false;
+                }
+            }
+        });
+    }
+
+    /* JADX INFO: renamed from: k4 */
+    public final C7394ca m34202k4(String str) {
+        C7394ca c7394ca;
+        switch (f24739to.m27428k4(str)) {
+            case 2:
+                c7394ca = new C7394ca("tint", new C8082kf());
+                break;
+            case 3:
+                c7394ca = new C7394ca("shade", new C8082kf());
+                break;
+            case 4:
+                c7394ca = new C7394ca("comp", new C7882hu());
+                break;
+            case 5:
+                c7394ca = new C7394ca("inv", new C7916i9());
+                break;
+            case 6:
+                c7394ca = new C7394ca("gray", new C8162l6());
+                break;
+            case 7:
+                c7394ca = new C7394ca("alpha", new C8082kf());
+                break;
+            case 8:
+                c7394ca = new C7394ca("alphaOff", new C8082kf());
+                break;
+            case 9:
+                c7394ca = new C7394ca("alphaMod", new C8082kf());
+                break;
+            case 10:
+                c7394ca = new C7394ca("hue", new C7608ev());
+                break;
+            case 11:
+                c7394ca = new C7394ca("hueOff", new C7608ev());
+                break;
+            case 12:
+                c7394ca = new C7394ca("hueMod", new C8082kf());
+                break;
+            case 13:
+                c7394ca = new C7394ca(LocalePreferences.FirstDayOfWeek.SATURDAY, new C8082kf());
+                break;
+            case 14:
+                c7394ca = new C7394ca("satOff", new C8082kf());
+                break;
+            case 15:
+                c7394ca = new C7394ca("satMod", new C8082kf());
+                break;
+            case 16:
+                c7394ca = new C7394ca("lum", new C8082kf());
+                break;
+            case 17:
+                c7394ca = new C7394ca("lumOff", new C8082kf());
+                break;
+            case 18:
+                c7394ca = new C7394ca("lumMod", new C8082kf());
+                break;
+            case 19:
+                c7394ca = new C7394ca("red", new C8082kf());
+                break;
+            case 20:
+                c7394ca = new C7394ca("redOff", new C8082kf());
+                break;
+            case 21:
+                c7394ca = new C7394ca("redMod", new C8082kf());
+                break;
+            case 22:
+                c7394ca = new C7394ca("green", new C8082kf());
+                break;
+            case 23:
+                c7394ca = new C7394ca("greenOff", new C8082kf());
+                break;
+            case 24:
+                c7394ca = new C7394ca("greenMod", new C8082kf());
+                break;
+            case 25:
+                c7394ca = new C7394ca("blue", new C8082kf());
+                break;
+            case 26:
+                c7394ca = new C7394ca("blueOff", new C8082kf());
+                break;
+            case 27:
+                c7394ca = new C7394ca("blueMod", new C8082kf());
+                break;
+            case 28:
+                c7394ca = new C7394ca("gamma", new C8595qc());
+                break;
+            case 29:
+                c7394ca = new C7394ca("invGamma", new C7544eb());
+                break;
+            default:
+                throw new Exception(C14113y2.m67408k4("Wrong element: ", str));
+        }
+        this.f24741kk.addItem(c7394ca);
+        return c7394ca;
+    }
+
+    /* JADX INFO: renamed from: k4 */
+    public final void m34203k4(int i) {
+        this.f24740k4 = i;
+    }
+
+    /* JADX INFO: renamed from: k4 */
+    public final void m34204k4(long j) {
+        this.f24742x1 = j;
+    }
+
+    @Override // com.aspose.slides.internal.p332p7.AbstractC7361bz
+    /* JADX INFO: renamed from: k4 */
+    public void mo6846k4(String str, C3059ii c3059ii, String str2) {
+        C8082kf c8082kf;
+        String strM29539k4;
+        C7608ev c7608ev;
+        String strM29539k42;
+        c3059ii.mo12953k4(str, str2, (String) null);
+        c3059ii.m12955x1("val", C8349nk.m37587k4(this.f24740k4));
+        long j = this.f24742x1;
+        if ((j & 4294967295L) != 4294967295L) {
+            c3059ii.m12955x1("lastClr", C14114y9.m67460k4(j & 16777215, "X6"));
+        }
+        List.Enumerator<C7394ca> it = this.f24741kk.iterator();
+        while (it.hasNext()) {
+            try {
+                C7394ca next = it.next();
+                switch (f24739to.m27428k4(next.m29539k4())) {
+                    case 2:
+                        c8082kf = (C8082kf) next.m29541kk();
+                        strM29539k4 = next.m29539k4();
+                        c8082kf.mo6846k4("a", c3059ii, strM29539k4);
+                        break;
+                    case 3:
+                        c8082kf = (C8082kf) next.m29541kk();
+                        strM29539k4 = next.m29539k4();
+                        c8082kf.mo6846k4("a", c3059ii, strM29539k4);
+                        break;
+                    case 4:
+                        ((C7882hu) next.m29541kk()).mo6846k4("a", c3059ii, next.m29539k4());
+                        break;
+                    case 5:
+                        ((C7916i9) next.m29541kk()).mo6846k4("a", c3059ii, next.m29539k4());
+                        break;
+                    case 6:
+                        ((C8162l6) next.m29541kk()).mo6846k4("a", c3059ii, next.m29539k4());
+                        break;
+                    case 7:
+                        c8082kf = (C8082kf) next.m29541kk();
+                        strM29539k4 = next.m29539k4();
+                        c8082kf.mo6846k4("a", c3059ii, strM29539k4);
+                        break;
+                    case 8:
+                        c8082kf = (C8082kf) next.m29541kk();
+                        strM29539k4 = next.m29539k4();
+                        c8082kf.mo6846k4("a", c3059ii, strM29539k4);
+                        break;
+                    case 9:
+                        c8082kf = (C8082kf) next.m29541kk();
+                        strM29539k4 = next.m29539k4();
+                        c8082kf.mo6846k4("a", c3059ii, strM29539k4);
+                        break;
+                    case 10:
+                        c7608ev = (C7608ev) next.m29541kk();
+                        strM29539k42 = next.m29539k4();
+                        c7608ev.mo6846k4("a", c3059ii, strM29539k42);
+                        break;
+                    case 11:
+                        c7608ev = (C7608ev) next.m29541kk();
+                        strM29539k42 = next.m29539k4();
+                        c7608ev.mo6846k4("a", c3059ii, strM29539k42);
+                        break;
+                    case 12:
+                        c8082kf = (C8082kf) next.m29541kk();
+                        strM29539k4 = next.m29539k4();
+                        c8082kf.mo6846k4("a", c3059ii, strM29539k4);
+                        break;
+                    case 13:
+                        c8082kf = (C8082kf) next.m29541kk();
+                        strM29539k4 = next.m29539k4();
+                        c8082kf.mo6846k4("a", c3059ii, strM29539k4);
+                        break;
+                    case 14:
+                        c8082kf = (C8082kf) next.m29541kk();
+                        strM29539k4 = next.m29539k4();
+                        c8082kf.mo6846k4("a", c3059ii, strM29539k4);
+                        break;
+                    case 15:
+                        c8082kf = (C8082kf) next.m29541kk();
+                        strM29539k4 = next.m29539k4();
+                        c8082kf.mo6846k4("a", c3059ii, strM29539k4);
+                        break;
+                    case 16:
+                        c8082kf = (C8082kf) next.m29541kk();
+                        strM29539k4 = next.m29539k4();
+                        c8082kf.mo6846k4("a", c3059ii, strM29539k4);
+                        break;
+                    case 17:
+                        c8082kf = (C8082kf) next.m29541kk();
+                        strM29539k4 = next.m29539k4();
+                        c8082kf.mo6846k4("a", c3059ii, strM29539k4);
+                        break;
+                    case 18:
+                        c8082kf = (C8082kf) next.m29541kk();
+                        strM29539k4 = next.m29539k4();
+                        c8082kf.mo6846k4("a", c3059ii, strM29539k4);
+                        break;
+                    case 19:
+                        c8082kf = (C8082kf) next.m29541kk();
+                        strM29539k4 = next.m29539k4();
+                        c8082kf.mo6846k4("a", c3059ii, strM29539k4);
+                        break;
+                    case 20:
+                        c8082kf = (C8082kf) next.m29541kk();
+                        strM29539k4 = next.m29539k4();
+                        c8082kf.mo6846k4("a", c3059ii, strM29539k4);
+                        break;
+                    case 21:
+                        c8082kf = (C8082kf) next.m29541kk();
+                        strM29539k4 = next.m29539k4();
+                        c8082kf.mo6846k4("a", c3059ii, strM29539k4);
+                        break;
+                    case 22:
+                        c8082kf = (C8082kf) next.m29541kk();
+                        strM29539k4 = next.m29539k4();
+                        c8082kf.mo6846k4("a", c3059ii, strM29539k4);
+                        break;
+                    case 23:
+                        c8082kf = (C8082kf) next.m29541kk();
+                        strM29539k4 = next.m29539k4();
+                        c8082kf.mo6846k4("a", c3059ii, strM29539k4);
+                        break;
+                    case 24:
+                        c8082kf = (C8082kf) next.m29541kk();
+                        strM29539k4 = next.m29539k4();
+                        c8082kf.mo6846k4("a", c3059ii, strM29539k4);
+                        break;
+                    case 25:
+                        c8082kf = (C8082kf) next.m29541kk();
+                        strM29539k4 = next.m29539k4();
+                        c8082kf.mo6846k4("a", c3059ii, strM29539k4);
+                        break;
+                    case 26:
+                        c8082kf = (C8082kf) next.m29541kk();
+                        strM29539k4 = next.m29539k4();
+                        c8082kf.mo6846k4("a", c3059ii, strM29539k4);
+                        break;
+                    case 27:
+                        c8082kf = (C8082kf) next.m29541kk();
+                        strM29539k4 = next.m29539k4();
+                        c8082kf.mo6846k4("a", c3059ii, strM29539k4);
+                        break;
+                    case 28:
+                        ((C8595qc) next.m29541kk()).mo6846k4("a", c3059ii, next.m29539k4());
+                        break;
+                    case 29:
+                        ((C7544eb) next.m29541kk()).mo6846k4("a", c3059ii, next.m29539k4());
+                        break;
+                }
+            } catch (Throwable th) {
+                if (C7019kk.m27456k4((Iterator) it, (Class<IDisposable>) IDisposable.class)) {
+                    it.dispose();
+                }
+                throw th;
+            }
+        }
+        if (C7019kk.m27456k4((Iterator) it, (Class<IDisposable>) IDisposable.class)) {
+            it.dispose();
+        }
+        c3059ii.mo21898jd();
+    }
+}

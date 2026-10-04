@@ -1,0 +1,87 @@
+package com.aspose.words.internal;
+
+/* JADX INFO: loaded from: classes5.dex */
+public interface zzZ8G {
+    public static final zzZDA zzWsA;
+    public static final zzZDA zzWsB;
+    public static final zzZDA zzWsC;
+    public static final zzZDA zzWsD;
+    public static final zzZDA zzWsE;
+    public static final zzZDA zzWsF;
+    public static final zzZDA zzWsG;
+    public static final zzZDA zzWsH;
+    public static final zzZDA zzWsI;
+    public static final zzZDA zzWsJ;
+    public static final zzZDA zzWsK;
+    public static final zzZDA zzWsL;
+    public static final zzZDA zzWsM;
+    public static final zzZDA zzWsN;
+    public static final zzZDA zzWsO;
+    public static final zzZDA zzWsP;
+    public static final zzZDA zzWsQ;
+    public static final zzZDA zzWsR;
+    public static final zzZDA zzWsS;
+    public static final zzZDA zzWsT;
+    public static final zzZDA zzWsU;
+    public static final zzZDA zzWsV;
+    public static final zzZDA zzWsW;
+    public static final zzZDA zzWsX;
+    public static final zzZDA zzWsY;
+    public static final zzZDA zzWsZ;
+    public static final zzZDA zzWsz;
+    public static final zzZDA zzWt0;
+    public static final zzZDA zzWt1;
+    public static final zzZDA zzWt2;
+    public static final zzZDA zzWt3;
+    public static final zzZDA zzWt4;
+    public static final zzZDA zzWt5;
+    public static final zzZDA zzWt6;
+    public static final zzZDA zzWt7;
+    public static final zzZDA zzWt8;
+    public static final zzZDA zzWt9;
+    public static final zzZDA zzWta;
+    public static final zzZDA zzWtb;
+
+    static {
+        zzZDA zzzda = new zzZDA("1.2.804.2.1.1.1");
+        zzWtb = zzzda;
+        zzWta = zzzda.zzwP("1.3.1.1");
+        zzWt9 = zzzda.zzwP("1.3.1.1.1.1");
+        zzWt8 = zzzda.zzwP("1.2.2.1");
+        zzWt7 = zzzda.zzwP("1.2.2.2");
+        zzWt6 = zzzda.zzwP("1.2.2.3");
+        zzWt5 = zzzda.zzwP("1.2.2.4");
+        zzWt4 = zzzda.zzwP("1.2.2.5");
+        zzWt3 = zzzda.zzwP("1.2.2.6");
+        zzWt2 = zzzda.zzwP("1.1.3.1.1");
+        zzWt1 = zzzda.zzwP("1.1.3.1.2");
+        zzWt0 = zzzda.zzwP("1.1.3.1.3");
+        zzWsZ = zzzda.zzwP("1.1.3.2.1");
+        zzWsY = zzzda.zzwP("1.1.3.2.2");
+        zzWsX = zzzda.zzwP("1.1.3.2.3");
+        zzWsW = zzzda.zzwP("1.1.3.3.1");
+        zzWsV = zzzda.zzwP("1.1.3.3.2");
+        zzWsU = zzzda.zzwP("1.1.3.3.3");
+        zzWsT = zzzda.zzwP("1.1.3.4.1");
+        zzWsS = zzzda.zzwP("1.1.3.4.2");
+        zzWsR = zzzda.zzwP("1.1.3.4.3");
+        zzWsQ = zzzda.zzwP("1.1.3.5.1");
+        zzWsP = zzzda.zzwP("1.1.3.5.2");
+        zzWsO = zzzda.zzwP("1.1.3.5.3");
+        zzWsN = zzzda.zzwP("1.1.3.6.1");
+        zzWsM = zzzda.zzwP("1.1.3.6.2");
+        zzWsL = zzzda.zzwP("1.1.3.6.3");
+        zzWsK = zzzda.zzwP("1.1.3.7.1");
+        zzWsJ = zzzda.zzwP("1.1.3.7.2");
+        zzWsI = zzzda.zzwP("1.1.3.7.3");
+        zzWsH = zzzda.zzwP("1.1.3.8.1");
+        zzWsG = zzzda.zzwP("1.1.3.8.2");
+        zzWsF = zzzda.zzwP("1.1.3.8.3");
+        zzWsE = zzzda.zzwP("1.1.3.9.1");
+        zzWsD = zzzda.zzwP("1.1.3.9.2");
+        zzWsC = zzzda.zzwP("1.1.3.9.3");
+        zzWsB = zzzda.zzwP("1.1.3.10.1");
+        zzWsA = zzzda.zzwP("1.1.3.10.2");
+        zzWsz = zzzda.zzwP("1.1.3.10.3");
+    }
+}

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="user_info_content_max_width">680.0dp</dimen>
+    <dimen name="user_info_header_height">156.0dp</dimen>
+    <dimen name="user_info_usage_height">96.0dp</dimen>
+</resources>

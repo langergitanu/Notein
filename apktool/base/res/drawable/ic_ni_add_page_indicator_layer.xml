@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/clip" android:height="36.0dp" android:width="36.0dp" android:top="1.0dp" android:start="1.0dp">
+        <clip android:gravity="bottom" android:clipOrientation="vertical">
+            <shape>
+                <corners android:radius="18.0dp" />
+                <solid android:color="@color/add_page_indicator_progress_color" />
+            </shape>
+        </clip>
+    </item>
+    <item android:id="@id/bg" android:drawable="@drawable/ic_ni_editor_add_page_indicator" />
+</layer-list>

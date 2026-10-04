@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.orion.notein.ui.component.ShadowLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" app:sl_cornerRadius="20.0dp" style="@style/ShadowLayoutElevation1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.fragment.app.FragmentContainerView android:id="@id/move_to_folder_fragment_container" android:background="@color/notein_backgrounds_grouped_secondary" android:layout_width="@dimen/dialog_container_fixed_width" android:layout_height="@dimen/dialog_container_fixed_height" />
+</com.orion.notein.ui.component.ShadowLayout>

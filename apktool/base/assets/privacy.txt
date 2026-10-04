@@ -1,0 +1,474 @@
+﻿Privacy Policy
+
+Notein Privacy Policy
+
+The Notein Privacy Policy (hereinafter referred to as the “Policy”) applies to all services (hereinafter referred to as “Notein Services” or “the Service”) developed or operated by Beijing Orion Information Technology Co., Ltd. (registered address: 3-216J, Floor 2, Building 1, Courtyard 1, No. 35 Shangdi East Road, Haidian District, Beijing) (for personal information protection-related issues: privacy@notein.cn (hereinafter referred to as “We”).
+
+We solemnly promise to protect the personal information and privacy of users who use the Notein services (hereinafter collectively referred to as “users” or “you”). Please read below to learn more about how we collect, use and protect your personal information and data.
+
+[Special tips] Before using the Notein services, please read it carefully (for minors, please read it with your guardian) and confirm that you have fully understood the Policy, especially the contents marked in bold, and make the appropriate choices from your perspective. Once you continue to use these services by clicking “Agree/ Continue/ Next”, it means that you have read and agreed the Policy, and agree that we will collect, use, store, manage and disclose your relevant personal information on the premise of complying with any applicable laws and the Policy.
+
+The Policy will be revised in due course. These revisions constitute a part of the Policy and have the same effect as the Policy. Please read the revised contents of the Policy carefully. If you continue to use our services after the updated Policy takes effect, it means that you have fully read, understood and accepted the updated privacy policy and are willing to be bound by the updated privacy policy. If you do not agree to accept the Policy or any revisions we have made to the Policy, which may result in the failure of the Notein services to operate normally or to achieve the effect of the services we intend to achieve, you should immediately stop accessing/using the Notein services.
+
+Minors are advised to read the Policy accompanied by your guardians, especially the contents regarding the protection of minors.
+
+The Policy includes the following:
+
+I. How do we collect and use your personal information
+
+II. How do we use COOKIES or similar technology
+
+III. How do we share, transfer and disclose personal information
+
+IV. How do we store and protect personal information
+
+V. How to manage your personal information
+
+VI. Third party services
+
+VII. Protection for minors
+
+VIII. Notifications and amendments
+
+IX. How to contact us
+
+X. Others
+
+I. How do we collect and use your personal information
+
+We collect and use your personal information for the purpose, manner and scope stated in the Policy in accordance with the principle of legality, legitimacy and necessity. If we intend to use your personal information for purposes not specified in the Policy, or to use the information collected for specific purposes for other purposes, we will seek your consent by page prompts, interactive processes, website announcements or other reasonable ways according to law. Once you agree, such additional purposes will be regarded as a part of the Policy, and the processing of such additional personal information will also be subject to the Policy.
+
+(a) We will collect and use your personal information through the following ways:
+
+1. Information you have provided on your own initiative. For example, the information you provided to us when you registered Notein account or use the Notein services; the information uploaded and published publicly when you are in use of the Notein services; the information stored when you are in use of the Notein services; Shared information provided by you to third parties through the Notein services, etc.
+
+2. Your information shared with us by third parties. For information about you obtained from a third party that obtained your consent or met the exceptional circumstances stipulated by laws and regulations, we do not need your consent.
+
+3. The information we obtained about you. For example, login information, location information, device information, etc. collected and recorded by us when you are in use of Notein services.
+
+(b) We will collect and use your personal information of the following types for the following purposes:
+
+1. Registration and login account
+
+In order to provide you with continuous and stable services and ensure the security of your use of the Notein services, we need to collect your mobile phone number or email address (provided as soon as available) and create your account, user name and password. If you do not provide the aforementioned information, you will not be able to register, log in the account, or use the note exporting, template importing, backup and other functions in our services. When you use the Notein services for the first time or you only have need to create a few notes, write and other basic functions, you are required to register, log in and provide the aforementioned information.
+
+After registration, you can log into your Notein account through your mobile phone number/email address, and choose whether to perfect your nickname, avatar, surname and password. We will not force you to provide such information.
+
+When you register and create a Notein account, we will verify whether your identity is valid by sending a SMS verification code or email according to the registration means you choose. When you forget your password, the mobile phone number or email address you added to your profile will be used as the way to verify your identity and retrieve your password. In order to better protect the security of your Notein account, if you change your common mobile phone number, we suggest you change it in your profile immediately.
+
+When conducting identity verification and security verification, we will send notification in the form of verification code to the mobile phone number you provided when registration and login, so as to help you complete the verification.
+
+2. For identity authentication
+
+In accordance with the relevant laws and regulations and regulatory requirements, or to meet the needs of users’ identity verification, system and services security and other specific services functions (including note sharing and note commenting), your real identity-related information (such as name, ID card, mobile phone number) and other necessary identity-related information to complete identity authentication are needed. If you do not provide the aforementioned information, we will not be able to provide you with relevant functions and services. For the purpose of identity authentication, you agree and authorize us to provide, inquire and check your aforementioned identity-related information to relevant identity authentication authorities (such as personal credit bureaus, government departments, etc.) on our own or by entrusting a third party. Please note that your identity-related information, biometric information, etc. are personal sensitive information. Please provide them with caution. If you refuse to provide them, you may not be able to enjoy the relevant services, but it will not affect the normal use of other functions and services.
+
+3. Maintain the normal operation of basic functions
+
+During your use of our services, in order to provide you with basic functions such as browsing and searching, identify abnormal account status, understand product adaptability, and ensure the network and operation security of Notein software services, so as to maintain the normal operation of the aforementioned basic functions, we may directly or indirectly collect, store and correlate information about the services you use and how to use them, including:
+
+(1) Log information. When you use our services, we may automatically collect (including receiving and recording in the running-state background) your detailed usage of our services, and save them as relevant network logs. For example, your login account, search query content, IP address, browser type, telecom operator, network environment, language used, access date and time, and your web browsing record, Push-opening record, staying time, refreshing record, release record, collection and sharing.
+
+(2) Device information. We may receive and record (including in the running-state background) the information about the device you use. For example: device model, operating system and version, client version, device resolution, package name, device settings, process and software list, device identifier (SN/MAC/IMEI/Android ID/Android ID/Device Serial Number/IDFA/OAID/OpenUDID/GUID/SIM card IMSI/ICCID information), software and hardware feature information, information about the location of the device (such as IP address, GPS location, WLAN access point, Bluetooth and base station sensor information that can provide relevant information). In order to collect the aforementioned basic personal device information, we will apply for permission to access your device information. We collect the information to provide you with our basic services and basic functions. If you refuse to provide the aforementioned permission, you may not be able to use the Notein services.
+
+(3) Sharing information. When you share notes with your contacts in a third party account (such as WeChat), we will collect the information about the notes you share, including but not limited to: the sharing time of the notes, the number of notes shared, the sharing platform, the amount of shared-notes views, etc., as well as the number and size of links, pictures, PDF and other files in the notes, the number of files marked, and other external data that have been published, so as to help us understand how you use sharing services and provide you with a better use experience; meanwhile, we will confirm the compliance of the shared notes according to relevant laws and regulations.
+
+(4) Location information. We collect the IP address you use to connect with the Notein services, that is, the approximate geographic location information determined by the IP address; after obtaining your authorization for the location device, we will collect the location information of your mobile device. This helps us localize the services, and show you what your account can access based on your location settings.
+
+(5) Other information. Display the non-personal identification information (if applicable) related to you and one of our business partners or promotions, or the source route, access sequence, browser version and other information of each user who use the Notein services.
+
+Please note that separate device information and log information are information that cannot identify a specific natural person. If we combine this kind of non-personal information with other information to identify a specific natural person, or use it with personal information, during the period of combined use, this kind of non-personal information will be regarded as personal information. Unless authorized by you or otherwise stipulated by laws and regulations, we will anonymize and de-identify this kind of personal information. This information will be regarded and protected as your personal information according to the Policy during the period of combined use.
+
+4. To provide you with services.
+
+When you use some individual services, you may need to enable the specific access rights in your device to collect and use the information involved in these rights. Such individual services include but are not limited to:
+
+If we visit your location information, it is to associate the location information with Bluetooth for scanning and connecting to nearby printers or stylus devices;
+
+If we visit your camera, it is to enable you to use the camera to take pictures, scan QR codes or use the document scanning function, as well as to use pictures to generate notes and insert pictures into the notes.
+
+If we visit your photo album, it is to enable you to access and upload photos, pictures or videos on your device, so that you can change your avatar, insert pictures in your notes, and use pictures to generate notes;
+
+If we obtain the list of app installations on your device, it is to enable you to use sharing functions and get a good experience, and to judge whether Google services on your device are available;
+
+If we visit your clipboard, it is to enable you to use copy and paste functions. Your clipboard information will only be processed locally on the device and will not be used for other purposes;
+
+If you allow us to enable the phone permission (Android system), we will read the mobile network information to identify the network status, so as to support the function of “downloading offline cache only when WIFI is connected”;
+
+If you allow us to enable the storage permission, we can obtain your photos, media contents, files and other information. This is for your convenience to store your notes or share your notes at any time;
+
+If you allow us to open the Bluetooth permission, you can connect with relevant smart hardware such as stylus and Notein Notes App through Bluetooth, so that your data can be written and updated on Notein App;
+
+When you use the specific recognition function in the Notein services, we will collect and store your uploaded pictures and text information, and our relevant recognition programs will process and analyze these data and return the corresponding text results;
+
+When you need to turn off any permission, most mobile devices will meet your needs. For specific methods, please refer to or contact your mobile device services provider or manufacturer. When you open any permission, it means that you authorize us to collect and use relevant personal information to provide you with relevant services for you; when you turn off any permission, it means that you have canceled the relevant authorization. We will no longer collect and use your relevant personal information based on this permission, nor will we provide you with the services corresponding to this permission. Please note that your decision and action of turning off the permission will not affect the collection and use of personal information previously based on your authorization.
+
+5.  Provide you with customer services or other user response functions
+
+When you contact our customer service or use other user response functions (such as providing after-sales applications, personal information protection complaints or suggestions, and other customer complaints and demands), we may need you to provide the necessary personal information to match and verify your user identity, so as to ensure the security of your account and system. We may also keep your contact information (other contact information you used when contacted us or provided to us on your own initiative), your communication/call records and contents with us, and other necessary information related to your needs, so as to contact you or help you solve problems, or record solutions and results of relevant problems.
+
+6.  Your personal information we collected indirectly
+
+Based on the Notein services you choose to use, we may obtain relevant information you authorized to share from related parties and third-party partners. For example, when you use an account on a third-party platform to log in to the Notein services (such as WeChat, Huawei account or other application accounts) to create, bind or log in to a Notein account, we will obtain relevant information under the third-party account (including user name, nickname, and avatar, which are subject to your authorization) according to your authorization, and bind your third-party account with your Notein services account after you agree to the Policy, Enables you to log in directly through a third-party account and use the Note services. We will obtain and use your information on the premise that we comply with relevant laws and regulations, agree with related parties or third-party partners, and ensure that the information provided by them is from a legitimate source.
+
+7.  Send you product announcements and software updates information
+
+We may send you such information via email or SMS. You can click the “Unsubscribe” link at the bottom of the email you receive (for email) or reply to the unsubscribe message (for SMS) to exit our software update information. However, even if you have unsubscribed, you will still receive information related to services and account.
+
+8. Provide you with information and promotion of our products or services
+
+Based on the information you provide to us, the information we may collect, and the information we collect about you indirectly (such as browsing and searching information, device information, location information, order information, mobile phone number), we may send you marketing information, user research, help us improve these services, and provide or promote our goods and services through email, SMS or other ways.
+
+9. Provide you with security guarantee
+
+In order to improve the security of your use of these services, protect the personal and property security of you or other users or the public from infringement, and better prevent you from security risks such as phishing website, fraud, network vulnerabilities, computer viruses, network attacks, network intrusion, we may collect, use or integrate your account information, transaction information, device information, log information and personal information authorized by you or shared according to law by our affiliated companies and partners for identity verification, detection and prevention of security incidents, and if necessary, we will take measures, such as recording, auditing, analyzing and managing according to law.
+
+In order to troubleshoot, manage compliance, and provide user support, we may need to access some of your information, such as your account's mobile phone number, your account's email address, the third-party account associated with your account, and the Notein application information you are using.
+
+When you share the notes in your Notein account with your contacts in third-party accounts (such as WeChat and Huawei accounts), you explicitly agree that we will review the contents of your shared notes through automatic system review and necessary manual review, so as to ensure our compliance management of sharing services in accordance with relevant laws, regulations and policies.
+
+You understand and agree that after collecting your personal information, we will de-identify the data through technical means. The de-identified personal information will not be able to identify you. In this case, we have the right to use the de-identified personal information to analyze the user database and make commercial use of it.
+
+10. Exceptions for obtaining authorization
+
+According to relevant laws and regulations, your authorization is not required when we collect your information under the following circumstances:
+
+(1) Directly related to national security and national defense security;
+
+(2) Directly related to public safety, public health and major public interests;
+
+(3) Directly related to criminal investigation, prosecution, trial and judgment execution;
+
+(4) It is difficult to obtain your consent for the purpose of protecting your or other personal life, property and other major legitimate rights and interests;
+
+(5) The personal information collected is disclosed to the public by yourself;
+
+(6) Necessary for signing and performing the contract according to your requirements;
+
+(7) Personal information collected from legally disclosed information, such as legal news reports, government information disclosure and other sources;
+
+(8) Necessary for maintaining the safe and stable operation of Notein software services, such as finding and handling product or services failures;
+
+(9) Necessary for legal news reporting;
+
+(10) When it is necessary to conduct statistics or academic research for the public interest, and the results of the academic research or description are provided to the public, the information contained in the results is de-identified;
+
+(11) Other circumstances stipulated by laws and regulations.
+
+11. Tips on personal sensitive information
+
+Personal sensitive information refers to personal information that, once disclosed, illegally provided or abused, may endanger personal and property safety, and may easily cause damage to personal reputation, physical and mental health or discriminatory treatment. Your information provided by you on your own initiative or collected by us may contain your personal sensitive information, including personal identity information (including ID card, military ID, passport, driver's license, work permit, social security card, residence permit, etc.), personal property information (including transaction and consumption records, transferring records, virtual currency, virtual transaction, exchange code and other virtual property information), address list, friend list, group list, personal tracking, web-browsing records and precise positioning information. Please provide your sensitive personal information with caution.
+
+II. How do we use COOKIES or similar technologies
+
+(1)  COOKIES
+
+We or our third-party partners may obtain and use your information through COOKIES or similar technologies, and store such information as log information.
+
+A COOKIE is a small amount of data that is sent from a web server to your browser and stored on your computer's hard disk. We use COOKIES to benefit its users. For example, to make the login process of the Notein website faster, you can choose to save the user name in COOKIES. This will make it easier and faster to log in to Notein's website services next time. COOKIES can help us determine which pages and content you are connected, the time you spend on specific services on the Notein website, and the Notein website services you choose.
+
+COOKIES allows us to offer you better and faster services. However, you should be able to control whether and how COOKIES are accepted by your browser. Please check the files that come with your browser for more information on this.
+
+We and third-party partners may collect and use your information through COOKIES or similar technologies, and store such information.
+
+We may use our own COOKIES or similar technologies for the following purposes:
+
+1. Remember your identity. For example, COOKIES or similar technologies can help us identify you as our registered user, or save other information you provide to us;
+
+2. Analyze your use of our services. We can use COOKIES or similar technologies to learn about what activities you are using the Notein website services for or which services are the most popular;
+
+You can refuse or manage COOKIES or similar technologies through your browser or user selection mechanism. However, please note that if you disable COOKIES or similar technologies, we may not be able to provide you with the best services experience, and some services may not work properly.
+
+(2)  Website beacon and pixel label
+
+In addition to cookies, we will also use website beacons, pixel tags and other similar technologies on the website. The email we send to you may contain an address link to the content of our website. If you click the link, we will track this click to help us understand your product or services preferences so that we can actively improve the customer services experience. A website beacon is usually a transparent image embedded in a website or email. With the help of the pixel tag in the email, we can know whether the email is opened or not. If you do not want your activities to be tracked in this way, you can unsubscribe it from our mailing list at any time.
+
+III. Personal information that we may share, transfer and disclose
+
+(1)  Sharing
+
+We attach great importance to protecting your personal information. Except for the following circumstances, we will not share your personal information with any third party other than us and our affiliates without your consent:
+
+1. To provide you with our services. We may share your information with partners and other third parties to realize the function of Notein software services to assure your normal use of the services you need. For example, payment institutions providing payment services, partners providing data services (including online advertising monitoring, data statistics and data analysis), and third-party logistics companies;
+
+2. To maintain and improve our services. We may share your personal information with partners and other third parties to help us provide you with better services, such as communication services providers who send email or SMS notifications on our behalf;
+
+3. To achieve other purposes stipulated in the section of “How do we collect and use personal information” of the Policy;
+
+4. To perform our obligations and exercise our rights in the Policy or other agreements we have reached with you;
+
+5. To the extent permitted by laws and regulations, we may exchange information with other companies and organizations in order to comply with laws, protect the interests, property or security of us and our affiliates or partners, you or other Notein software users or the public, for example, to prevent illegal activities such as fraud and reduce credit risk. However, this does not include information that is sold, leased, shared or otherwise disclosed for benefits in violation of the commitments made in the Policy;
+
+6. In accordance with your legitimate needs or with your authorization;
+
+7. To provide your information at the legal request of your guardian;
+
+8. In accordance with the single service agreement that you have reached and signed with us (including the electronic agreement signed online and the corresponding platform rules) or other legal documents;
+
+9. Provided on the basis of academic research;
+
+10. Provided in the basis of social public interest in compliance with laws and regulations.
+
+We will only share your personal information for legal, legitimate, necessary, specific and definite purposes. For companies, organizations and individuals with whom we share personal information, we will sign strict confidentiality agreements with them, requiring them to handle information in accordance with our instructions, the Policy and any other relevant confidentiality and security measures.
+
+(2)  Transfer
+
+1. With the continuous development of our business, we may conduct mergers, acquisitions, asset transfers or similar transactions, and your information may be transferred as part of such transactions. We will require the new company or organization possessing your personal information to continue to be bound by the Policy, otherwise, we will require the company or organization to seek your authorization again.
+
+2. With your explicit consent, we will transfer your personal information to a third party.
+
+(3)  Disclosure
+
+We will disclose your personal information only under the following circumstances and on the premise of taking security measures in compliance with industry standards:
+
+1. According to your needs, disclose the information specified by you in the way you explicitly agreed to disclose;
+
+2. We may disclose your information in accordance with the type of required information and disclosure method if it is necessary to provide your information in accordance with the requirements of laws and regulations, mandatory administrative law enforcement or judicial requirements. On the premise of compliance with laws and regulations, when we receive the aforementioned request for information disclosure, we will require the receiver to issue corresponding legal documents, such as subpoena or letter of investigation. We firmly believe that the information we are required to provide should be as transparent as possible to the extent permitted by law. We have carefully examined all requests to ensure that they have legal basis, and are limited to the data that law enforcement authorities have legal rights to obtain for specific investigation purposes.
+
+ (4)  Exceptions of prior authorization for sharing, transferring or disclosing information
+
+Under the following circumstances, sharing, transferring and disclosing your information does not require your prior authorization:
+
+1. Directly related to national security and national defense security;
+
+2. Directly related to public safety, public health and major public interests;
+
+3. Directly related to judicial or administrative law enforcement such as criminal investigation, prosecution, trial and judgment enforcement;
+
+4. It is difficult to obtain your consent for the purpose of protecting your or other personal life, property and other major legitimate rights and interests;
+
+5. Information you disclose to the public;
+
+6. Information collected from legally disclosed information, such as legal news reports, government information disclosure and other sources;
+
+7. Related to our performance of our obligations stipulated by laws and regulations.
+
+According to the law, sharing, transferring and disclosing personal information that has been de-identified, and ensuring that the data receiver cannot recover and re-identify the information subject, does not belong to the external sharing, transferring and public disclosure of personal information, and the preservation and processing of such data will not be sent to you as a further notice and will not need your consent.
+
+IV.  How do we store and protect personal information
+
+(1)  Storage of personal information
+
+Unless otherwise specified by laws and regulations or regulatory authorities, we will only store your personal information within the shortest time limit necessary for the purposes stated in the Policy. If we terminate the services or operation, we will stop collecting your personal information in time, and meanwhile we will notify you in advance in accordance with relevant laws and regulations, and delete or anonymize your personal information after the termination of the services or operation, unless otherwise specified by laws and regulations or regulatory authorities.
+
+Personal information collected and generated in our operations in the People's Republic of China (PRC) is stored in China, except for the following circumstances:
+
+1. Specified by laws and regulations;
+
+2. After obtaining your authorization and consent;
+
+3. If you use the Notein cross-boarder services, Notein needs to provide your personal information overseas.
+
+For the aforementioned situations, we will ensure that it is implemented in accordance with national laws and regulations and the provisions of relevant regulatory authorities, and provide adequate protection for your personal information.
+
+(2)  Protection of personal information
+
+We attach great importance to information security. We have established a special security team, and have taken all reasonable and feasible measures to protect your personal information:
+
+1. Technical measures for data security
+
+We will adopt security protection measures in compliance with industry standards, including establishing reasonable system specifications and security technologies to prevent your personal information from being accessed, used or modified without authorization, and to avoid data damage or loss.
+
+Our services adopt a variety of encryption technologies. For example, in some Notein services, we will use encryption technology (such as SSL) to encrypt your personal information and isolate it through isolation technology to protect your personal information.
+
+In the use of personal information, such as information display and information association calculation, we will adopt a variety of data desensitization technologies to enhance the security of information in use.
+
+We will also adopt strict data access control and multiple identity authentication technologies to protect personal information and avoid illegal use of data.
+
+2. Other security measures taken by us to protect personal information
+
+We have an advanced data-centered security management system running around the data life cycle, which improves the security of the whole system in terms of organizational construction, system design, personnel management, product technology, etc. We manage and standardize the storage and usage of personal information by establishing a data classification and grading system, data security management specifications, and data security development specifications.
+
+We conduct comprehensive security control over data through confidentiality agreement of information contacts, monitoring and audit mechanism.
+
+We will also set up security and privacy protection training courses to enhance employees’ security awareness and knowledge of personal information protection policies and related procedures.
+
+3. Only our employees and partners who have the necessity to know the information are allowed to access your personal information, and for the purpose we have set up strict access control and monitoring mechanisms. We also require all personnel who may have access to your personal information to perform corresponding confidentiality obligations. If they fail to perform these obligations, they may be held legally responsible or the cooperation with us may be terminated.
+
+4. The Internet is not an absolute secure environment, and the way of communication with other users, such as email, instant messaging, social software or other services software, cannot be determined whether it is completely encrypted. We recommend that you use complex passwords when using such tools, and pay attention to protecting your information security. When communicating with a third party or purchasing products and services through the Notein services, you will inevitably disclose your information, such as contact information or postal address, to the counterparty or potential counterparty. Please protect your information properly and provide it to others only when necessary.
+
+5. The Internet environment is not 100% secure. We will try our best to ensure or guarantee the security of the personal information you send us. If our physical, technical, or management protection facilities are damaged, resulting in unauthorized access, public disclosure, tampering, or destruction of personal information, and damage to your legitimate rights and interests, we will bear the corresponding legal responsibility.
+
+6. Handling of security incidents
+
+In order to deal with the possible risks of personal information disclosure, damage and loss, we have developed a number of systems to clarify the classification and grading standards of security incidents and security vulnerabilities and the corresponding processing procedures. We have also established an emergency response team for security incidents. According to the requirements of the security incident handling specification, we have launched security plans for different security incidents, loss stopping, analyzing, locating, developing remedial measures, and have worked with relevant departments to trace the source and attack. We also organize internal training and emergency drills on regular basis, so that our relevant staff can master the corresponding emergency response strategies and procedures. In case of an unfortunate information security incident, we will, in accordance with laws and regulations, promptly inform you of the basic situation and possible impact of the security incident, the disposal measures we have taken or will take, suggestions on how to prevent and reduce risks independently, and remedial measures. Meanwhile, we will inform you of the event in time by mail, letter, telephone, SMS, etc. If it is difficult to inform the information subject one by one, we will make an announcement in a reasonable and effective way. At the same time, we will take the initiative to report the disposal of information security incidents according to the requirements of the regulatory authorities.
+
+Please understand that due to the limitations of technology and risk prevention, even if we have tried to strengthen security measures, we cannot always guarantee 100% security of information. You need to understand that the system and communication network you use to access the Notein software services may have problems due to circumstances beyond our control.
+
+Please be sure to keep your account number, password and other identity-related elements safe. When you use Notein software services, we will identify you through your account, password and other identity-related elements. Once you disclose the aforementioned information, you may suffer losses and might be detrimental to you. If you find that your account number, password and/or other identity-related elements may or have been leaked, please contact us immediately so that we can take appropriate measures in time to avoid or reduce related losses.
+
+V. How to manage your personal information
+
+(1)  Access, Update, and Delete
+
+We encourage you to update and modify your personal information to make it more accurate and effective.
+
+If you want to query, modify or delete some of your information, please log in to the Notein account setting page. We provide you with the function of modifying the account related information. For the information collected through COOKIES or similar technologies from you, we also explained the selection mechanism provided to you in Section of “How do we use COOKIES or similar technologies” of the Policy.
+
+You can also contact us through the feedback channels listed in the “How to contact us” section of the Policy. We will take appropriate technical means or contact channels to provide you with a way to access, update and delete your personal information or other information provided when using the Notein services, unless otherwise stipulated by laws and regulations.
+
+Unless otherwise stipulated by laws and regulations, when you correct or delete your personal information, we may not immediately correct or delete the corresponding information from the backup system, but we will correct or delete the information when the backup is updated.
+
+(2)  Publicity and sharing
+
+Many of our services allow you to share your relevant information publicly, not only with your social network, but also with all users using the services. For example, the information you upload or publish in the Notein software, your responses to the information uploaded or published by others, and your information can be uploaded or published through the public space visible to unspecified users in the Notein software, and including location data and log information related to this information. As long as you do not delete the information you have disclosed or shared, the relevant information may always remain in the public space; Even if you delete the shared information, the relevant information may still be independently cached, copied or stored by other users or a third party which is not under our control, or saved in the public space by other users or such third parties. If you disclose or share your information through the aforementioned means, we will not be responsible for your information leakage. Therefore, we remind and ask you to consider carefully whether to disclose or share your information through the aforementioned means.
+
+(3)  Account cancellation
+
+We provide you with the way to cancel your account. In compliance of our services terms and relevant national laws and regulations, you can choose to contact us through the feedback channels listed in the “How to contact us” section of the Policy, and we will give you answers as soon as possible.
+
+After your account is cancelled, we will stop providing you with all or part of the Notein services, and delete your personal information or anonymize it in accordance with your requirements, unless otherwise stipulated by laws and regulations.
+
+(4)  Change the scope of your authorization and consent
+
+You can always choose whether to disclose personal information to us. Some personal information is required to use the Notein software services, but most other information is at your discretion. You can change the scope of information that you authorize us to continue to collect by deleting information, closing device functions, and canceling your account, or revoke your authorization.
+
+After the authorization is revoked, we cannot continue to provide you with the services corresponding to the revocation of authorization, nor will we process your corresponding information. However, your decision to withdraw your authorization will not affect the previous information processing based on your authorization.
+
+(5)  Acquisition of personal information copy
+
+If you need a copy of your personal information, you can contact us through the feedback channels listed in the “How to Contact Us” section of the Policy. After verifying your identity, we will provide you with a copy of your personal information in our services (including basic data and identity information), unless otherwise stipulated by laws and regulations or otherwise agreed by the Policy.
+
+(6)  Respond to your request aforementioned
+
+For security, you may need to provide a written request or other ways to prove your identity. We may ask you to verify your identity before processing your request. In principle, we do not charge for your reasonable request, but we will charge a certain amount of cost for repeated requests beyond the reasonable limit as the case may be. We may reject requests that are gratuitously repetitive, require too many technical means (e.g., the need to develop new systems or radically change existing practices), pose risks to the legitimate rights and interests of others, or are highly impractical (e.g., involving information stored on backup tapes).
+
+We will not be able to respond to your request, if:
+
+1. Related to the performance of our obligations under laws and regulations;
+
+2. Directly related to national security and national defense security;
+
+3. Directly related to public safety, public health and major public interests;
+
+4. Directly related to criminal investigation, prosecution, trial and execution of judgments;
+
+5. We have sufficient evidence to show that you have subjective malice or abuse of rights;
+
+6. It is difficult to obtain your consent for the purpose of protecting your or other personal life, property and other major legitimate rights and interests;
+
+7. Responding to your request will cause serious damage to the legitimate rights and interests of you or other individuals and organizations;
+
+8. Involving trade secrets.
+
+VI. Third Party Services
+
+Notein software services may access or link to social media or other services (including websites or other forms of services) provided by third parties include:
+
+(1)  You can use the “Share” button to share some content to a third-party platform, or you can use third-party services to log in to the Notein services. These functions may collect your personal information (including your login information), and may install COOKIES in your device, so as to run the aforementioned functions normally;
+
+(2)  We provide you with links through advertising or other ways of our services, so that you can link to third-party services or websites;
+
+(3)  Other access to third-party services. For example, in order to achieve the purpose stated in the Policy, we may access SDK or other similar applications (such as embedded code, plug-ins, etc.) provided by third-party services providers, so as to provide you with better customer services and user experience. At present, the third-party services providers we access mainly include the following types:
+
+1. Used for data analysis services, including mobile statistics, device information (IMEI/IMSI/MAC/android ID/geographic location information), etc.;
+
+2. Used for SMS verification services, including device identification information, phone number, etc.;
+
+3. Used for sending messages, including specific event reminders;
+
+4. Used for payment related services, including order payment, transaction behavior verification, income settlement, payment information summary and statistics, etc.;
+
+5. Used to obtain device location permission, collect device information and log information with your consent;
+
+6. Used for third-party authorization services, including the login of third-party account, sharing contents relevant to third-party products, etc.;
+
+7. Used to support product function modules, including character recognition, voice recognition, image recognition, translation, online customer services, connection to intelligent hardware, etc.;
+
+8. Used to optimize product performance, including improving hardware distribution network capability, reducing server cost, functional hot-fix, etc.;
+
+9. Used for account security and product reinforcement related services, including network monitoring, domain name resolution, anti-hijacking, anti-spam and anti-cheating, encryption and decryption services, etc.
+
+10. Used to support remote configuration by filtering and sending parameters based on conditions such as operating system, language, country, chip type, application version number, etc.
+
+Some third-party SDKs or similar applications we access may collect your personal information (including but not limited to IMEI, IMSI, device MAC address, software list, device serial number, android ID). If you use such services provided by a third party in our services, you agree that they will have the right to collect and process your information directly. We will evaluate the legality, legitimacy and necessity of such third-party services collecting personal information, and require such third parties to take protective measures for your personal information, and strictly comply with relevant laws, regulations and regulatory requirements.
+
+The following is the information of the main third-party services providers we access in the Android system:
+
+Huawei Pencil Engine SDK
+
+Name of the third party: Huawei Software Technology Co., Ltd
+
+Type of personal information collected: handwriting
+
+Purpose: Reporting point forecast
+
+Privacy Policy link: <a href="https://developer.huawei.com/consumer/cn/doc/development/connectivity-Guides/sdk-data-security-0000001060028074">SDK privacy security instructions</a>
+
+<a href="https://developer.huawei.com/consumer/cn/doc/development/connectivity-Guides/sdk-data-security-0000001060028074">https://developer.huawei.com/consumer/cn/doc/development/connectivity-Guides/sdk-data-security-0000001060028074</a>
+
+Huawei Analysis SDK (Android version)
+
+Name of the third party: Huawei Software Technology Co., Ltd
+
+Type of personal information collected: application information, device information, account information, network information, and application use information
+
+Purpose: to provide data collection, data management and data analysis services for developer applications.
+
+Privacy Policy link: <a href="https://developer.huawei.com/consumer/cn/doc/development/HMSCore-Guides/android-sdk-data-security-0000001050745153">SDK privacy security instructions</a>
+
+<a href="https://developer.huawei.com/consumer/cn/doc/development/HMSCore-Guides/android-sdk-data-security-0000001050745153">https://developer.huawei.com/consumer/cn/doc/development/HMSCore-Guides/android-sdk-data-security-0000001050745153</a>
+
+Huawei AGC Remote Configuration SDK
+
+Third-party name: Huawei Software Technologies Co., Ltd.
+
+Types of personal information collected: Device information, Application information
+
+Purpose: To support remote configuration by filtering and sending parameters based on conditions such as operating system, language, country, chip type, application version number, etc.
+
+Privacy policy link: <a href="https://developer.huawei.com/consumer/cn/doc/development/AppGallery-connect-Guides/agc-remoteconfig-android-sdksecurity-0000001055867207">Click to access</a>
+
+<a href="https://developer.huawei.com/consumer/cn/doc/development/AppGallery-connect-Guides/agc-remoteconfig-android-sdksecurity-0000001055867207">https://developer.huawei.com/consumer/cn/doc/development/AppGallery-connect-Guides/agc-remoteconfig-android-sdksecurity-0000001055867207</a>
+
+
+“Umeng+” SDK
+
+Name of the third party: Youmeng Tongxin (Beijing) Technology Limited
+
+Type of personal information collected: device information (SN/IMEI/MAC/Android ID/IDFA/OAID/OpenUDID/GUID/SIM Card IMSI/ICCID), location information, network information
+
+Purpose: to provide data collection, data management and data analysis services for developer applications.
+
+Privacy Policy link: <a href="https://www.umeng.com/page/policy">click jump</a>
+
+<a href="https://www.umeng.com/page/policy">https://www.umeng.com/page/policy</a>
+
+These services may contain links to third-party websites. Notein are not held responsible for the privacy terms or other practices adopted by the websites, products or services to which these links refer, as well as the information or content contained in these websites, products and services. This clause only applies to the information collected by these services, not to third-party websites, products or services.
+
+VII. Protection for minors
+
+Minors are advised to obtain the consent of their parents or other guardians (hereinafter referred to as “guardians”) in advance for the participation of online activities. We will protect the relevant information of minors in accordance with relevant national laws and regulations.
+
+We encourage guardians to guide minors to use Notein services. If you are a minor under the age of 18, please inform your guardian to jointly read and accept our privacy Policy, and seek their consent and guidance before you use the Notein services and submit your personal information. If the guardian finds that the personal information of the minor is filled in by the minor himself or herself and it is necessary to modify or delete it, please contact us at any time.
+
+VIII. Notice and amendment
+
+In order to provide you with better services, we may modify the terms of the Policy in accordance with the update of Notein services and relevant requirements of laws and regulations, and such modifications form a part of the Policy. Any changes to the Policy will be posted on this page. For major changes, we will also provide more significant notifications (including website announcements, promotion notification, pop-up prompts or other means). Major changes referred to in the Policy include but are not limited to:
+
+1. Major changes in our service model. For example, the purpose of processing personal information, the type of personal information processed, and the use mode of personal information, etc.;
+
+2. Major changes in our ownership structure. Such as the change of owners due to the business adjustment, bankruptcy merger and acquisition, etc.;
+
+3. Major changes in the main objects of personal information sharing, transfer or public disclosure;
+
+4. Major changes in your right to participate in personal information processing and the way you exercise it;
+
+5. Major changes in our responsible departments, contact information and complaint channels for handling personal information security;
+
+6. Other major situations or situations that may seriously affect your personal rights and interests occur.
+
+If you do not agree with such changes, you can choose to stop using the Notein services; if you continue to use Notein software services, it means that you have fully read, understood and agreed to be bound by the revised Policy.
+
+We will put your satisfaction first no matter what kind of changes we make to our services. You can view this privacy Policy by going to “More” - “About us” - “Legal Terms” - “Privacy Policy” in the Notein App. We encourage you to refer to our privacy Policy every time you use the Notein services.
+
+IX.  How to contact us
+
+If you have any complaints and reports about the security of your personal information, or you have any questions, comments or suggestions about the Policy and matters related to your personal information, please contact us by email privacy@notein.cn. In general, we will reply within 15 working days after receiving your questions, comments or suggestions and verifying your user identity. In principle, we will not charge for your reasonable request, but we will charge a certain cost for repetitive requests beyond the reasonable limit as the case may be. We reserve the right to reject requests that are gratuitously repetitive, require too many technical means, pose risks to the legitimate rights and interests of others, or are highly impractical.
+
+X. Others
+
+These services may contain links to third-party websites. Notein are not held responsible for the privacy terms or other practices adopted by the websites, products or services to which these links refer, as well as the information or content contained in these websites, products and services. This clause only applies to the information collected by these services, not to third-party websites, products or services.
+
+Beijing Orion Information Technology Co., Ltd
+
+Update time of this version: June 25, 2023 Effective time: June 25, 2023

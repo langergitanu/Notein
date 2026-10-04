@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:background="@drawable/popup_window_bg" android:layout_width="220.0dp" android:layout_height="wrap_content" android:paddingHorizontal="16.0dp" android:paddingVertical="8.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="13.0sp" android:textColor="@color/item_text_name_color" android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="18.0dp" android:text="@string/text_foreground_color" />
+    <View android:background="@color/item_divider_bg_color" android:layout_width="match_parent" android:layout_height="1.0dp" android:layout_marginTop="8.0dp" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_foreground_color" android:layout_width="match_parent" android:layout_height="wrap_content" app:layoutManager="androidx.recyclerview.widget.GridLayoutManager" app:spanCount="6" />
+    <TextView android:textSize="13.0sp" android:textColor="@color/item_text_name_color" android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="18.0dp" android:text="@string/text_background_color" />
+    <View android:background="@color/item_divider_bg_color" android:layout_width="match_parent" android:layout_height="1.0dp" android:layout_marginTop="8.0dp" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_background_color" android:layout_width="match_parent" android:layout_height="wrap_content" app:layoutManager="androidx.recyclerview.widget.GridLayoutManager" app:spanCount="6" />
+</androidx.appcompat.widget.LinearLayoutCompat>

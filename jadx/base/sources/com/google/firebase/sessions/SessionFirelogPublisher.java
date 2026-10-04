@@ -1,0 +1,27 @@
+package com.google.firebase.sessions;
+
+import com.google.firebase.Firebase;
+import com.google.firebase.FirebaseKt;
+import kotlin.Metadata;
+
+/* JADX INFO: loaded from: classes8.dex */
+@Metadata(m80611d1 = {"\u0000\u0016\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\b\u0004\bà\u0080\u0001\u0018\u0000 \u00072\u00020\u0001:\u0001\u0007J\u0017\u0010\u0005\u001a\u00020\u00042\u0006\u0010\u0003\u001a\u00020\u0002H&¢\u0006\u0004\b\u0005\u0010\u0006¨\u0006\b"}, m80612d2 = {"Lcom/google/firebase/sessions/SessionFirelogPublisher;", "", "Lcom/google/firebase/sessions/SessionDetails;", "sessionDetails", "LoO00ooO/OooOooO;", "mayLogSession", "(Lcom/google/firebase/sessions/SessionDetails;)V", "Companion", "com.google.firebase-firebase-sessions"}, m80613k = 1, m80614mv = {2, 0, 0}, m80616xi = 48)
+public interface SessionFirelogPublisher {
+
+    /* JADX INFO: renamed from: Companion, reason: from kotlin metadata */
+    public static final Companion INSTANCE = Companion.$$INSTANCE;
+
+    @Metadata(m80611d1 = {"\u0000\u0014\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0002\b\u0003\n\u0002\u0018\u0002\n\u0002\b\u0003\b\u0086\u0003\u0018\u00002\u00020\u0001B\t\b\u0002¢\u0006\u0004\b\u0002\u0010\u0003R\u0011\u0010\u0004\u001a\u00020\u00058F¢\u0006\u0006\u001a\u0004\b\u0006\u0010\u0007¨\u0006\b"}, m80612d2 = {"Lcom/google/firebase/sessions/SessionFirelogPublisher$Companion;", "", "<init>", "()V", "instance", "Lcom/google/firebase/sessions/SessionFirelogPublisher;", "getInstance", "()Lcom/google/firebase/sessions/SessionFirelogPublisher;", "com.google.firebase-firebase-sessions"}, m80613k = 1, m80614mv = {2, 0, 0}, m80616xi = 48)
+    public static final class Companion {
+        static final /* synthetic */ Companion $$INSTANCE = new Companion();
+
+        private Companion() {
+        }
+
+        public final SessionFirelogPublisher getInstance() {
+            return ((FirebaseSessionsComponent) FirebaseKt.getApp(Firebase.INSTANCE).get(FirebaseSessionsComponent.class)).getSessionFirelogPublisher();
+        }
+    }
+
+    void mayLogSession(SessionDetails sessionDetails);
+}

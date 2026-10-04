@@ -1,0 +1,152 @@
+package com.aspose.words.internal;
+
+import com.microsoft.identity.common.java.eststelemetry.PublicApiId;
+
+/* JADX INFO: loaded from: classes5.dex */
+interface zzYHC {
+
+    /* JADX INFO: renamed from: dA */
+    public static final zzZDA f50886dA;
+
+    /* JADX INFO: renamed from: dB */
+    public static final zzZDA f50887dB;
+
+    /* JADX INFO: renamed from: dy */
+    public static final zzZDA f50888dy;
+
+    /* JADX INFO: renamed from: dz */
+    public static final zzZDA f50889dz;
+    public static final zzZDA zzWA0;
+    public static final zzZDA zzWA1;
+    public static final zzZDA zzWA2;
+    public static final zzZDA zzWA3;
+    public static final zzZDA zzWA4;
+    public static final zzZDA zzWA5;
+    public static final zzZDA zzWA6;
+    public static final zzZDA zzWA7;
+    public static final zzZDA zzWA8;
+    public static final zzZDA zzWA9;
+    public static final zzZDA zzWAA;
+    public static final zzZDA zzWAB;
+    public static final zzZDA zzWAC;
+    public static final zzZDA zzWAD;
+    public static final zzZDA zzWAE;
+    public static final zzZDA zzWAF;
+    public static final zzZDA zzWAG;
+    public static final zzZDA zzWAH;
+    public static final zzZDA zzWAI;
+    public static final zzZDA zzWAJ;
+    public static final zzZDA zzWAK;
+    public static final zzZDA zzWAL;
+    public static final zzZDA zzWAM;
+    public static final zzZDA zzWAN;
+    public static final zzZDA zzWAa;
+    public static final zzZDA zzWAb;
+    public static final zzZDA zzWAc;
+    public static final zzZDA zzWAd;
+    public static final zzZDA zzWAe;
+    public static final zzZDA zzWAf;
+    public static final zzZDA zzWAg;
+    public static final zzZDA zzWAh;
+    public static final zzZDA zzWAi;
+    public static final zzZDA zzWAj;
+    public static final zzZDA zzWAk;
+    public static final zzZDA zzWAl;
+    public static final zzZDA zzWAm;
+    public static final zzZDA zzWAn;
+    public static final zzZDA zzWAo;
+    public static final zzZDA zzWAp;
+    public static final zzZDA zzWAq;
+    public static final zzZDA zzWAr;
+    public static final zzZDA zzWAs;
+    public static final zzZDA zzWAt;
+    public static final zzZDA zzWAu;
+    public static final zzZDA zzWAv;
+    public static final zzZDA zzWAw;
+    public static final zzZDA zzWAx;
+    public static final zzZDA zzWAy;
+    public static final zzZDA zzWAz;
+    public static final zzZDA zzWzP;
+    public static final zzZDA zzWzQ;
+    public static final zzZDA zzWzR;
+    public static final zzZDA zzWzS;
+    public static final zzZDA zzWzT;
+    public static final zzZDA zzWzU;
+    public static final zzZDA zzWzV;
+    public static final zzZDA zzWzW;
+    public static final zzZDA zzWzX;
+    public static final zzZDA zzWzY;
+    public static final zzZDA zzWzZ;
+
+    static {
+        zzZDA zzzda = new zzZDA("2.16.840.1.101.3.4");
+        zzWAN = zzzda;
+        zzZDA zzzdaZzwP = zzzda.zzwP("2");
+        zzWAM = zzzdaZzwP;
+        zzWAL = zzzdaZzwP.zzwP("1");
+        zzWAK = zzzdaZzwP.zzwP("2");
+        zzWAJ = zzzdaZzwP.zzwP("3");
+        zzWAI = zzzdaZzwP.zzwP("4");
+        zzWAH = zzzdaZzwP.zzwP("5");
+        zzWAG = zzzdaZzwP.zzwP("6");
+        zzWAF = zzzdaZzwP.zzwP("7");
+        zzWAE = zzzdaZzwP.zzwP("8");
+        zzWAD = zzzdaZzwP.zzwP("9");
+        zzWAC = zzzdaZzwP.zzwP("10");
+        zzWAB = zzzdaZzwP.zzwP("11");
+        zzWAA = zzzdaZzwP.zzwP("12");
+        zzWAz = zzzdaZzwP.zzwP("13");
+        zzWAy = zzzdaZzwP.zzwP("14");
+        zzWAx = zzzdaZzwP.zzwP("15");
+        zzWAw = zzzdaZzwP.zzwP("16");
+        f50888dy = zzzdaZzwP.zzwP("17");
+        f50889dz = zzzdaZzwP.zzwP("18");
+        f50886dA = zzzdaZzwP.zzwP("19");
+        f50887dB = zzzdaZzwP.zzwP("20");
+        zzZDA zzzdaZzwP2 = zzzda.zzwP("1");
+        zzWAv = zzzdaZzwP2;
+        zzWAu = zzzdaZzwP2.zzwP("1");
+        zzWAt = zzzdaZzwP2.zzwP("2");
+        zzWAs = zzzdaZzwP2.zzwP("3");
+        zzWAr = zzzdaZzwP2.zzwP("4");
+        zzWAq = zzzdaZzwP2.zzwP("5");
+        zzWAp = zzzdaZzwP2.zzwP("6");
+        zzWAo = zzzdaZzwP2.zzwP("7");
+        zzWAn = zzzdaZzwP2.zzwP("8");
+        zzWAm = zzzdaZzwP2.zzwP(PublicApiId.PCA_ACQUIRE_TOKEN_SILENT_WITH_PARAMETERS);
+        zzWAl = zzzdaZzwP2.zzwP(PublicApiId.PCA_ACQUIRE_TOKEN_SILENT_ASYNC_WITH_PARAMETERS);
+        zzWAk = zzzdaZzwP2.zzwP(PublicApiId.SINGLE_ACCOUNT_PCA_ACQUIRE_TOKEN_SILENT_WITH_PARAMETERS);
+        zzWAj = zzzdaZzwP2.zzwP(PublicApiId.SINGLE_ACCOUNT_PCA_ACQUIRE_TOKEN_SILENT_ASYNC_WITH_PARAMETERS);
+        zzWAi = zzzdaZzwP2.zzwP(PublicApiId.SINGLE_ACCOUNT_PCA_ACQUIRE_TOKEN_SILENT_WITH_SCOPES_AUTHORITY);
+        zzWAh = zzzdaZzwP2.zzwP(PublicApiId.f57076x2a5030cc);
+        zzWAg = zzzdaZzwP2.zzwP(PublicApiId.f57074xbf15be41);
+        zzWAf = zzzdaZzwP2.zzwP(PublicApiId.f57073xdf988906);
+        zzWAe = zzzdaZzwP2.zzwP("41");
+        zzWAd = zzzdaZzwP2.zzwP("42");
+        zzWAc = zzzdaZzwP2.zzwP("43");
+        zzWAb = zzzdaZzwP2.zzwP("44");
+        zzWAa = zzzdaZzwP2.zzwP("45");
+        zzWA9 = zzzdaZzwP2.zzwP("46");
+        zzWA8 = zzzdaZzwP2.zzwP("47");
+        zzWA7 = zzzdaZzwP2.zzwP("48");
+        zzZDA zzzdaZzwP3 = zzzda.zzwP("3");
+        zzWA6 = zzzdaZzwP3;
+        zzWA5 = zzzdaZzwP3;
+        zzWA4 = zzzdaZzwP3.zzwP("1");
+        zzWA3 = zzzdaZzwP3.zzwP("2");
+        zzWA2 = zzzdaZzwP3.zzwP("3");
+        zzWA1 = zzzdaZzwP3.zzwP("4");
+        zzWA0 = zzzdaZzwP3.zzwP("5");
+        zzWzZ = zzzdaZzwP3.zzwP("6");
+        zzWzY = zzzdaZzwP3.zzwP("7");
+        zzWzX = zzzdaZzwP3.zzwP("8");
+        zzWzW = zzzdaZzwP3.zzwP("9");
+        zzWzV = zzzdaZzwP3.zzwP("10");
+        zzWzU = zzzdaZzwP3.zzwP("11");
+        zzWzT = zzzdaZzwP3.zzwP("12");
+        zzWzS = zzzdaZzwP3.zzwP("13");
+        zzWzR = zzzdaZzwP3.zzwP("14");
+        zzWzQ = zzzdaZzwP3.zzwP("15");
+        zzWzP = zzzdaZzwP3.zzwP("16");
+    }
+}

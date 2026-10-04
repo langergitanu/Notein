@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="@dimen/immersive_toolbar_item_width" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/iv_icon" android:duplicateParentState="true" android:layout_width="match_parent" android:layout_height="match_parent" android:pointerIcon="hand" android:paddingHorizontal="5.0dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

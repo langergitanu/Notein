@@ -1,0 +1,146 @@
+﻿using System;
+using System.Windows;
+using System.Windows.Controls;
+using System.Windows.Input;
+using System.Windows.Media.Animation;
+
+namespace {Namespace}
+{
+    /// <summary>
+    /// Interaction logic for MainWindow.xaml
+    /// </summary>
+    public partial class MainWindow : Window
+    {
+        private int m_currentFrameID;
+        private bool m_inProcess;
+        private Frame[] m_frames;
+        private Point m_lastPoint;
+
+        public MainWindow()
+        {
+            InitializeComponent();
+            
+            m_currentFrameID = 0;
+            m_inProcess = false;
+            m_frames = new Frame[{SlidesCount}];
+            m_lastPoint = new Point();
+
+            string frameName = GetSlideName(m_currentFrameID).Replace(".xaml", "");
+            m_frames[m_currentFrameID] = new Frame
+            {
+                Padding = new Thickness(0),
+                Name = frameName,
+                Margin = new Thickness(0, 0, 0, 0),
+                Source = new Uri(GetSlideName(m_currentFrameID), UriKind.Relative)
+            };
+            m_frames[m_currentFrameID].MouseLeftButtonDown += Frame_MouseDown;
+            m_frames[m_currentFrameID].MouseMove += Frame_MouseMove;
+            FramesGrid.Children.Add(m_frames[m_currentFrameID]);
+        }
+
+        private void Frame_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            m_lastPoint = e.GetPosition(m_frames[m_currentFrameID]);
+        }
+
+        private void Frame_MouseMove(object sender, MouseEventArgs e)
+        {
+            if (e.LeftButton == MouseButtonState.Pressed)
+            {
+                Point currentPoint = e.GetPosition(m_frames[m_currentFrameID]);
+                if (m_lastPoint.Y > currentPoint.Y)
+                {
+                    NextFrame();
+                }
+                else if (m_lastPoint.Y < currentPoint.Y)
+                {
+                    PreviousFrame(); 
+                }
+            }
+        }
+
+        private void BtnDown_Click(object sender, RoutedEventArgs rea)
+        {
+            NextFrame();
+        }
+
+        private void NextFrame()
+        {
+            if (!m_inProcess && (m_currentFrameID < m_frames.Length - 1))
+            {
+                int nextFrameID = m_currentFrameID + 1;
+                string frameName = GetSlideName(nextFrameID).Replace(".xaml", "");
+                m_frames[nextFrameID] = new Frame
+                {
+                    Padding = new Thickness(0),
+                    Name = frameName,
+                    Margin = new Thickness(0, Height, 0, 0),
+                    Source = new Uri(GetSlideName(nextFrameID), UriKind.Relative)
+                };
+                m_frames[nextFrameID].MouseLeftButtonDown += Frame_MouseDown;
+                m_frames[nextFrameID].MouseMove += Frame_MouseMove;
+                FramesGrid.Children.Add(m_frames[nextFrameID]);
+
+                MoveFrame(m_frames[m_currentFrameID], -Height, () => FramesGrid.Children.RemoveAt(0));
+                MoveFrame(m_frames[nextFrameID], 0, () => { });
+
+                m_currentFrameID++;
+            }
+        }
+
+        private void MoveFrame(Frame frame, double frameYPos, Action action)
+        {
+            m_inProcess = true;
+            ThicknessAnimation thicknessAnimation = new ThicknessAnimation(new Thickness(0, frameYPos, 0, 0), new Duration(new TimeSpan(0, 0, 1)));
+            Storyboard storyBoard = new Storyboard();
+            Storyboard.SetTarget(thicknessAnimation, frame);
+            Storyboard.SetTargetProperty(thicknessAnimation, new PropertyPath(Frame.MarginProperty));
+            storyBoard.Children.Add(thicknessAnimation);
+            storyBoard.Completed += (o, e) => 
+            { 
+                action();
+                m_inProcess = false;
+            };
+            storyBoard.Begin(frame);
+        }
+
+        private void BtnUp_Click(object sender, RoutedEventArgs e)
+        {
+            PreviousFrame();
+        }
+
+        private void PreviousFrame()
+        {
+            if (!m_inProcess && (m_currentFrameID > 0))
+            {
+                int previousFrameID = m_currentFrameID - 1;
+                string frameName = GetSlideName(previousFrameID).Replace(".xaml", "");
+                m_frames[previousFrameID] = new Frame
+                {
+                    Padding = new Thickness(0),
+                    Name = frameName,
+                    Margin = new Thickness(0, -Height, 0, 0),
+                    Source = new Uri(GetSlideName(previousFrameID), UriKind.Relative)
+                };
+                m_frames[previousFrameID].MouseLeftButtonDown += Frame_MouseDown;
+                m_frames[previousFrameID].MouseMove += Frame_MouseMove;
+                FramesGrid.Children.Add(m_frames[previousFrameID]);
+
+                MoveFrame(m_frames[m_currentFrameID], Height, () => FramesGrid.Children.RemoveAt(0));
+                MoveFrame(m_frames[previousFrameID], 0, () => { });
+
+                m_currentFrameID--;
+            }
+        }
+
+        private string GetSlideName(int frameID)
+        {
+            switch (frameID)
+            {
+                {Cases}
+            }
+
+            throw new ArgumentException("Unknown Frame ID", "frameID");
+        }
+    }
+}

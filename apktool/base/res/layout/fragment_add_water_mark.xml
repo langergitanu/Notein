@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:background="@drawable/bg_round_bottom_sheet_dialog" android:layout_width="600.0dp" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:background="@drawable/bg_underline" android:layout_width="match_parent" android:layout_height="64.0dp">
+        <TextView android:id="@id/btn_close" android:layout_marginBottom="10.0dp" android:text="@string/close" android:layout_marginEnd="24.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" style="@style/NoteinPrimary2Button" />
+        <TextView android:textSize="13.0sp" android:textColor="@color/title_bar_text_color" android:gravity="center" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="24.0dp" android:text="@string/settings" android:fontFamily="sans-serif-medium" android:paddingHorizontal="18.0dp" app:layout_constraintBottom_toBottomOf="@id/btn_close" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@id/btn_close" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <include android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/layout_settings_list_with_back" />
+</androidx.appcompat.widget.LinearLayoutCompat>

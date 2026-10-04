@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.orion.notein.ui.noteeditor.addtext.richeditor.NoteinRichEditor android:textColor="@color/black" android:gravity="top" android:id="@id/txt_content" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="86.0dp" android:minHeight="12.0dp" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/txt_border" android:layout_width="100.0dp" android:layout_height="100.0dp" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <View android:id="@id/board_bg" android:background="@drawable/bg_text_box_border" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="15.0dp" />
+        <ImageView android:id="@id/iv_size_adjustor" android:paddingRight="20.0dp" android:paddingBottom="20.0dp" android:layout_width="40.0dp" android:layout_height="40.0dp" android:layout_marginRight="-6.0dp" android:layout_marginBottom="-6.0dp" android:src="@drawable/ic_text_editor_size_handle" android:pointerIcon="grab" app:layout_constraintBottom_toBottomOf="@id/txt_border" app:layout_constraintRight_toRightOf="@id/txt_border" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

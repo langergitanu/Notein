@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.orion.notein.ui.noteeditor.textannoeditor.TextAnnoEditorPanel android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.orion.notein.ui.noteeditor.textannoeditor.TextAnnoTextEditor android:id="@id/text_anno_editor" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <TextView android:textSize="13.0sp" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center" android:id="@id/txt_tip" android:background="@drawable/bg_round_txt_black" android:layout_width="200.0dp" android:layout_height="wrap_content" android:minHeight="30.0dp" android:text="@string/tips_insert_text_anno" />
+</com.orion.notein.ui.noteeditor.textannoeditor.TextAnnoEditorPanel>

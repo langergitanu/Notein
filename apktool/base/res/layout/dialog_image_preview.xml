@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@android:color/black" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.viewpager2.widget.ViewPager2 android:id="@id/view_pager" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <ImageView android:layout_gravity="end|top" android:id="@id/btn_close" android:background="?selectableItemBackgroundBorderless" android:padding="12.0dp" android:layout_width="48.0dp" android:layout_height="48.0dp" android:layout_margin="16.0dp" android:src="@drawable/ic_ni_close_selector" android:contentDescription="@string/close"
+      xmlns:app="http://schemas.android.com/apk/res-auto" />
+    <TextView android:textSize="14.0sp" android:textColor="@android:color/white" android:layout_gravity="center|bottom" android:id="@id/tv_page_indicator" android:background="@drawable/bg_page_indicator" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="32.0dp" android:paddingHorizontal="16.0dp" android:paddingVertical="8.0dp" />
+</FrameLayout>

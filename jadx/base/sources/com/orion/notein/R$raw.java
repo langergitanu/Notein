@@ -1,0 +1,52 @@
+package com.orion.notein;
+
+/* JADX INFO: loaded from: classes9.dex */
+public final class R$raw {
+    public static final int a_new_lang_template = 2131886080;
+    public static final int auth_config_single_account = 2131886081;
+    public static final int ccp_afrikaans = 2131886082;
+    public static final int ccp_arabic = 2131886083;
+    public static final int ccp_bengali = 2131886084;
+    public static final int ccp_chinese_simplified = 2131886085;
+    public static final int ccp_chinese_traditional = 2131886086;
+    public static final int ccp_czech = 2131886087;
+    public static final int ccp_danish = 2131886088;
+    public static final int ccp_dutch = 2131886089;
+    public static final int ccp_english = 2131886090;
+    public static final int ccp_farsi = 2131886091;
+    public static final int ccp_french = 2131886092;
+    public static final int ccp_german = 2131886093;
+    public static final int ccp_greek = 2131886094;
+    public static final int ccp_gujarati = 2131886095;
+    public static final int ccp_hebrew = 2131886096;
+    public static final int ccp_hindi = 2131886097;
+    public static final int ccp_indonesia = 2131886098;
+    public static final int ccp_italian = 2131886099;
+    public static final int ccp_japanese = 2131886100;
+    public static final int ccp_kazakh = 2131886101;
+    public static final int ccp_korean = 2131886102;
+    public static final int ccp_marathi = 2131886103;
+    public static final int ccp_polish = 2131886104;
+    public static final int ccp_portuguese = 2131886105;
+    public static final int ccp_punjabi = 2131886106;
+    public static final int ccp_russian = 2131886107;
+    public static final int ccp_slovak = 2131886108;
+    public static final int ccp_slovenian = 2131886109;
+    public static final int ccp_spanish = 2131886110;
+    public static final int ccp_swedish = 2131886111;
+    public static final int ccp_tagalog = 2131886112;
+    public static final int ccp_turkish = 2131886113;
+    public static final int ccp_ukrainian = 2131886114;
+    public static final int ccp_urdu = 2131886115;
+    public static final int ccp_uzbek = 2131886116;
+    public static final int ccp_vietnamese = 2131886117;
+    public static final int com_android_billingclient_heterodyne_info = 2131886118;
+    public static final int com_android_billingclient_registration_info = 2131886119;
+    public static final int firebase_common_keep = 2131886120;
+    public static final int firebase_crashlytics_keep = 2131886121;
+    public static final int keep_ccp = 2131886122;
+    public static final int msal_default_config = 2131886123;
+    public static final int msal_native_auth_default_config = 2131886124;
+    public static final int msal_ppe_default_config = 2131886125;
+    public static final int translate_models_metadata = 2131886126;
+}

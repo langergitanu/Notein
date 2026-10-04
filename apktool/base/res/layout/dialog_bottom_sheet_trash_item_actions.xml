@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:background="@drawable/bg_round_9_bottom_sheet_dialog" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/layout_bottom_sheet_handle" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/item_recover" android:background="@drawable/list_item_bg_selector" android:layout_width="match_parent" android:layout_height="45.0dp">
+        <ImageView android:id="@id/recover_icon" android:layout_width="24.0dp" android:layout_height="24.0dp" android:src="@drawable/ic_ni_recover_normal" android:layout_marginStart="22.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <TextView android:textSize="13.0sp" android:textColor="@color/item_text_name_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/note_list_trash_bin_more_menu_recover" android:layout_marginStart="6.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toEndOf="@id/recover_icon" app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/item_delete" android:background="@drawable/list_item_bg_selector" android:layout_width="match_parent" android:layout_height="45.0dp">
+        <ImageView android:id="@id/delete_icon" android:layout_width="24.0dp" android:layout_height="24.0dp" android:src="@drawable/ic_ni_trash_delete_normal" android:layout_marginStart="22.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:tint="@color/warning_color" />
+        <TextView android:textSize="13.0sp" android:textColor="@color/warning_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/note_list_trash_bin_more_menu_delete" android:layout_marginStart="6.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toEndOf="@id/delete_icon" app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>

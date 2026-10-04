@@ -1,0 +1,109 @@
+package com.aspose.words.internal;
+
+/* JADX INFO: loaded from: classes5.dex */
+public final class zzKF {
+    public static String toString(int i) {
+        switch (i) {
+            case 0:
+                return "Unknown";
+            case 1:
+                return "Xml";
+            case 2:
+                return "Emf";
+            case 3:
+                return "Wmf";
+            case 4:
+                return "Pict";
+            case 5:
+                return "Jpeg";
+            case 6:
+                return "Png";
+            case 7:
+                return "Bmp";
+            case 8:
+                return "Tiff";
+            case 9:
+                return "Gif";
+            case 10:
+                return "Eps";
+            case 11:
+                return "WebP";
+            case 12:
+                return "DocPreWord97";
+            case 13:
+                return "Doc";
+            case 14:
+                return "Dot";
+            case 15:
+                return "Docx";
+            case 16:
+                return "Docm";
+            case 17:
+                return "Dotx";
+            case 18:
+                return "Dotm";
+            case 19:
+                return "WordML";
+            case 20:
+                return "FlatOpc";
+            case 21:
+                return "FlatOpcMacroEnabled";
+            case 22:
+                return "FlatOpcTemplate";
+            case 23:
+                return "FlatOpcTemplateMacroEnabled";
+            case 24:
+                return "Odt";
+            case 25:
+                return "Ott";
+            case 26:
+                return "Rtf";
+            case 27:
+                return "Html";
+            case 28:
+                return "HtmlFixed";
+            case 29:
+                return "Mhtml";
+            case 30:
+                return "Mobi";
+            case 31:
+                return "Chm";
+            case 32:
+                return "Epub";
+            case 33:
+                return "Azw3";
+            case 34:
+                return "Txt";
+            case 35:
+                return "Markdown";
+            case 36:
+                return "Pdf";
+            case 37:
+                return "Xps";
+            case 38:
+                return "OpenXps";
+            case 39:
+                return "Svg";
+            case 40:
+                return "XamlFixed";
+            case 41:
+                return "XamlFlow";
+            case 42:
+                return "XamlFlowPack";
+            case 43:
+                return "Ps";
+            case 44:
+                return "Pcl";
+            case 45:
+                return "Mov";
+            case 46:
+                return "Ico";
+            case 47:
+                return "Odttf";
+            case 48:
+                return "Xlsx";
+            default:
+                return "Unknown FileFormat value.";
+        }
+    }
+}

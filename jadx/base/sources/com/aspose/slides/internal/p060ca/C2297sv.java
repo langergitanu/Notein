@@ -1,0 +1,11 @@
+package com.aspose.slides.internal.p060ca;
+
+import com.aspose.words.StyleIdentifier;
+
+/* JADX INFO: renamed from: com.aspose.slides.internal.ca.sv */
+/* JADX INFO: loaded from: classes3.dex */
+class C2297sv extends AbstractC2060e0 {
+    public C2297sv() {
+        this.f7113k4 = new int[]{0, 1, 231, 232, 235, 236, 237, 238, 13, 14, 15, 99, 239, 240, 241, 242, 243, 244, 245, 246, StyleIdentifier.LIGHT_LIST_ACCENT_6, StyleIdentifier.LIGHT_GRID_ACCENT_6, 27, 28, StyleIdentifier.MEDIUM_SHADING_1_ACCENT_6, 250, StyleIdentifier.MEDIUM_LIST_1_ACCENT_6, StyleIdentifier.MEDIUM_GRID_1_ACCENT_6, StyleIdentifier.MEDIUM_GRID_2_ACCENT_6, 255, 256, 257, StyleIdentifier.COLORFUL_LIST_ACCENT_6, StyleIdentifier.COLORFUL_GRID_ACCENT_6, StyleIdentifier.SUBTLE_EMPHASIS, StyleIdentifier.INTENSE_EMPHASIS, StyleIdentifier.SUBTLE_REFERENCE, StyleIdentifier.INTENSE_REFERENCE, StyleIdentifier.BOOK_TITLE, StyleIdentifier.BIBLIOGRAPHY, StyleIdentifier.TOC_HEADING, 109, 110, StyleIdentifier.PLAIN_TABLE_1, StyleIdentifier.PLAIN_TABLE_2, StyleIdentifier.PLAIN_TABLE_3, 270, StyleIdentifier.TABLE_GRID_LIGHT, 300, 301, 302, StyleIdentifier.GRID_TABLE_5_DARK_ACCENT_4, StyleIdentifier.GRID_TABLE_7_COLORFUL_ACCENT_5, 315, 158, 155, 163, StyleIdentifier.GRID_TABLE_6_COLORFUL_ACCENT_6, StyleIdentifier.GRID_TABLE_7_COLORFUL_ACCENT_6, StyleIdentifier.LIST_TABLE_1_LIGHT, StyleIdentifier.LIST_TABLE_2, StyleIdentifier.LIST_TABLE_3, StyleIdentifier.LIST_TABLE_4, StyleIdentifier.LIST_TABLE_5_DARK, 150, 164, 169, StyleIdentifier.LIST_TABLE_6_COLORFUL, StyleIdentifier.LIST_TABLE_7_COLORFUL, StyleIdentifier.LIST_TABLE_1_LIGHT_ACCENT_1, StyleIdentifier.LIST_TABLE_2_ACCENT_1, StyleIdentifier.LIST_TABLE_3_ACCENT_1, StyleIdentifier.LIST_TABLE_4_ACCENT_1, StyleIdentifier.LIST_TABLE_5_DARK_ACCENT_1, StyleIdentifier.LIST_TABLE_6_COLORFUL_ACCENT_1, StyleIdentifier.LIST_TABLE_7_COLORFUL_ACCENT_1, StyleIdentifier.LIST_TABLE_1_LIGHT_ACCENT_2, StyleIdentifier.LIST_TABLE_2_ACCENT_2, StyleIdentifier.LIST_TABLE_3_ACCENT_2, StyleIdentifier.LIST_TABLE_4_ACCENT_2, StyleIdentifier.LIST_TABLE_5_DARK_ACCENT_2, StyleIdentifier.LIST_TABLE_6_COLORFUL_ACCENT_2, StyleIdentifier.LIST_TABLE_7_COLORFUL_ACCENT_2, StyleIdentifier.LIST_TABLE_1_LIGHT_ACCENT_3, StyleIdentifier.LIST_TABLE_2_ACCENT_3, StyleIdentifier.LIST_TABLE_3_ACCENT_3, StyleIdentifier.LIST_TABLE_4_ACCENT_3};
+    }
+}

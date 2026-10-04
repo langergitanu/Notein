@@ -1,0 +1,49 @@
+package com.huawei.cloud.base.batch;
+
+import com.huawei.cloud.base.http.AbstractHttpContent;
+import com.huawei.cloud.base.http.HttpContent;
+import com.huawei.cloud.base.http.HttpHeaders;
+import com.huawei.cloud.base.http.HttpRequest;
+import java.io.IOException;
+import java.io.OutputStream;
+import java.io.OutputStreamWriter;
+
+/* JADX INFO: loaded from: classes8.dex */
+class HttpRequestContent extends AbstractHttpContent {
+    private static final String HTTP_VERSION = "HTTP/1.1";
+    static final String NEWLINE = "\r\n";
+    private final HttpRequest request;
+
+    public HttpRequestContent(HttpRequest httpRequest) {
+        super("application/http");
+        this.request = httpRequest;
+    }
+
+    @Override // com.huawei.cloud.base.http.HttpContent, com.huawei.cloud.base.util.StreamingContent
+    public void writeTo(OutputStream outputStream) throws IOException {
+        OutputStreamWriter outputStreamWriter = new OutputStreamWriter(outputStream, getCharset());
+        outputStreamWriter.write(this.request.getRequestMethod());
+        outputStreamWriter.write(" ");
+        outputStreamWriter.write(this.request.getUrl().build());
+        outputStreamWriter.write(" ");
+        outputStreamWriter.write(HTTP_VERSION);
+        outputStreamWriter.write("\r\n");
+        HttpHeaders httpHeaders = new HttpHeaders();
+        httpHeaders.fromHttpHeaders(this.request.getHeaders());
+        httpHeaders.setAcceptEncoding(null).setUserAgent(null).setContentEncoding(null).setContentType(null).setContentLength(null);
+        HttpContent content = this.request.getContent();
+        if (content != null) {
+            httpHeaders.setContentType(content.getType());
+            long length = content.getLength();
+            if (length != -1) {
+                httpHeaders.setContentLength(Long.valueOf(length));
+            }
+        }
+        HttpHeaders.serializeHeadersForMultipartRequests(httpHeaders, null, null, outputStreamWriter);
+        outputStreamWriter.write("\r\n");
+        outputStreamWriter.flush();
+        if (content != null) {
+            content.writeTo(outputStream);
+        }
+    }
+}

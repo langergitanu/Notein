@@ -1,0 +1,213 @@
+package com.google.android.material.transition;
+
+import OooOO0.OooO0OO;
+import Oooo0oO.C21111o0ooOoO;
+import android.animation.TimeInterpolator;
+import android.content.Context;
+import android.graphics.Canvas;
+import android.graphics.LinearGradient;
+import android.graphics.Rect;
+import android.graphics.RectF;
+import android.graphics.Shader;
+import android.util.TypedValue;
+import android.view.View;
+import androidx.appcompat.widget.C21532OooOOo;
+import androidx.core.graphics.PathParser;
+import androidx.transition.C22105OooOo0;
+import androidx.transition.OooO;
+import androidx.transition.OooOO0;
+import androidx.transition.OooOOO0;
+import com.google.android.material.canvas.CanvasCompat;
+import com.google.android.material.motion.MotionUtils;
+import com.google.android.material.shape.AbsoluteCornerSize;
+import com.google.android.material.shape.CornerSize;
+import com.google.android.material.shape.RelativeCornerSize;
+import com.google.android.material.shape.ShapeAppearanceModel;
+
+/* JADX INFO: loaded from: classes7.dex */
+class TransitionUtils {
+    static final int NO_ATTR_RES_ID = 0;
+    static final int NO_DURATION = -1;
+    private static final int PATH_TYPE_ARC = 1;
+    private static final int PATH_TYPE_LINEAR = 0;
+    private static final RectF transformAlphaRectF = new RectF();
+
+    public interface CornerSizeBinaryOperator {
+        CornerSize apply(CornerSize cornerSize, CornerSize cornerSize2);
+    }
+
+    private TransitionUtils() {
+    }
+
+    public static float calculateArea(RectF rectF) {
+        return rectF.height() * rectF.width();
+    }
+
+    public static ShapeAppearanceModel convertToRelativeCornerSizes(ShapeAppearanceModel shapeAppearanceModel, final RectF rectF) {
+        return shapeAppearanceModel.withTransformedCornerSizes(new ShapeAppearanceModel.CornerSizeUnaryOperator() { // from class: com.google.android.material.transition.OooO00o
+            @Override // com.google.android.material.shape.ShapeAppearanceModel.CornerSizeUnaryOperator
+            public final CornerSize apply(CornerSize cornerSize) {
+                return RelativeCornerSize.createFromCornerSize(rectF, cornerSize);
+            }
+        });
+    }
+
+    public static Shader createColorShader(int i) {
+        return new LinearGradient(0.0f, 0.0f, 0.0f, 0.0f, i, i, Shader.TileMode.CLAMP);
+    }
+
+    public static <T> T defaultIfNull(T t, T t2) {
+        return t != null ? t : t2;
+    }
+
+    public static View findAncestorById(View view, int i) {
+        String resourceName = view.getResources().getResourceName(i);
+        while (view != null) {
+            if (view.getId() != i) {
+                Object parent = view.getParent();
+                if (!(parent instanceof View)) {
+                    break;
+                }
+                view = (View) parent;
+            } else {
+                return view;
+            }
+        }
+        throw new IllegalArgumentException(C21111o0ooOoO.OooO0Oo(resourceName, " is not a valid ancestor"));
+    }
+
+    public static View findDescendantOrAncestorById(View view, int i) {
+        View viewFindViewById = view.findViewById(i);
+        return viewFindViewById != null ? viewFindViewById : findAncestorById(view, i);
+    }
+
+    public static RectF getLocationOnScreen(View view) {
+        int[] iArr = new int[2];
+        view.getLocationOnScreen(iArr);
+        return new RectF(iArr[0], iArr[1], view.getWidth() + r1, view.getHeight() + r0);
+    }
+
+    public static RectF getRelativeBounds(View view) {
+        return new RectF(view.getLeft(), view.getTop(), view.getRight(), view.getBottom());
+    }
+
+    public static Rect getRelativeBoundsRect(View view) {
+        return new Rect(view.getLeft(), view.getTop(), view.getRight(), view.getBottom());
+    }
+
+    private static boolean isShapeAppearanceSignificant(ShapeAppearanceModel shapeAppearanceModel, RectF rectF) {
+        return (shapeAppearanceModel.getTopLeftCornerSize().getCornerSize(rectF) == 0.0f && shapeAppearanceModel.getTopRightCornerSize().getCornerSize(rectF) == 0.0f && shapeAppearanceModel.getBottomRightCornerSize().getCornerSize(rectF) == 0.0f && shapeAppearanceModel.getBottomLeftCornerSize().getCornerSize(rectF) == 0.0f) ? false : true;
+    }
+
+    public static float lerp(float f, float f2, float f3) {
+        return OooO0OO.OooO0O0(f2, f, f3, f);
+    }
+
+    public static void maybeAddTransition(C22105OooOo0 c22105OooOo0, OooOOO0 oooOOO0) {
+        if (oooOOO0 != null) {
+            c22105OooOo0.OooO00o(oooOOO0);
+        }
+    }
+
+    public static boolean maybeApplyThemeDuration(OooOOO0 oooOOO0, Context context, int i) {
+        int iResolveThemeDuration;
+        if (i == 0 || oooOOO0.getDuration() != -1 || (iResolveThemeDuration = MotionUtils.resolveThemeDuration(context, i, -1)) == -1) {
+            return false;
+        }
+        oooOOO0.setDuration(iResolveThemeDuration);
+        return true;
+    }
+
+    public static boolean maybeApplyThemeInterpolator(OooOOO0 oooOOO0, Context context, int i, TimeInterpolator timeInterpolator) {
+        if (i == 0 || oooOOO0.getInterpolator() != null) {
+            return false;
+        }
+        oooOOO0.setInterpolator(MotionUtils.resolveThemeInterpolator(context, i, timeInterpolator));
+        return true;
+    }
+
+    public static boolean maybeApplyThemePath(OooOOO0 oooOOO0, Context context, int i) {
+        OooO oooOResolveThemePath;
+        if (i == 0 || (oooOResolveThemePath = resolveThemePath(context, i)) == null) {
+            return false;
+        }
+        oooOOO0.setPathMotion(oooOResolveThemePath);
+        return true;
+    }
+
+    public static void maybeRemoveTransition(C22105OooOo0 c22105OooOo0, OooOOO0 oooOOO0) {
+        if (oooOOO0 != null) {
+            c22105OooOo0.OooO0OO(oooOOO0);
+        }
+    }
+
+    public static OooO resolveThemePath(Context context, int i) {
+        TypedValue typedValue = new TypedValue();
+        if (!context.getTheme().resolveAttribute(i, typedValue, true)) {
+            return null;
+        }
+        int i2 = typedValue.type;
+        if (i2 != 16) {
+            if (i2 == 3) {
+                return new OooOO0(PathParser.createPathFromPathData(String.valueOf(typedValue.string)));
+            }
+            throw new IllegalArgumentException("Motion path theme attribute must either be an enum value or path data string");
+        }
+        int i3 = typedValue.data;
+        if (i3 == 0) {
+            return null;
+        }
+        if (i3 == 1) {
+            return new MaterialArcMotion();
+        }
+        throw new IllegalArgumentException(C21532OooOOo.OooO0OO(i3, "Invalid motion path type: "));
+    }
+
+    private static int saveLayerAlphaCompat(Canvas canvas, Rect rect, int i) {
+        RectF rectF = transformAlphaRectF;
+        rectF.set(rect);
+        return canvas.saveLayerAlpha(rectF, i);
+    }
+
+    public static void transform(Canvas canvas, Rect rect, float f, float f2, float f3, int i, CanvasCompat.CanvasOperation canvasOperation) {
+        if (i <= 0) {
+            return;
+        }
+        int iSave = canvas.save();
+        canvas.translate(f, f2);
+        canvas.scale(f3, f3);
+        if (i < 255) {
+            saveLayerAlphaCompat(canvas, rect, i);
+        }
+        canvasOperation.run(canvas);
+        canvas.restoreToCount(iSave);
+    }
+
+    public static ShapeAppearanceModel transformCornerSizes(ShapeAppearanceModel shapeAppearanceModel, ShapeAppearanceModel shapeAppearanceModel2, RectF rectF, CornerSizeBinaryOperator cornerSizeBinaryOperator) {
+        return (isShapeAppearanceSignificant(shapeAppearanceModel, rectF) ? shapeAppearanceModel : shapeAppearanceModel2).toBuilder().setTopLeftCornerSize(cornerSizeBinaryOperator.apply(shapeAppearanceModel.getTopLeftCornerSize(), shapeAppearanceModel2.getTopLeftCornerSize())).setTopRightCornerSize(cornerSizeBinaryOperator.apply(shapeAppearanceModel.getTopRightCornerSize(), shapeAppearanceModel2.getTopRightCornerSize())).setBottomLeftCornerSize(cornerSizeBinaryOperator.apply(shapeAppearanceModel.getBottomLeftCornerSize(), shapeAppearanceModel2.getBottomLeftCornerSize())).setBottomRightCornerSize(cornerSizeBinaryOperator.apply(shapeAppearanceModel.getBottomRightCornerSize(), shapeAppearanceModel2.getBottomRightCornerSize())).build();
+    }
+
+    public static float lerp(float f, float f2, float f3, float f4, float f5) {
+        return lerp(f, f2, f3, f4, f5, false);
+    }
+
+    public static float lerp(float f, float f2, float f3, float f4, float f5, boolean z) {
+        if (!z || (f5 >= 0.0f && f5 <= 1.0f)) {
+            return f5 < f3 ? f : f5 > f4 ? f2 : lerp(f, f2, (f5 - f3) / (f4 - f3));
+        }
+        return lerp(f, f2, f5);
+    }
+
+    public static int lerp(int i, int i2, float f, float f2, float f3) {
+        return f3 < f ? i : f3 > f2 ? i2 : (int) lerp(i, i2, (f3 - f) / (f2 - f));
+    }
+
+    public static ShapeAppearanceModel lerp(ShapeAppearanceModel shapeAppearanceModel, ShapeAppearanceModel shapeAppearanceModel2, final RectF rectF, final RectF rectF2, final float f, final float f2, final float f3) {
+        return f3 < f ? shapeAppearanceModel : f3 > f2 ? shapeAppearanceModel2 : transformCornerSizes(shapeAppearanceModel, shapeAppearanceModel2, rectF, new CornerSizeBinaryOperator() { // from class: com.google.android.material.transition.TransitionUtils.1
+            @Override // com.google.android.material.transition.TransitionUtils.CornerSizeBinaryOperator
+            public CornerSize apply(CornerSize cornerSize, CornerSize cornerSize2) {
+                return new AbsoluteCornerSize(TransitionUtils.lerp(cornerSize.getCornerSize(rectF), cornerSize2.getCornerSize(rectF2), f, f2, f3));
+            }
+        });
+    }
+}

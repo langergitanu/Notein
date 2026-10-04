@@ -1,0 +1,44 @@
+package com.orion.notein.p607ui.settings.tool;
+
+import com.orion.notein.global.R;
+import com.orion.notein.p607ui.settings.page.BasePageOptionFragment;
+import com.orion.notein.p607ui.settings.page.OooO00o;
+import java.util.List;
+import kotlin.Metadata;
+import o0o0Oo0O.C30623OooOOOO;
+import o0o0Oo0O.C30632OooOo0o;
+import oO00ooO.C32460OooOooO;
+import oO00ooo0.EnumC32485OooO00o;
+import oO0o0OO.C33609OooO0oo;
+import oO0o0OO.C33649OoooOOo;
+import oO0o0Oo.C33769Ooooo0o;
+import oO0o0o0o.C33874OooO0OO;
+import oO0o0o0o.ExecutorC33873OooO0O0;
+import oOo000Oo.C34429OooOOo0;
+
+/* JADX INFO: loaded from: classes10.dex */
+@Metadata(m80611d1 = {"\u0000\u0010\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0010\u000b\n\u0002\b\u0003\b\u0007\u0018\u00002\b\u0012\u0004\u0012\u00020\u00020\u0001B\u0007¢\u0006\u0004\b\u0003\u0010\u0004¨\u0006\u0005"}, m80612d2 = {"Lcom/orion/notein/ui/settings/tool/ToolBarStyleFragment;", "Lcom/orion/notein/ui/settings/page/BasePageOptionFragment;", "", "<init>", "()V", "app_google_playRelease"}, m80613k = 1, m80614mv = {2, 1, 0}, m80616xi = 48)
+public final class ToolBarStyleFragment extends Hilt_ToolBarStyleFragment<Boolean> {
+    @Override // com.orion.notein.p607ui.settings.page.BasePageOptionFragment
+    public final Object OooOoO(Object obj, OooO00o oooO00o) throws Throwable {
+        boolean zBooleanValue = ((Boolean) obj).booleanValue();
+        C30623OooOOOO c30623OooOOOOOooOoO0 = OooOoO0();
+        C33874OooO0OO c33874OooO0OO = C33649OoooOOo.f121328OooO00o;
+        Object objOooO0o = C33609OooO0oo.OooO0o(ExecutorC33873OooO0O0.f122045OooOoO0, new C30632OooOo0o(c30623OooOOOOOooOoO0, zBooleanValue, null), oooO00o);
+        EnumC32485OooO00o enumC32485OooO00o = EnumC32485OooO00o.f116726OooOo0o;
+        if (objOooO0o != enumC32485OooO00o) {
+            objOooO0o = C32460OooOooO.f116667OooO00o;
+        }
+        return objOooO0o == enumC32485OooO00o ? objOooO0o : C32460OooOooO.f116667OooO00o;
+    }
+
+    @Override // com.orion.notein.p607ui.settings.page.BasePageOptionFragment
+    public final List<BasePageOptionFragment.OooO0O0<Boolean>> OooOoOO() {
+        return C34429OooOOo0.OooOO0o(new BasePageOptionFragment.OooO0O0(Integer.valueOf(R.string.immersive_toolbar), null, null, Boolean.TRUE, 14), new BasePageOptionFragment.OooO0O0(Integer.valueOf(R.string.traditional_toolbar), null, null, Boolean.FALSE, 14));
+    }
+
+    @Override // com.orion.notein.p607ui.settings.page.BasePageOptionFragment
+    public final C33769Ooooo0o OooOoo0() {
+        return OooOoO0().f109586OooOOoo;
+    }
+}

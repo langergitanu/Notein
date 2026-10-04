@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_width="244.0dp" android:layout_height="86.0dp" android:translationZ="3.0dp" app:cardCornerRadius="3.0dp" app:cardElevation="4.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="24.0dp">
+            <TextView android:textSize="10.0sp" android:textColor="@color/color_docosadecimal_gray" android:id="@id/pen_type" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dp" android:text="@string/eraser" android:layout_marginStart="12.0dp" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toTopOf="parent" />
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/popup_window_hide" android:layout_marginEnd="20.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <View android:background="@color/color_henatriacontadecimal_gray" android:layout_width="match_parent" android:layout_height="1.0dp" />
+        <androidx.recyclerview.widget.RecyclerView android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/eraser_size_list" android:layout_width="wrap_content" android:layout_height="60.0dp" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.cardview.widget.CardView>

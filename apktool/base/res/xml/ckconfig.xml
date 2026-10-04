@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+    <pkg>com.orion.notein.debug</pkg>
+    <env>dev</env>
+    <container>
+        <schemaVersion>1</schemaVersion>
+        <containerName>xiaomi.cloudkit.notein.debug</containerName>
+        <containerId>11017</containerId>
+        <recordZoneId>20012</recordZoneId>
+        <fileType>
+            <internal>
+                <path>xiaomi_cloud</path>
+            </internal>
+            <external />
+        </fileType>
+    </container>
+</configuration>

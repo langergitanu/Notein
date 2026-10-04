@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="24.0dp" android:layout_height="24.0dp" android:layout_margin="4.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/color" android:background="@drawable/folder_color_square_shape" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitXY" />
+    <ImageView android:layout_gravity="center" android:id="@id/placeholder_icon" android:visibility="gone" android:layout_width="16.0dp" android:layout_height="16.0dp" android:src="@drawable/ic_ni_folder_colorset" />
+</FrameLayout>

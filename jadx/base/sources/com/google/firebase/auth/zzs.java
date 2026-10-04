@@ -1,0 +1,18 @@
+package com.google.firebase.auth;
+
+import com.google.android.gms.tasks.Continuation;
+import com.google.android.gms.tasks.Task;
+import com.google.android.gms.tasks.Tasks;
+import java.util.Objects;
+
+/* JADX INFO: loaded from: classes8.dex */
+final class zzs implements Continuation<Void, Task<Void>> {
+    public zzs(FirebaseAuth firebaseAuth) {
+        Objects.requireNonNull(firebaseAuth);
+    }
+
+    @Override // com.google.android.gms.tasks.Continuation
+    public final /* synthetic */ Task<Void> then(Task<Void> task) throws Exception {
+        return (!task.isSuccessful() && (task.getException() instanceof FirebaseAuthException) && ((FirebaseAuthException) task.getException()).getErrorCode().equals("ERROR_INTERNAL_SUCCESS_SIGN_OUT")) ? Tasks.forResult(null) : task;
+    }
+}

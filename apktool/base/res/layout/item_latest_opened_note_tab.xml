@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="wrap_content" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/cl_start_placeholder" android:background="@drawable/latest_opened_note_title_placeholder_bg_selector" android:layout_width="40.0dp" android:layout_height="match_parent" app:layout_constraintStart_toStartOf="parent">
+        <View android:id="@id/v_start_placeholder" android:background="@drawable/latest_opened_note_title_start_placeholder_bg" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_constraintStart_toStartOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/cl_title" android:background="@drawable/bg_latest_opened_note_title_selector" android:layout_width="0.0dp" android:layout_height="match_parent" app:layout_constraintEnd_toStartOf="@id/cl_end_placeholder" app:layout_constraintStart_toEndOf="@id/cl_start_placeholder">
+        <TextView android:textSize="13.0sp" android:textColor="@color/item_text_name_color" android:ellipsize="end" android:gravity="center" android:id="@id/tv_title" android:background="@drawable/bg_default_button_selector" android:layout_width="0.0dp" android:layout_height="match_parent" android:maxLines="1" android:layout_marginStart="12.0dp" android:pointerIcon="hand" app:layout_constraintEnd_toStartOf="@id/iv_delete" app:layout_constraintStart_toStartOf="parent" />
+        <ImageView android:id="@id/iv_delete" android:src="@drawable/ic_ni_close_selector" android:layout_marginEnd="8.0dp" app:layout_constraintBottom_toBottomOf="@id/tv_title" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="@id/tv_title" style="@style/NoteinImageButton" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/cl_end_placeholder" android:background="@drawable/latest_opened_note_title_placeholder_bg_selector" android:layout_width="40.0dp" android:layout_height="match_parent" app:layout_constraintEnd_toEndOf="parent">
+        <View android:id="@id/v_end_placeholder" android:background="@drawable/latest_opened_note_title_end_placeholder_bg" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_constraintEnd_toEndOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <View android:id="@id/divider" android:background="@drawable/dotted_latest_opened_note_tab" android:layout_width="1.0dp" android:layout_height="0.0dp" android:layout_marginTop="14.0dp" android:layout_marginBottom="10.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,133 @@
+﻿using System;
+using System.Threading.Tasks;
+
+using Xamarin.Forms;
+using Xamarin.Forms.Xaml;
+
+namespace {Namespace}
+{
+    [XamlCompilation(XamlCompilationOptions.Compile)]
+    public partial class MainPage : ContentPage
+    {
+        private int m_currentFrameID;
+        private bool m_inProcess;
+        private Frame[] m_frames;
+
+        public MainPage()
+        {
+            InitializeComponent();
+        }
+
+        protected override void OnAppearing()
+        {
+            m_currentFrameID = 0;
+            m_inProcess = false;
+            m_frames = new Frame[{SlidesCount}];
+            m_frames[m_currentFrameID] = new Frame
+            {
+                Padding = new Thickness(0),
+                TranslationY = Application.Current.MainPage.Height,
+                Content = GetSlideContent(m_currentFrameID)
+            };
+
+            SetSwipeGestureRecognizer(m_frames[m_currentFrameID]);
+            FramesGrid.Children.Add(m_frames[m_currentFrameID]);
+        }
+
+        private async void BtnUp_Clicked(object sender, EventArgs e)
+        {
+            await PreviousFrame();
+        }
+
+        private async Task PreviousFrame()
+        {
+            if (!m_inProcess && (m_currentFrameID > 0))
+            {
+                m_inProcess = true;
+                int previousFrameID = m_currentFrameID - 1;
+                m_frames[previousFrameID] = new Frame
+                {
+                    Padding = new Thickness(0),
+                    TranslationY = -Application.Current.MainPage.Height,
+                    Content = GetSlideContent(previousFrameID)
+                };
+
+                SetSwipeGestureRecognizer(m_frames[previousFrameID]);
+                FramesGrid.Children.Add(m_frames[previousFrameID]);
+
+                Task<bool> moveCurrentFrameTask = m_frames[m_currentFrameID].TranslateTo(0, Application.Current.MainPage.Height);
+                Task<bool> movePreviousFrameTask = m_frames[previousFrameID].TranslateTo(0, 0);
+                await Task.WhenAll(new Task[] { moveCurrentFrameTask, movePreviousFrameTask });
+
+                FramesGrid.Children.RemoveAt(0);
+                m_currentFrameID--;
+                m_inProcess = false;
+            }
+        }
+
+        private async void BtnDown_Clicked(object sender, EventArgs e)
+        {
+            await NextFrame();
+        }
+
+        private async Task NextFrame()
+        {
+            if (!m_inProcess && (m_currentFrameID < m_frames.Length - 1))
+            {
+                m_inProcess = true;
+                int nextFrameID = m_currentFrameID + 1;
+                m_frames[nextFrameID] = new Frame
+                {
+                    Padding = new Thickness(0),
+                    TranslationY = Application.Current.MainPage.Height,
+                    Content = GetSlideContent(nextFrameID)
+                };
+
+                SetSwipeGestureRecognizer(m_frames[nextFrameID]);
+                FramesGrid.Children.Add(m_frames[nextFrameID]);
+
+                Task<bool> moveCurrentFrameTask = m_frames[m_currentFrameID].TranslateTo(0, -Application.Current.MainPage.Height);
+                Task<bool> moveNextFrameTask = m_frames[nextFrameID].TranslateTo(0, 0);
+                await Task.WhenAll(new Task[] { moveCurrentFrameTask, moveNextFrameTask });
+
+                FramesGrid.Children.RemoveAt(0);
+                m_currentFrameID++;
+                m_inProcess = false;
+            }
+        }
+
+        private void SetSwipeGestureRecognizer(View view)
+        {
+            SwipeGestureRecognizer upSwipeGesture = new SwipeGestureRecognizer { Direction = SwipeDirection.Up };
+            upSwipeGesture.Swiped += OnSwiped;
+            SwipeGestureRecognizer downSwipeGesture = new SwipeGestureRecognizer { Direction = SwipeDirection.Down };
+            downSwipeGesture.Swiped += OnSwiped;
+
+            view.GestureRecognizers.Add(upSwipeGesture);
+            view.GestureRecognizers.Add(downSwipeGesture);
+        }
+
+        private async void OnSwiped(object sender, SwipedEventArgs e)
+        {
+            switch (e.Direction)
+            {
+                case SwipeDirection.Up:
+                    await NextFrame();
+                    break;
+                case SwipeDirection.Down:
+                    await PreviousFrame();
+                    break;
+            }
+        }
+
+        private View GetSlideContent(int frameID)
+        {
+            switch (frameID)
+            {
+                {Cases}
+            }
+
+            throw new ArgumentException("Unknown Frame ID", "frameID");
+        }
+    }
+}

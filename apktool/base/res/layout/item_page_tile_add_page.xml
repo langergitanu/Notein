@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="170.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/btn_add_page" android:background="@drawable/btn_dotted_stroke_bg" android:layout_width="93.0dp" android:layout_height="130.0dp" android:layout_marginBottom="32.0dp" android:src="@drawable/ic_ni_add" android:scaleType="center" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:tint="@color/blue_tint_color" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="31.0dp" android:layout_height="60.0dp" android:pointerIcon="hand"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/icon_wrapper" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <ImageView android:id="@id/pen_icon" android:layout_width="26.0dp" android:layout_height="58.0dp" android:src="@drawable/ic_ni_toolbox_ink_pen" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" />
+        <ImageView android:id="@id/icon_tape_tint" android:visibility="gone" android:layout_width="14.0dp" android:layout_height="58.0dp" android:src="@drawable/bg_tape_pen" app:layout_constraintBottom_toBottomOf="@id/pen_icon" app:layout_constraintEnd_toEndOf="@id/pen_icon" app:layout_constraintStart_toStartOf="@id/pen_icon" app:layout_constraintTop_toTopOf="@id/pen_icon" />
+        <ImageView android:id="@id/pen_color" android:layout_width="26.0dp" android:layout_height="58.0dp" android:src="@drawable/ic_ni_toolbox_ink_pen_color" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

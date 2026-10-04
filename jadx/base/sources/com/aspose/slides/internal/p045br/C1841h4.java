@@ -1,0 +1,177 @@
+package com.aspose.slides.internal.p045br;
+
+import com.aspose.slides.internal.p329p4.C7182dy;
+import com.aspose.slides.internal.p329p4.C7185jd;
+import com.aspose.words.StyleIdentifier;
+import com.facebook.common.callercontext.ContextChain;
+import com.google.firebase.analytics.FirebaseAnalytics;
+import com.google.mlkit.p567nl.translate.TranslateLanguage;
+import com.huawei.hms.network.embedded.C18385v2;
+import com.miui.penengine.p596e.C18773h;
+import com.orion.notein.domain.models.backup.BackupFile;
+
+/* JADX INFO: renamed from: com.aspose.slides.internal.br.h4 */
+/* JADX INFO: loaded from: classes3.dex */
+public class C1841h4 extends AbstractC1846x1 {
+
+    /* JADX INFO: renamed from: kk */
+    public static final C1841h4 f6680kk = new C1841h4();
+
+    public C1841h4() {
+        m9631k4(101, C18385v2.f56336h);
+        m9631k4(StyleIdentifier.LIST_TABLE_6_COLORFUL_ACCENT_2, "AE");
+        m9631k4(102, "B");
+        m9631k4(103, "C");
+        m9631k4(104, "D");
+        m9631k4(105, "E");
+        m9631k4(106, "F");
+        m9631k4(107, "G");
+        m9631k4(110, "H");
+        m9631k4(111, "I");
+        m9631k4(112, "J");
+        m9631k4(113, "K");
+        m9631k4(114, "L");
+        m9631k4(StyleIdentifier.LIST_TABLE_1_LIGHT_ACCENT_4, "Lslash");
+        m9631k4(115, "M");
+        m9631k4(116, "N");
+        m9631k4(117, "O");
+        m9631k4(StyleIdentifier.LIST_TABLE_3_ACCENT_4, "OE");
+        m9631k4(StyleIdentifier.LIST_TABLE_2_ACCENT_4, "Oslash");
+        m9631k4(120, "P");
+        m9631k4(121, "Q");
+        m9631k4(122, "R");
+        m9631k4(123, "S");
+        m9631k4(124, "T");
+        m9631k4(125, "U");
+        m9631k4(126, "V");
+        m9631k4(127, "W");
+        m9631k4(130, "X");
+        m9631k4(131, "Y");
+        m9631k4(132, "Z");
+        m9631k4(141, "a");
+        m9631k4(302, "acute");
+        m9631k4(StyleIdentifier.LIST_TABLE_5_DARK_ACCENT_5, "ae");
+        m9631k4(46, "ampersand");
+        m9631k4(136, "asciicircum");
+        m9631k4(176, "asciitilde");
+        m9631k4(52, "asterisk");
+        m9631k4(100, "at");
+        m9631k4(142, "b");
+        m9631k4(134, "backslash");
+        m9631k4(174, "bar");
+        m9631k4(173, "braceleft");
+        m9631k4(175, "braceright");
+        m9631k4(133, "bracketleft");
+        m9631k4(135, "bracketright");
+        m9631k4(StyleIdentifier.GRID_TABLE_6_COLORFUL_ACCENT_4, "breve");
+        m9631k4(StyleIdentifier.PLAIN_TABLE_1, "bullet");
+        m9631k4(143, "c");
+        m9631k4(StyleIdentifier.GRID_TABLE_3_ACCENT_6, "caron");
+        m9631k4(StyleIdentifier.GRID_TABLE_6_COLORFUL_ACCENT_5, "cedilla");
+        m9631k4(242, "cent");
+        m9631k4(303, "circumflex");
+        m9631k4(72, "colon");
+        m9631k4(54, "comma");
+        m9631k4(250, FirebaseAnalytics.Param.CURRENCY);
+        m9631k4(144, "d");
+        m9631k4(StyleIdentifier.SUBTLE_REFERENCE, "dagger");
+        m9631k4(StyleIdentifier.INTENSE_REFERENCE, "daggerdbl");
+        m9631k4(StyleIdentifier.GRID_TABLE_3_ACCENT_5, "dieresis");
+        m9631k4(44, "dollar");
+        m9631k4(307, "dotaccent");
+        m9631k4(StyleIdentifier.LIST_TABLE_2_ACCENT_6, "dotlessi");
+        m9631k4(145, "e");
+        m9631k4(70, "eight");
+        m9631k4(StyleIdentifier.GRID_TABLE_2, "ellipsis");
+        m9631k4(StyleIdentifier.GRID_TABLE_6_COLORFUL_ACCENT_6, "emdash");
+        m9631k4(StyleIdentifier.INTENSE_EMPHASIS, "endash");
+        m9631k4(75, "equal");
+        m9631k4(41, "exclam");
+        m9631k4(241, "exclamdown");
+        m9631k4(146, "f");
+        m9631k4(256, TranslateLanguage.FINNISH);
+        m9631k4(65, "five");
+        m9631k4(257, "fl");
+        m9631k4(246, "florin");
+        m9631k4(64, "four");
+        m9631k4(244, "fraction");
+        m9631k4(147, "g");
+        m9631k4(StyleIdentifier.SMART_HYPERLINK, "germandbls");
+        m9631k4(301, "grave");
+        m9631k4(76, "greater");
+        m9631k4(StyleIdentifier.MEDIUM_GRID_1_ACCENT_6, "guillemotleft");
+        m9631k4(StyleIdentifier.GRID_TABLE_1_LIGHT, "guillemotright");
+        m9631k4(StyleIdentifier.MEDIUM_GRID_2_ACCENT_6, "guilsinglleft");
+        m9631k4(255, "guilsinglright");
+        m9631k4(150, C18773h.f57233c);
+        m9631k4(315, "hungarumlaut");
+        m9631k4(55, "hyphen");
+        m9631k4(151, ContextChain.TAG_INFRA);
+        m9631k4(152, "j");
+        m9631k4(153, "k");
+        m9631k4(154, "l");
+        m9631k4(74, "less");
+        m9631k4(StyleIdentifier.LIST_TABLE_7_COLORFUL_ACCENT_6, "lslash");
+        m9631k4(155, "m");
+        m9631k4(StyleIdentifier.GRID_TABLE_5_DARK_ACCENT_4, "macron");
+        m9631k4(156, BackupFile.PREFIX_NOTE_DIR);
+        m9631k4(71, "nine");
+        m9631k4(43, "numbersign");
+        m9631k4(157, "o");
+        m9631k4(StyleIdentifier.MENTION, "oe");
+        m9631k4(StyleIdentifier.GRID_TABLE_2_ACCENT_6, "ogonek");
+        m9631k4(61, "one");
+        m9631k4(StyleIdentifier.LIST_TABLE_1_LIGHT_ACCENT_3, "ordfeminine");
+        m9631k4(StyleIdentifier.LIST_TABLE_4_ACCENT_4, "ordmasculine");
+        m9631k4(StyleIdentifier.SMART_LINK, "oslash");
+        m9631k4(160, ContextChain.TAG_PRODUCT);
+        m9631k4(StyleIdentifier.TOC_HEADING, "paragraph");
+        m9631k4(50, "parenleft");
+        m9631k4(51, "parenright");
+        m9631k4(45, "percent");
+        m9631k4(56, "period");
+        m9631k4(StyleIdentifier.BOOK_TITLE, "periodcentered");
+        m9631k4(StyleIdentifier.GRID_TABLE_3, "perthousand");
+        m9631k4(53, "plus");
+        m9631k4(161, "q");
+        m9631k4(77, "question");
+        m9631k4(StyleIdentifier.GRID_TABLE_5_DARK, "questiondown");
+        m9631k4(42, "quotedbl");
+        m9631k4(StyleIdentifier.PLAIN_TABLE_5, "quotedblbase");
+        m9631k4(StyleIdentifier.MEDIUM_LIST_2_ACCENT_6, "quotedblleft");
+        m9631k4(StyleIdentifier.TABLE_GRID_LIGHT, "quotedblright");
+        m9631k4(140, "quoteleft");
+        m9631k4(47, "quoteright");
+        m9631k4(270, "quotesinglbase");
+        m9631k4(StyleIdentifier.MEDIUM_LIST_1_ACCENT_6, "quotesingle");
+        m9631k4(162, "r");
+        m9631k4(StyleIdentifier.GRID_TABLE_5_DARK_ACCENT_5, "ring");
+        m9631k4(163, "s");
+        m9631k4(StyleIdentifier.LIGHT_LIST_ACCENT_6, "section");
+        m9631k4(73, "semicolon");
+        m9631k4(67, "seven");
+        m9631k4(66, "six");
+        m9631k4(57, "slash");
+        m9631k4(40, "space");
+        m9631k4(243, "sterling");
+        m9631k4(164, "t");
+        m9631k4(63, "three");
+        m9631k4(304, "tilde");
+        m9631k4(62, "two");
+        m9631k4(165, "u");
+        m9631k4(137, "underscore");
+        m9631k4(166, "v");
+        m9631k4(167, "w");
+        m9631k4(170, "x");
+        m9631k4(171, "y");
+        m9631k4(245, "yen");
+        m9631k4(172, "z");
+        m9631k4(60, "zero");
+    }
+
+    @Override // com.aspose.slides.internal.p329p4.InterfaceC7193yj
+    /* JADX INFO: renamed from: c5 */
+    public C7185jd mo8461c5() {
+        return C7182dy.f19451hh;
+    }
+}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<remoteconfig>
+    <value key="rconfig_enable_handwriting_text_search">false</value>
+    <value key="rconfig_handwriting_text_cache_creation_interval_in_ms">-1</value>
+    <value key="rconfig_page_text_update_job_enqueue_interval_in_ms">-1</value>
+    <value key="rconfig_start_page_text_update_job_after_note_closing">false</value>
+    <value key="rconfig_enable_drop_frame_on_120hz_by_device">null</value>
+    <value key="rconfig_query_purchases_from_server_interval_ms">86400000</value>
+    <value key="rconfig_enable_palm_detection">null</value>
+    <value key="rconfig_enable_water_mark">true</value>
+    <value key="rconfig_enable_xiaomi_estimator_v2">false</value>
+    <value key="rconfig_immerse_notch_title_bar">true</value>
+    <value key="rconfig_xiaomi_screen_relay">true</value>
+    <value key="rconfig_enable_lenovo_estimator">false</value>
+    <value key="rconfig_latest_apk_download_url">null</value>
+    <value key="rconfig_enable_render_hw_acceleration">true</value>
+    <value key="rconfig_photo_picker_enabled">true</value>
+    <value key="rconfig_disable_cloud_sync">false</value>
+    <value key="rconfig_cloud_sync_worker_count">5</value>
+    <value key="rconfig_ink_sampling_rate_limit_hz">null</value>
+</remoteconfig>

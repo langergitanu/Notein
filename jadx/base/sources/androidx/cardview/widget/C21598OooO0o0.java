@@ -1,0 +1,25 @@
+package androidx.cardview.widget;
+
+import android.graphics.drawable.Drawable;
+
+/* JADX INFO: renamed from: androidx.cardview.widget.OooO0o0, reason: case insensitive filesystem */
+/* JADX INFO: loaded from: classes.dex */
+public final class C21598OooO0o0 extends Drawable {
+
+    /* JADX INFO: renamed from: OooO00o, reason: collision with root package name */
+    public static final double f63311OooO00o = Math.cos(Math.toRadians(45.0d));
+
+    public static float OooO00o(float f, float f2, boolean z) {
+        if (!z) {
+            return f;
+        }
+        return (float) (((1.0d - f63311OooO00o) * ((double) f2)) + ((double) f));
+    }
+
+    public static float OooO0O0(float f, float f2, boolean z) {
+        if (!z) {
+            return f * 1.5f;
+        }
+        return (float) (((1.0d - f63311OooO00o) * ((double) f2)) + ((double) (f * 1.5f)));
+    }
+}

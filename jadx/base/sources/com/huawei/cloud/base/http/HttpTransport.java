@@ -1,0 +1,38 @@
+package com.huawei.cloud.base.http;
+
+import com.huawei.cloud.base.util.Logger;
+import java.io.IOException;
+import java.util.Arrays;
+
+/* JADX INFO: loaded from: classes8.dex */
+public abstract class HttpTransport {
+    static final Logger LOGGER = Logger.getLogger("HttpTransport");
+    private static final String[] SUPPORTED_METHODS;
+
+    static {
+        String[] strArr = {"DELETE", "GET", "POST", "PUT"};
+        SUPPORTED_METHODS = strArr;
+        Arrays.sort(strArr);
+    }
+
+    public HttpRequest buildRequest() {
+        return new HttpRequest(this, null);
+    }
+
+    public abstract LowLevelHttpRequest buildRequest(String str, String str2) throws IOException;
+
+    public final HttpRequestFactory createRequestFactory() {
+        return createRequestFactory(null);
+    }
+
+    public void shutdown() throws IOException {
+    }
+
+    public boolean supportsMethod(String str) throws IOException {
+        return Arrays.binarySearch(SUPPORTED_METHODS, str) >= 0;
+    }
+
+    public final HttpRequestFactory createRequestFactory(HttpRequestInitializer httpRequestInitializer) {
+        return new HttpRequestFactory(this, httpRequestInitializer);
+    }
+}

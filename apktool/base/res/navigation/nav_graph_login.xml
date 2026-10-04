@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/nav_graph_login" app:startDestination="@id/phoneVerificationRequestFragment"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:label="@string/login_or_register" android:name="com.orion.notein.ui.login.verificationcode.PhoneVerificationRequestFragment" android:id="@id/phoneVerificationRequestFragment">
+        <action android:id="@id/action_phoneVerificationRequestFragment_to_phoneCodeLoginFragment" app:destination="@id/phoneCodeLoginFragment" />
+        <action android:id="@id/action_phoneVerificationRequestFragment_to_bindPhoneNumberFragment" app:destination="@id/bindPhoneNumberFragment" />
+        <action android:id="@id/action_phoneVerificationRequestFragment_to_passwordLogin" app:destination="@id/passwordLoginFragment" />
+        <action android:id="@id/action_phoneVerificationRequestFragment_to_countryCodeSelectFragment" app:destination="@id/countryCodeSelectFragment" />
+    </fragment>
+    <fragment android:label="@string/login_or_register" android:name="com.orion.notein.ui.login.verificationcode.PhoneCodeLoginFragment" android:id="@id/phoneCodeLoginFragment">
+        <action android:id="@id/action_phoneCodeLoginFragment_to_passwordLogin" app:destination="@id/passwordLoginFragment" />
+        <argument android:name="country" app:argType="string" />
+        <argument android:name="phone" app:argType="string" />
+        <argument android:name="accessToken" android:defaultValue="@null" app:argType="string" app:nullable="true" />
+        <argument android:name="loginType" android:defaultValue="0" app:argType="integer" />
+        <argument android:name="openID" android:defaultValue="" app:argType="string" />
+    </fragment>
+    <fragment android:label="@string/login_or_register" android:name="com.orion.notein.ui.login.thirdparty.LoginBindPhoneNumberFragment" android:id="@id/bindPhoneNumberFragment">
+        <argument android:name="loginType" app:argType="integer" />
+        <argument android:name="accessToken" app:argType="string" />
+        <argument android:name="openID" android:defaultValue="" app:argType="string" />
+        <action android:id="@id/action_to_phoneCodeLoginFragment" app:destination="@id/phoneCodeLoginFragment" />
+        <action android:id="@id/action_to_countryCodeSelectFragment" app:destination="@id/countryCodeSelectFragment" />
+    </fragment>
+    <fragment android:label="@string/login_or_register" android:name="com.orion.notein.ui.login.password.PasswordLoginFragment" android:id="@id/passwordLoginFragment">
+        <action android:id="@id/action_passwordLoginFragment_to_findPasswordFragment" app:destination="@id/findPasswordFragment" />
+        <action android:id="@id/action_passwordLoginFragment_to_countryCodeSelectFragment" app:destination="@id/countryCodeSelectFragment" />
+        <action android:id="@id/action_passwordLoginFragment_to_bindPhoneNumberFragment" app:destination="@id/bindPhoneNumberFragment" />
+    </fragment>
+    <fragment android:label="@string/reset_password" android:name="com.orion.notein.ui.login.password.reset.FindPasswordFragment" android:id="@id/findPasswordFragment">
+        <action android:id="@id/action_findPasswordFragment_to_loginVerifyCodeFragment" app:destination="@id/loginVerifyCodeFragment" />
+        <action android:id="@id/action_findPasswordFragment_to_countryCodeSelectFragment" app:destination="@id/countryCodeSelectFragment" />
+    </fragment>
+    <fragment android:label="@string/reset_password" android:name="com.orion.notein.ui.login.password.reset.LoginVerifyCodeFragment" android:id="@id/loginVerifyCodeFragment">
+        <argument android:name="fragment_type" app:argType="integer" />
+        <argument android:name="country" app:argType="string" />
+        <argument android:name="phone" app:argType="string" />
+        <action android:id="@id/action_loginVerifyCodeFragment_to_setPasswordFragment" app:destination="@id/setPasswordFragment" />
+    </fragment>
+    <fragment android:label="@string/reset_password" android:name="com.orion.notein.ui.login.password.reset.SetPasswordFragment" android:id="@id/setPasswordFragment">
+        <argument android:name="countryCode" android:defaultValue="86.0" app:argType="string" />
+        <argument android:name="number" android:defaultValue="\18310009230" app:argType="string" />
+        <argument android:name="verificationCode" android:defaultValue="" app:argType="string" />
+        <action android:id="@id/action_setPasswordFragment_to_passwordLoginFragment" app:destination="@id/passwordLoginFragment" app:popUpTo="@id/passwordLoginFragment" app:popUpToInclusive="false" />
+    </fragment>
+    <dialog android:label="@string/select_country_or_region" android:name="com.orion.notein.ui.login.countrycode.CountryCodeSelectDialogFragment" android:id="@id/countryCodeSelectFragment" />
+</navigation>

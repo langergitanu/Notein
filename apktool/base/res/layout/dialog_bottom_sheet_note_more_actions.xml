@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@drawable/bg_white_top_rounded_28" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/cl_note_actions" layout="@layout/layout_note_more_actions" />
+    <include android:id="@id/cl_note_infos" layout="@layout/layout_note_infos" />
+    <include android:id="@id/cl_folder_colors" layout="@layout/layout_folder_colors" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,71 @@
+package com.google.android.gms.internal.mlkit_vision_text_bundled_common;
+
+import OooO0O0.OooO00o;
+import java.lang.reflect.InvocationTargetException;
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Iterator;
+import java.util.ServiceConfigurationError;
+import java.util.ServiceLoader;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
+/* JADX INFO: loaded from: classes7.dex */
+public abstract class zbtx {
+    public static zbtp zbb(Class cls) {
+        String strOooO0O0;
+        ClassLoader classLoader = zbtx.class.getClassLoader();
+        if (cls.equals(zbtp.class)) {
+            strOooO0O0 = "com.google.protobuf.BlazeGeneratedExtensionRegistryLiteLoader";
+        } else {
+            if (!cls.getPackage().equals(zbtx.class.getPackage())) {
+                throw new IllegalArgumentException(cls.getName());
+            }
+            strOooO0O0 = OooO00o.OooO0O0(cls.getPackage().getName(), ".BlazeGenerated", cls.getSimpleName(), "Loader");
+        }
+        try {
+            try {
+                try {
+                    try {
+                        return (zbtp) cls.cast(((zbtx) Class.forName(strOooO0O0, true, classLoader).getConstructor(new Class[0]).newInstance(new Object[0])).zba());
+                    } catch (InvocationTargetException e) {
+                        throw new IllegalStateException(e);
+                    }
+                } catch (InstantiationException e2) {
+                    throw new IllegalStateException(e2);
+                }
+            } catch (IllegalAccessException e3) {
+                throw new IllegalStateException(e3);
+            } catch (NoSuchMethodException e4) {
+                throw new IllegalStateException(e4);
+            }
+        } catch (ClassNotFoundException unused) {
+            Iterator it = ServiceLoader.load(zbtx.class, classLoader).iterator();
+            ArrayList arrayList = new ArrayList();
+            while (it.hasNext()) {
+                try {
+                    arrayList.add((zbtp) cls.cast(((zbtx) it.next()).zba()));
+                } catch (ServiceConfigurationError e5) {
+                    Logger.getLogger(zbtk.class.getName()).logp(Level.SEVERE, "com.google.protobuf.GeneratedExtensionRegistryLoader", "load", "Unable to load ".concat(cls.getSimpleName()), (Throwable) e5);
+                }
+            }
+            if (arrayList.size() == 1) {
+                return (zbtp) arrayList.get(0);
+            }
+            if (arrayList.size() == 0) {
+                return null;
+            }
+            try {
+                return (zbtp) cls.getMethod("combine", Collection.class).invoke(null, arrayList);
+            } catch (IllegalAccessException e6) {
+                throw new IllegalStateException(e6);
+            } catch (NoSuchMethodException e7) {
+                throw new IllegalStateException(e7);
+            } catch (InvocationTargetException e8) {
+                throw new IllegalStateException(e8);
+            }
+        }
+    }
+
+    public abstract zbtp zba();
+}

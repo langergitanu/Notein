@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.orion.notein.ui.noteeditor.addimage.ImageSizeAndRotationEditor android:id="@id/img_editor" android:visibility="gone" android:layout_width="350.0dp" android:layout_height="350.0dp" />
+    <com.orion.notein.ui.noteeditor.addimage.ImageCropEditor android:id="@id/img_crop_editor" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <TextView android:textSize="13.0sp" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center" android:id="@id/txt_tip" android:background="@drawable/bg_round_txt_black" android:layout_width="200.0dp" android:layout_height="wrap_content" android:minHeight="30.0dp" android:text="@string/image_insert_tips" />
+</FrameLayout>

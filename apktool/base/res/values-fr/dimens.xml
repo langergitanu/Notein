@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="ai_feature_public_testing_dialog_button_width">170.0dp</dimen>
+    <dimen name="note_more_popup_window_width">200.0dp</dimen>
+    <dimen name="note_sort_popup_window_width">220.0dp</dimen>
+    <dimen name="note_switch_panel_sort_popup_window_width">200.0dp</dimen>
+    <dimen name="ocr_page_preview_long_side_size">640.0dp</dimen>
+    <dimen name="ocr_small_page_preview_size">150.0dp</dimen>
+    <dimen name="property_panel_default_mode_width">220.0dp</dimen>
+</resources>

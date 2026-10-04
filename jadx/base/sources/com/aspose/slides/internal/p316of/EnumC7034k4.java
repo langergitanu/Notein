@@ -1,0 +1,40 @@
+package com.aspose.slides.internal.p316of;
+
+/* JADX INFO: renamed from: com.aspose.slides.internal.of.k4 */
+/* JADX INFO: loaded from: classes4.dex */
+public enum EnumC7034k4 {
+    CJK,
+    ARABIC,
+    THAI,
+    HINDI,
+    TAMIL,
+    TELUGU,
+    TIBET,
+    MONGOL,
+    ETHIOPIC,
+    SYRIAC,
+    THAANA,
+    ARMENIAN,
+    GEORGIAN,
+    SUPERSCRIPT,
+    SUBSCRIPT,
+    LAO,
+    KHMER,
+    THAI_EXTRA,
+    HIRAGANA,
+    KATAKANA,
+    YI_SYLLABLES,
+    CHEROKEE,
+    CANADIAN_ABORIGINAL,
+    HANGUL_JAMO,
+    FULLWIDTH,
+    BENGALI,
+    GUJARATI,
+    KANNADA,
+    MALAYALAM,
+    ORIYA,
+    SINHALA,
+    HANGUL_SYLLABLES,
+    HIGH_AND_LOW_SURROGATES,
+    LATIN
+}

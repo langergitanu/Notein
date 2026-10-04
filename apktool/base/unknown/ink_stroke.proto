@@ -1,0 +1,42 @@
+syntax = "proto3";
+
+package com.orion.penkit.serialization.ink.proto;
+
+option java_multiple_files = true;
+option java_package = "com.orion.penkit.serialization.ink.proto";
+
+message InkStrokeProto {
+  string id = 1;
+  string layer_id = 2;
+  int64 creation_time = 3;
+
+  // Brush properties
+  float brush_size = 4;
+  int64 brush_color = 5;
+  float brush_epsilon = 6;
+  string brush_family_id = 7;
+
+  // Input data
+  ToolType tool_type = 8;
+  float stroke_unit_length_cm = 9;
+
+  // Packed coordinates: [x0, y0, x1, y1, ...]
+  repeated float input_xy = 10 [packed = true];
+
+  // Packed attributes: [time, pressure, tilt, orientation, unitLen, ...]
+  repeated float input_attrs = 11 [packed = true];
+
+  // Transform matrices (9 floats each)
+  repeated float stroke_to_world = 12 [packed = true];
+  repeated float world_to_view = 13 [packed = true];
+
+  // Behavior params (optional)
+  map<string, float> behavior_params = 14;
+}
+
+enum ToolType {
+  TOOL_UNKNOWN = 0;
+  TOOL_STYLUS = 1;
+  TOOL_TOUCH = 2;
+  TOOL_MOUSE = 3;
+}

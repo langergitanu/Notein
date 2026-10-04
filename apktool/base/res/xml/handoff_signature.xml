@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<handoff-app>
+    <item deviceTypes="pad" packageName="com.orion.notein" signature="63A2B197178463E89F9EC11B15ECACF0C0C10F8D" />
+    <item deviceTypes="phone" packageName="com.orion.notein" signature="63A2B197178463E89F9EC11B15ECACF0C0C10F8D" />
+</handoff-app>

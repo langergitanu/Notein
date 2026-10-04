@@ -1,0 +1,180 @@
+package com.aspose.slides.internal.p071cz;
+
+import com.aspose.slides.internal.p071cz.AbstractC2770ix;
+import com.aspose.slides.p559ms.System.C14116yg;
+
+/* JADX INFO: renamed from: com.aspose.slides.internal.cz.jw */
+/* JADX INFO: loaded from: classes3.dex */
+public class C2783jw extends AbstractC2665b2 {
+    public C2783jw(C2891s1 c2891s1) {
+        super(c2891s1);
+    }
+
+    @Override // com.aspose.slides.internal.p071cz.AbstractC2665b2
+    /* JADX INFO: renamed from: k4 */
+    public C2695dc mo12112k4() {
+        double dM12323k4 = AbstractC2770ix.m12323k4(0.0d, m12332x1().mo12282k4("adj5"), 25000.0d);
+        double dM12323k42 = AbstractC2770ix.m12323k4(0.0d, m12332x1().mo12282k4("adj1"), AbstractC2770ix.m12330x1(dM12323k4, 2.0d, 1.0d));
+        double dM12323k43 = AbstractC2770ix.m12323k4(1.0d, m12332x1().mo12282k4("adj3"), 2.1599999E7d);
+        double dM12323k44 = AbstractC2770ix.m12323k4(0.0d, m12332x1().mo12282k4("adj4"), 2.1599999E7d);
+        double dM12330x1 = AbstractC2770ix.m12330x1(C14116yg.m67491kk(m12213h4().m12521x1().m12484x1(), m12213h4().m12521x1().m12482k4()), dM12323k42, 100000.0d);
+        double dM12330x12 = AbstractC2770ix.m12330x1(C14116yg.m67491kk(m12213h4().m12521x1().m12484x1(), m12213h4().m12521x1().m12482k4()), dM12323k4, 100000.0d);
+        double dM12330x13 = AbstractC2770ix.m12330x1(dM12330x1, 1.0d, 2.0d);
+        double dM12325kk = AbstractC2770ix.m12325kk(m12213h4().m12521x1().m12482k4() / 2.0d, dM12330x13, dM12330x12);
+        double dM12325kk2 = AbstractC2770ix.m12325kk(m12213h4().m12521x1().m12484x1() / 2.0d, dM12330x13, dM12330x12);
+        double dM12325kk3 = AbstractC2770ix.m12325kk(dM12325kk, 0.0d, dM12330x1);
+        double dM12325kk4 = AbstractC2770ix.m12325kk(dM12325kk2, 0.0d, dM12330x1);
+        double dM12325kk5 = AbstractC2770ix.m12325kk(dM12325kk3, dM12330x13, 0.0d);
+        double dM12325kk6 = AbstractC2770ix.m12325kk(dM12325kk4, dM12330x13, 0.0d);
+        double dM12324kk = AbstractC2770ix.m12324kk(dM12325kk5, dM12323k43);
+        double dM12329x1 = AbstractC2770ix.m12329x1(dM12325kk6, dM12323k43);
+        double dM12321h4 = AbstractC2770ix.m12321h4(dM12325kk5, dM12329x1, dM12324kk);
+        double dM12320dy = AbstractC2770ix.m12320dy(dM12325kk6, dM12329x1, dM12324kk);
+        double dM12325kk7 = AbstractC2770ix.m12325kk(m12213h4().m12521x1().m12482k4() / 2.0d, dM12321h4, 0.0d);
+        double dM12325kk8 = AbstractC2770ix.m12325kk(m12213h4().m12521x1().m12484x1() / 2.0d, dM12320dy, 0.0d);
+        double dM67491kk = C14116yg.m67491kk(dM12325kk3, dM12325kk4);
+        double dM12330x14 = AbstractC2770ix.m12330x1(dM12321h4, dM12321h4, 1.0d);
+        double dM12330x15 = AbstractC2770ix.m12330x1(dM12320dy, dM12320dy, 1.0d);
+        double dM12330x16 = AbstractC2770ix.m12330x1(dM67491kk, dM67491kk, 1.0d);
+        double dM12325kk9 = AbstractC2770ix.m12325kk(dM12330x14, 0.0d, dM12330x16);
+        double dM12322k4 = AbstractC2770ix.m12322k4(1.0d, AbstractC2770ix.m12328to(1.0d, C14116yg.m67496rv(AbstractC2770ix.m12325kk(1.0d, 0.0d, AbstractC2770ix.m12330x1(AbstractC2770ix.m12330x1(dM12325kk9, AbstractC2770ix.m12325kk(dM12330x15, 0.0d, dM12330x16), dM12330x14), 1.0d, dM12330x15))), AbstractC2770ix.m12330x1(AbstractC2770ix.m12330x1(dM12325kk9, 1.0d, dM12321h4), 1.0d, dM12320dy)));
+        double dM12325kk10 = AbstractC2770ix.m12325kk(AbstractC2770ix.m12319du(dM12322k4, dM12322k4, AbstractC2770ix.m12325kk(dM12322k4, 2.16E7d, 0.0d)), 0.0d, dM12323k43);
+        double dM12319du = AbstractC2770ix.m12319du(dM12325kk10, dM12325kk10, AbstractC2770ix.m12325kk(dM12325kk10, 2.16E7d, 0.0d));
+        double dM12325kk11 = AbstractC2770ix.m12325kk(dM12323k43, AbstractC2770ix.m12323k4(0.0d, m12332x1().mo12282k4("adj2"), C14116yg.m67475k4(AbstractC2770ix.m12319du(AbstractC2770ix.m12325kk(dM12319du, 0.0d, 1.08E7d), AbstractC2770ix.m12325kk(dM12319du, 0.0d, 2.16E7d), dM12319du))), 0.0d);
+        double dM12324kk2 = AbstractC2770ix.m12324kk(dM12325kk5, dM12325kk11);
+        double dM12329x12 = AbstractC2770ix.m12329x1(dM12325kk6, dM12325kk11);
+        double dM12321h42 = AbstractC2770ix.m12321h4(dM12325kk5, dM12329x12, dM12324kk2);
+        double dM12320dy2 = AbstractC2770ix.m12320dy(dM12325kk6, dM12329x12, dM12324kk2);
+        double dM12325kk12 = AbstractC2770ix.m12325kk(m12213h4().m12521x1().m12482k4() / 2.0d, dM12321h42, 0.0d);
+        double dM12325kk13 = AbstractC2770ix.m12325kk(m12213h4().m12521x1().m12484x1() / 2.0d, dM12320dy2, 0.0d);
+        double dM12324kk3 = AbstractC2770ix.m12324kk(dM12325kk, dM12323k44);
+        double dM12329x13 = AbstractC2770ix.m12329x1(dM12325kk2, dM12323k44);
+        double dM12321h43 = AbstractC2770ix.m12321h4(dM12325kk, dM12329x13, dM12324kk3);
+        double dM12320dy3 = AbstractC2770ix.m12320dy(dM12325kk2, dM12329x13, dM12324kk3);
+        double dM12325kk14 = AbstractC2770ix.m12325kk(m12213h4().m12521x1().m12482k4() / 2.0d, dM12321h43, 0.0d);
+        double dM12325kk15 = AbstractC2770ix.m12325kk(m12213h4().m12521x1().m12484x1() / 2.0d, dM12320dy3, 0.0d);
+        double dM12329x14 = AbstractC2770ix.m12329x1(dM12330x12, dM12325kk11);
+        double dM12324kk4 = AbstractC2770ix.m12324kk(dM12330x12, dM12325kk11);
+        double dM12325kk16 = AbstractC2770ix.m12325kk(dM12325kk7, dM12329x14, 0.0d);
+        double dM12325kk17 = AbstractC2770ix.m12325kk(dM12325kk8, dM12324kk4, 0.0d);
+        double dM12329x15 = AbstractC2770ix.m12329x1(dM12330x12, dM12325kk11);
+        double dM12324kk5 = AbstractC2770ix.m12324kk(dM12330x12, dM12325kk11);
+        double dM12325kk18 = AbstractC2770ix.m12325kk(dM12325kk7, 0.0d, dM12329x15);
+        double dM12325kk19 = AbstractC2770ix.m12325kk(dM12325kk8, 0.0d, dM12324kk5);
+        double dM12325kk20 = AbstractC2770ix.m12325kk(dM12325kk18, 0.0d, m12213h4().m12521x1().m12482k4() / 2.0d);
+        double dM12325kk21 = AbstractC2770ix.m12325kk(dM12325kk19, 0.0d, m12213h4().m12521x1().m12484x1() / 2.0d);
+        double dM12325kk22 = AbstractC2770ix.m12325kk(dM12325kk16, 0.0d, m12213h4().m12521x1().m12482k4() / 2.0d);
+        double dM12325kk23 = AbstractC2770ix.m12325kk(dM12325kk17, 0.0d, m12213h4().m12521x1().m12484x1() / 2.0d);
+        double dM67491kk2 = C14116yg.m67491kk(dM12325kk, dM12325kk2);
+        double dM12330x17 = AbstractC2770ix.m12330x1(dM12325kk20, dM67491kk2, dM12325kk);
+        double dM12330x18 = AbstractC2770ix.m12330x1(dM12325kk21, dM67491kk2, dM12325kk2);
+        double dM12330x19 = AbstractC2770ix.m12330x1(dM12325kk22, dM67491kk2, dM12325kk);
+        double dM12330x110 = AbstractC2770ix.m12330x1(dM12325kk23, dM67491kk2, dM12325kk2);
+        double dM12325kk24 = AbstractC2770ix.m12325kk(dM12330x19, 0.0d, dM12330x17);
+        double dM12325kk25 = AbstractC2770ix.m12325kk(dM12330x110, 0.0d, dM12330x18);
+        double dM12326m9 = AbstractC2770ix.m12326m9(dM12325kk24, dM12325kk25, 0.0d);
+        double dM12325kk26 = AbstractC2770ix.m12325kk(AbstractC2770ix.m12330x1(dM12330x17, dM12330x110, 1.0d), 0.0d, AbstractC2770ix.m12330x1(dM12330x19, dM12330x18, 1.0d));
+        double dM12330x111 = AbstractC2770ix.m12330x1(dM67491kk2, dM67491kk2, 1.0d);
+        double dM12330x112 = AbstractC2770ix.m12330x1(dM12326m9, dM12326m9, 1.0d);
+        double dM67496rv = C14116yg.m67496rv(C14116yg.m67502x1(AbstractC2770ix.m12325kk(AbstractC2770ix.m12330x1(dM12330x111, dM12330x112, 1.0d), 0.0d, AbstractC2770ix.m12330x1(dM12325kk26, dM12325kk26, 1.0d)), 0.0d));
+        double dM12319du2 = AbstractC2770ix.m12319du(AbstractC2770ix.m12330x1(dM12325kk25, -1.0d, 1.0d), -1.0d, 1.0d);
+        double dM12330x113 = AbstractC2770ix.m12330x1(AbstractC2770ix.m12330x1(dM12319du2, dM12325kk24, 1.0d), dM67496rv, 1.0d);
+        double dM12330x114 = AbstractC2770ix.m12330x1(dM12325kk26, dM12325kk25, 1.0d);
+        double dM12328to = AbstractC2770ix.m12328to(dM12330x114, dM12330x113, dM12330x112);
+        double dM12330x115 = AbstractC2770ix.m12330x1(AbstractC2770ix.m12325kk(dM12330x114, 0.0d, dM12330x113), 1.0d, dM12330x112);
+        double dM12330x116 = AbstractC2770ix.m12330x1(C14116yg.m67475k4(dM12325kk25), dM67496rv, 1.0d);
+        double dM12330x117 = AbstractC2770ix.m12330x1(dM12325kk26, dM12325kk24, -1.0d);
+        double dM12328to2 = AbstractC2770ix.m12328to(dM12330x117, dM12330x116, dM12330x112);
+        double dM12330x118 = AbstractC2770ix.m12330x1(AbstractC2770ix.m12325kk(dM12330x117, 0.0d, dM12330x116), 1.0d, dM12330x112);
+        double dM12325kk27 = AbstractC2770ix.m12325kk(dM12330x19, 0.0d, dM12328to);
+        double dM12325kk28 = AbstractC2770ix.m12325kk(dM12330x19, 0.0d, dM12330x115);
+        double dM12325kk29 = AbstractC2770ix.m12325kk(dM12330x110, 0.0d, dM12328to2);
+        double dM12325kk30 = AbstractC2770ix.m12325kk(dM12330x110, 0.0d, dM12330x118);
+        double dM12325kk31 = AbstractC2770ix.m12325kk(AbstractC2770ix.m12326m9(dM12325kk28, dM12325kk30, 0.0d), 0.0d, AbstractC2770ix.m12326m9(dM12325kk27, dM12325kk29, 0.0d));
+        double dM12319du3 = AbstractC2770ix.m12319du(dM12325kk31, dM12328to, dM12330x115);
+        double dM12319du4 = AbstractC2770ix.m12319du(dM12325kk31, dM12328to2, dM12330x118);
+        double dM12330x119 = AbstractC2770ix.m12330x1(dM12319du3, dM12325kk, dM67491kk2);
+        double dM12330x120 = AbstractC2770ix.m12330x1(dM12319du4, dM12325kk2, dM67491kk2);
+        double dM12325kk32 = AbstractC2770ix.m12325kk(m12213h4().m12521x1().m12482k4() / 2.0d, dM12330x119, 0.0d);
+        double dM12325kk33 = AbstractC2770ix.m12325kk(m12213h4().m12521x1().m12484x1() / 2.0d, dM12330x120, 0.0d);
+        double dM12330x121 = AbstractC2770ix.m12330x1(dM12325kk20, dM67491kk, dM12325kk3);
+        double dM12330x122 = AbstractC2770ix.m12330x1(dM12325kk21, dM67491kk, dM12325kk4);
+        double dM12330x123 = AbstractC2770ix.m12330x1(dM12325kk22, dM67491kk, dM12325kk3);
+        double dM12330x124 = AbstractC2770ix.m12330x1(dM12325kk23, dM67491kk, dM12325kk4);
+        double dM12325kk34 = AbstractC2770ix.m12325kk(dM12330x123, 0.0d, dM12330x121);
+        double dM12325kk35 = AbstractC2770ix.m12325kk(dM12330x124, 0.0d, dM12330x122);
+        double dM12326m92 = AbstractC2770ix.m12326m9(dM12325kk34, dM12325kk35, 0.0d);
+        double dM12325kk36 = AbstractC2770ix.m12325kk(AbstractC2770ix.m12330x1(dM12330x121, dM12330x124, 1.0d), 0.0d, AbstractC2770ix.m12330x1(dM12330x123, dM12330x122, 1.0d));
+        double dM12330x125 = AbstractC2770ix.m12330x1(dM67491kk, dM67491kk, 1.0d);
+        double dM12330x126 = AbstractC2770ix.m12330x1(dM12326m92, dM12326m92, 1.0d);
+        double dM67496rv2 = C14116yg.m67496rv(C14116yg.m67502x1(AbstractC2770ix.m12325kk(AbstractC2770ix.m12330x1(dM12330x125, dM12330x126, 1.0d), 0.0d, AbstractC2770ix.m12330x1(dM12325kk36, dM12325kk36, 1.0d)), 0.0d));
+        double dM12330x127 = AbstractC2770ix.m12330x1(AbstractC2770ix.m12330x1(dM12319du2, dM12325kk34, 1.0d), dM67496rv2, 1.0d);
+        double dM12330x128 = AbstractC2770ix.m12330x1(dM12325kk36, dM12325kk35, 1.0d);
+        double dM12328to3 = AbstractC2770ix.m12328to(dM12330x128, dM12330x127, dM12330x126);
+        double dM12330x129 = AbstractC2770ix.m12330x1(AbstractC2770ix.m12325kk(dM12330x128, 0.0d, dM12330x127), 1.0d, dM12330x126);
+        double dM12330x130 = AbstractC2770ix.m12330x1(C14116yg.m67475k4(dM12325kk35), dM67496rv2, 1.0d);
+        double dM12330x131 = AbstractC2770ix.m12330x1(dM12325kk36, dM12325kk34, -1.0d);
+        double dM12328to4 = AbstractC2770ix.m12328to(dM12330x131, dM12330x130, dM12330x126);
+        double dM12330x132 = AbstractC2770ix.m12330x1(AbstractC2770ix.m12325kk(dM12330x131, 0.0d, dM12330x130), 1.0d, dM12330x126);
+        double dM12325kk37 = AbstractC2770ix.m12325kk(dM12330x121, 0.0d, dM12328to3);
+        double dM12325kk38 = AbstractC2770ix.m12325kk(dM12330x121, 0.0d, dM12330x129);
+        double dM12325kk39 = AbstractC2770ix.m12325kk(dM12330x122, 0.0d, dM12328to4);
+        double dM12325kk40 = AbstractC2770ix.m12325kk(dM12330x122, 0.0d, dM12330x132);
+        double dM12325kk41 = AbstractC2770ix.m12325kk(AbstractC2770ix.m12326m9(dM12325kk38, dM12325kk40, 0.0d), 0.0d, AbstractC2770ix.m12326m9(dM12325kk37, dM12325kk39, 0.0d));
+        double dM12319du5 = AbstractC2770ix.m12319du(dM12325kk41, dM12328to3, dM12330x129);
+        double dM12319du6 = AbstractC2770ix.m12319du(dM12325kk41, dM12328to4, dM12330x132);
+        double dM12330x133 = AbstractC2770ix.m12330x1(dM12319du5, dM12325kk3, dM67491kk);
+        double dM12330x134 = AbstractC2770ix.m12330x1(dM12319du6, dM12325kk4, dM67491kk);
+        double dM12325kk42 = AbstractC2770ix.m12325kk(m12213h4().m12521x1().m12482k4() / 2.0d, dM12330x133, 0.0d);
+        double dM12325kk43 = AbstractC2770ix.m12325kk(m12213h4().m12521x1().m12484x1() / 2.0d, dM12330x134, 0.0d);
+        double dM12322k42 = AbstractC2770ix.m12322k4(dM12330x133, dM12330x134);
+        double dM12319du7 = AbstractC2770ix.m12319du(dM12322k42, dM12322k42, AbstractC2770ix.m12325kk(dM12322k42, 2.16E7d, 0.0d));
+        double dM12325kk44 = AbstractC2770ix.m12325kk(dM12323k44, 0.0d, dM12319du7);
+        double dM12319du8 = AbstractC2770ix.m12319du(dM12325kk44, AbstractC2770ix.m12325kk(dM12325kk44, 0.0d, 2.16E7d), dM12325kk44);
+        double dM12325kk45 = AbstractC2770ix.m12325kk(AbstractC2770ix.m12330x1(AbstractC2770ix.m12326m9(AbstractC2770ix.m12325kk(dM12325kk32, 0.0d, dM12325kk42), AbstractC2770ix.m12325kk(dM12325kk33, 0.0d, dM12325kk43), 0.0d), 1.0d, 2.0d), 0.0d, dM12330x12);
+        double dM12319du9 = AbstractC2770ix.m12319du(dM12325kk45, dM12325kk32, dM12325kk16);
+        double dM12319du10 = AbstractC2770ix.m12319du(dM12325kk45, dM12325kk33, dM12325kk17);
+        double dM12319du11 = AbstractC2770ix.m12319du(dM12325kk45, dM12325kk42, dM12325kk18);
+        double dM12319du12 = AbstractC2770ix.m12319du(dM12325kk45, dM12325kk43, dM12325kk19);
+        double dM12322k43 = AbstractC2770ix.m12322k4(dM12330x119, dM12330x120);
+        double dM12325kk46 = AbstractC2770ix.m12325kk(AbstractC2770ix.m12319du(dM12322k43, dM12322k43, AbstractC2770ix.m12325kk(dM12322k43, 2.16E7d, 0.0d)), 0.0d, dM12323k44);
+        double dM12319du13 = AbstractC2770ix.m12319du(dM12325kk46, dM12325kk46, AbstractC2770ix.m12325kk(dM12325kk46, 2.16E7d, 0.0d));
+        double dM12324kk6 = AbstractC2770ix.m12324kk(dM12325kk5, dM12323k44);
+        double dM12329x16 = AbstractC2770ix.m12329x1(dM12325kk6, dM12323k44);
+        double dM12321h44 = AbstractC2770ix.m12321h4(dM12325kk5, dM12329x16, dM12324kk6);
+        double dM12320dy4 = AbstractC2770ix.m12320dy(dM12325kk6, dM12329x16, dM12324kk6);
+        AbstractC2770ix.m12325kk(m12213h4().m12521x1().m12482k4() / 2.0d, dM12321h44, 0.0d);
+        AbstractC2770ix.m12325kk(m12213h4().m12521x1().m12484x1() / 2.0d, dM12320dy4, 0.0d);
+        AbstractC2770ix.m12325kk(dM12323k44, 0.0d, 5400000.0d);
+        AbstractC2770ix.m12325kk(dM12325kk11, 5400000.0d, 0.0d);
+        AbstractC2770ix.m12325kk(dM12325kk11, 1.08E7d, 0.0d);
+        double dM12329x17 = AbstractC2770ix.m12329x1(dM12325kk, 2700000.0d);
+        double dM12324kk7 = AbstractC2770ix.m12324kk(dM12325kk2, 2700000.0d);
+        double dM12325kk47 = AbstractC2770ix.m12325kk(m12213h4().m12521x1().m12482k4() / 2.0d, 0.0d, dM12329x17);
+        double dM12325kk48 = AbstractC2770ix.m12325kk(m12213h4().m12521x1().m12482k4() / 2.0d, dM12329x17, 0.0d);
+        double dM12325kk49 = AbstractC2770ix.m12325kk(m12213h4().m12521x1().m12484x1() / 2.0d, 0.0d, dM12324kk7);
+        double dM12325kk50 = AbstractC2770ix.m12325kk(m12213h4().m12521x1().m12484x1() / 2.0d, dM12324kk7, 0.0d);
+        C2695dc c2695dc = new C2695dc(m12213h4());
+        c2695dc.m12194k4(m12213h4().m12521x1().m12482k4(), m12213h4().m12521x1().m12484x1(), 0, false, true);
+        c2695dc.m12190du(dM12325kk14, dM12325kk15);
+        c2695dc.m12193k4(dM12325kk2, dM12325kk, dM12323k44, dM12319du13);
+        c2695dc.m12191h4(dM12319du9, dM12319du10);
+        c2695dc.m12191h4(dM12325kk12, dM12325kk13);
+        c2695dc.m12191h4(dM12319du11, dM12319du12);
+        c2695dc.m12191h4(dM12325kk42, dM12325kk43);
+        c2695dc.m12193k4(dM12325kk4, dM12325kk3, dM12319du7, dM12319du8);
+        c2695dc.m12189du();
+        c2695dc.m12197k4(new C2910tl(dM12325kk47, dM12325kk49, dM12325kk48, dM12325kk50));
+        return c2695dc;
+    }
+
+    @Override // com.aspose.slides.internal.p071cz.AbstractC2770ix
+    /* JADX INFO: renamed from: k4 */
+    public void mo12113k4(AbstractC2770ix.x1 x1Var) {
+        x1Var.mo12334x1("adj1", 12500.0d);
+        x1Var.mo12334x1("adj2", 1142319.0d);
+        x1Var.mo12334x1("adj3", 2.0457681E7d);
+        x1Var.mo12334x1("adj4", 1.08E7d);
+        x1Var.mo12334x1("adj5", 12500.0d);
+    }
+}

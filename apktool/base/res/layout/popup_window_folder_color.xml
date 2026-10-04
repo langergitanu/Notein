@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.recyclerview.widget.RecyclerView android:id="@id/rv_folder_color_list" android:background="@drawable/folder_colors_popup_window_bg" android:paddingTop="3.0dp" android:layout_width="180.0dp" android:layout_height="70.0dp" android:paddingHorizontal="10.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" />
